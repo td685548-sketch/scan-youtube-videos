@@ -99,34 +99,30 @@ export async function uploadAll(c: OneDriveConfig, s: Summary, log: (m: string) 
   return links;
 }
 
-/** Adaptive card in the message format that Teams "Workflows" webhooks accept. */
+/** Adaptive card in the message format that Teams "Workflows" webhooks accept: a short overview, one line per channel. */
 export function buildTeamsMessage(s: Summary, links: Map<string, string>, folderUrl?: string) {
   const day = s.date.slice(0, 10);
   const totalNew = s.results.reduce((n, r) => n + r.newAi, 0);
+  const totalAll = s.results.reduce((n, r) => n + r.totalAi, 0);
   const failed = s.results.filter((r) => r.error);
   const body: unknown[] = [
     { type: "TextBlock", text: `YouTube AI scan - ${day}`, weight: "Bolder", size: "Large", wrap: true },
     {
       type: "TextBlock",
-      text: totalNew ? `${totalNew} new AI video(s) across ${s.results.length} channels.` : `No new AI videos today across ${s.results.length} channels.`,
+      text: totalNew ? `**${totalNew} new AI video(s)** today (${totalAll} in total, ${s.results.length} channels)` : `No new AI videos today (${totalAll} in total, ${s.results.length} channels)`,
       wrap: true,
     },
+    {
+      type: "FactSet",
+      facts: s.results.map((r) => {
+        const link = links.get(r.handle);
+        const name = link ? `[${r.name}](${link})` : r.name;
+        return { title: name, value: r.error ? "failed" : `${r.newAi} new / ${r.totalAi} total` };
+      }),
+    },
   ];
-  for (const r of s.results) {
-    const link = links.get(r.handle);
-    body.push({
-      type: "TextBlock",
-      text: r.error ? `**${r.name}** - failed: ${r.error.slice(0, 200)}` : `**${r.name}** - ${r.newAi} new (${r.totalAi} AI videos in total)${link ? ` - [Excel](${link})` : ""}`,
-      wrap: true,
-      spacing: "Medium",
-    });
-    for (const v of r.newVideos.slice(0, 3)) {
-      body.push({ type: "TextBlock", text: `- [${v.title.replace(/[[\]]/g, "")}](${v.url}) _(${v.topic})_`, wrap: true, size: "Small", spacing: "None" });
-    }
-    if (r.newVideos.length > 3) body.push({ type: "TextBlock", text: `- ... and ${r.newVideos.length - 3} more in the Excel file`, size: "Small", spacing: "None" });
-  }
-  if (folderUrl) body.push({ type: "TextBlock", text: `[Open the OneDrive folder with the Excel reports](${folderUrl})`, wrap: true, spacing: "Medium" });
-  if (failed.length) body.push({ type: "TextBlock", text: `${failed.length} channel(s) failed - check the run log.`, color: "Attention", wrap: true });
+  if (folderUrl) body.push({ type: "TextBlock", text: `[Open the Excel reports on OneDrive](${folderUrl})`, wrap: true, spacing: "Medium" });
+  if (failed.length) body.push({ type: "TextBlock", text: `${failed.length} channel(s) failed: ${failed.map((r) => r.name).join(", ")}. Check the run log.`, color: "Attention", wrap: true });
   return {
     type: "message",
     attachments: [
