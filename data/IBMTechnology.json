@@ -688,7 +688,8 @@
   "v_ueBW_5dLg",
   "ZPiQzn7iIEw",
   "_c8x24OmGP4",
-  "QzERUfTbKQw"
+  "QzERUfTbKQw",
+  "5WlmyncEcNM"
  ],
  "videos": [
   {
@@ -12857,8 +12858,27 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-10-27T09:58:02.685Z"
+  },
+  {
+   "id": "5WlmyncEcNM",
+   "title": "Open Source Security in the Age of AI",
+   "description": "Learn more about Open Source Security here → https://ibm.biz/~PzvauipSt AI is finding open-source vulnerabilities faster than ever before. Jeff Crume explains why discovery is only the start, as teams still need to remediate, test, validate, and deploy fixes safely. Learn what securing open source l",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-10-27T11:00:06Z",
+   "durationSeconds": 617,
+   "isShort": false,
+   "viewCount": 876,
+   "likeCount": 101,
+   "url": "https://www.youtube.com/watch?v=5WlmyncEcNM",
+   "topic": "AI Risks & Safety",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
   }
  ],
- "lastScanAt": "2026-10-27T09:58:02.685Z",
- "lastPublishedAt": "2026-10-26T11:00:26Z"
+ "lastScanAt": "2026-10-27T12:37:44.488Z",
+ "lastPublishedAt": "2026-10-27T11:00:06Z"
 }

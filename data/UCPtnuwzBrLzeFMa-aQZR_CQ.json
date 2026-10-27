@@ -29,7 +29,22 @@
   "zrKuWjmbBgQ",
   "2CBv6HYKBt4",
   "8WBqCKsON4w",
-  "EkSJcGBXUNU"
+  "EkSJcGBXUNU",
+  "qYC-9kThor8",
+  "dSx-uAlvDew",
+  "1N8jAB28d1Y",
+  "sZOu8stKguE",
+  "S11cZwm9a5I",
+  "5tLYYG5vFGs",
+  "iGlptcbMKWY",
+  "IMZ6Q_82OsM",
+  "NEpabx2Q464",
+  "Qw71LLhVL94",
+  "V-e8-z-OoBs",
+  "-QLTzsekMF8",
+  "ntiqBlxuhZk",
+  "PFhoPa3l7l4",
+  "Rd2qFnA-LP8"
  ],
  "videos": [
   {
@@ -811,8 +826,397 @@
     "Automation"
    ],
    "scannedAt": "2026-10-27T09:58:02.685Z"
+  },
+  {
+   "id": "dSx-uAlvDew",
+   "title": "UiPath Communications Mining Analysis Capabilities Explained",
+   "description": "Short video demonstrating the analysis capabilities available for communications uploaded and analysed through UiPath Communications Mining. See how organizations can use AI-powered communications analysis to gain insights from customer messages, identify trends, improve categorisation, and better u",
+   "tags": [
+    "UiPath",
+    "Communication Mining",
+    "AI",
+    "Analytics",
+    "Business Automation",
+    "centelli"
+   ],
+   "publishedAt": "2024-03-08T16:26:44Z",
+   "durationSeconds": 229,
+   "isShort": false,
+   "viewCount": 59,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/watch?v=dSx-uAlvDew",
+   "topic": "Automation & Workflows",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "1N8jAB28d1Y",
+   "title": "How to Analyse Labels in UiPath Communications Mining",
+   "description": "Short video on how to navigate the tree map in UiPath Communications Mining to analyse how communications have been labelled and categorised by the model. Learn how Communications Mining helps organizations better understand customer communications, identify trends, and improve analysis through AI-p",
+   "tags": [
+    "UiPath",
+    "Communication Mining",
+    "AI",
+    "Analytics",
+    "Business Automation",
+    "Centelli"
+   ],
+   "publishedAt": "2024-03-08T16:12:30Z",
+   "durationSeconds": 66,
+   "isShort": true,
+   "viewCount": 24,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/1N8jAB28d1Y",
+   "topic": "Automation & Workflows",
+   "related": [],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "sZOu8stKguE",
+   "title": "Centelli & The Ivy Collection at UiPath TOGETHER 2023 | How to Succeed with Automation",
+   "description": "Centelli’s own Aneesh Gupta speaks alongside client Jon Davis, CTO of The Ivy Collection, at the UiPath TOGETHER 2023 in London. In this session, they discuss how businesses can successfully implement automation strategies, drive operational efficiency, and deliver value through intelligent automati",
+   "tags": [
+    "UiPath",
+    "Automation",
+    "Digital Workers",
+    "Business Automation",
+    "Centelli",
+    "TOGETHER23",
+    "Intelligent Automation"
+   ],
+   "publishedAt": "2023-08-01T17:50:20Z",
+   "durationSeconds": 789,
+   "isShort": false,
+   "viewCount": 190,
+   "likeCount": 5,
+   "url": "https://www.youtube.com/watch?v=sZOu8stKguE",
+   "topic": "Automation & Workflows",
+   "related": [],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "S11cZwm9a5I",
+   "title": "Digital Worker Extracting Information from Forms with Human Validation",
+   "description": "A Digital Worker (RPA bot) downloads property forms from a website and extracts the information into a 521 Form. Where the AI confidence level is low, the document is passed to a human for validation through UiPath Action Center. Once the data is validated, the Digital Worker picks up the validated ",
+   "tags": [
+    "Digital Workers",
+    "RPA",
+    "UiPath",
+    "AI Automation",
+    "Document processing",
+    "Centelli"
+   ],
+   "publishedAt": "2023-06-07T14:31:59Z",
+   "durationSeconds": 140,
+   "isShort": true,
+   "viewCount": 39,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/S11cZwm9a5I",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Digital Workers",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "5tLYYG5vFGs",
+   "title": "How AI Understands & Actions Customer Communications at Scale | Webinar",
+   "description": "Understand the communication challenges businesses face today and discover how AI can help organizations gain a holistic view of customer communications at scale. In this webinar, learn how UiPath Communications Mining uses AI to analyze customer messages, identify intent and sentiment, and improve ",
+   "tags": [
+    "Communication Mining",
+    "UiPath",
+    "AI",
+    "Analytics",
+    "Business Automation",
+    "Customer Experience",
+    "Centelli"
+   ],
+   "publishedAt": "2023-06-07T14:21:21Z",
+   "durationSeconds": 1861,
+   "isShort": false,
+   "viewCount": 95,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/watch?v=5tLYYG5vFGs",
+   "topic": "Automation & Workflows",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "iGlptcbMKWY",
+   "title": "Leverage AI to Understand Every Customer Request",
+   "description": "A quick walkthrough of how UiPath Communications Mining uses AI to understand and action customer communications at scale. See how intelligent automation can help businesses process large volumes of customer requests, emails, and communications more efficiently by extracting insights, identifying in",
+   "tags": [
+    "AI",
+    "UiPath",
+    "Communication Mining",
+    "Customer Experience",
+    "Business Automation",
+    "Intelligent Automation",
+    "AI Automation",
+    "Centelli"
+   ],
+   "publishedAt": "2023-05-16T15:24:24Z",
+   "durationSeconds": 1450,
+   "isShort": false,
+   "viewCount": 70,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/watch?v=iGlptcbMKWY",
+   "topic": "Automation & Workflows",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "IMZ6Q_82OsM",
+   "title": "How Digital Workers Automate Sage 200 Tasks",
+   "description": "This demo shows a Digital Worker carrying out the following activities in Sage 200: Create a new customer Create an invoice for the customer Post the invoice Input for these activities can come from a range of sources such as an Excel file, email, or another application. At the end of the process, t",
+   "tags": [
+    "Digital Workers",
+    "Sage200",
+    "Business Automation",
+    "Invoice Automation",
+    "ERP Automation",
+    "AI Automation",
+    "Finance Automation",
+    "Centelli"
+   ],
+   "publishedAt": "2022-11-21T21:01:53Z",
+   "durationSeconds": 116,
+   "isShort": true,
+   "viewCount": 88,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/IMZ6Q_82OsM",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Digital Workers",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "NEpabx2Q464",
+   "title": "How Finance Automation Speeds Up Mortgage Processing",
+   "description": "Discover how finance automation and Digital Workers can dramatically improve mortgage processing efficiency. In this demo, a Digital Worker transfers a complex mortgage application containing hundreds of data points and business logic from one system to another — reducing a process that previously t",
+   "tags": [
+    "Finance Automation",
+    "MortgageProcessing",
+    "Digital Aorkers",
+    "AI Automation",
+    "Business Automation",
+    "RPA",
+    "centelli"
+   ],
+   "publishedAt": "2021-10-28T13:01:09Z",
+   "durationSeconds": 104,
+   "isShort": true,
+   "viewCount": 154,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/NEpabx2Q464",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Digital Workers",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "Qw71LLhVL94",
+   "title": "Hospitality Automation Webinar: Digital Workers & RPA for Hotel Groups",
+   "description": "In this webinar, discover how Hospitality and Hotel Groups are using Digital Workers and RPA (Robotic Process Automation) to improve operational efficiency, reduce backlogs, and enhance customer experience across the hospitality and leisure industry. This session explores practical intelligent autom",
+   "tags": [
+    "HospitalityAutomation",
+    "RPA",
+    "Digital workers",
+    "Hotel Automation",
+    "Hospitality Industry",
+    "Business Automation",
+    "Customer Experience",
+    "centelli"
+   ],
+   "publishedAt": "2021-08-03T19:06:01Z",
+   "durationSeconds": 1879,
+   "isShort": false,
+   "viewCount": 249,
+   "likeCount": 8,
+   "url": "https://www.youtube.com/watch?v=Qw71LLhVL94",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [
+    "Digital Workers",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "V-e8-z-OoBs",
+   "title": "How to Automate Vendor Creation in Accounts Payable Systems",
+   "description": "Learn how businesses can automate vendor creation in ERP and Accounts Payable (A/P) systems using intelligent automation and Digital Workers. This demo showcases how automation streamlines the vendor onboarding process by reducing manual data entry, improving accuracy, and accelerating processing ti",
+   "tags": [
+    "AP Automation",
+    "AI Automation",
+    "Digital Workers",
+    "Business Automation",
+    "Finance Automation",
+    "Centelli",
+    "Account Payable",
+    "ERP Automation",
+    "Vendor Creation"
+   ],
+   "publishedAt": "2021-07-09T16:59:05Z",
+   "durationSeconds": 234,
+   "isShort": false,
+   "viewCount": 112,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/watch?v=V-e8-z-OoBs",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Digital Workers",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "-QLTzsekMF8",
+   "title": "How Dayuse Reservations Are Managed in Opera PMS",
+   "description": "Learn how Dayuse.com reservations can be automatically created and cancelled in Opera PMS using intelligent automation. In this demo, reservation details are extracted from backup emails sent by Dayuse.com to a predefined email address, enabling seamless processing within Opera. This workflow demons",
+   "tags": [
+    "OperaPMS",
+    "Hospitality Automation",
+    "Dayuse",
+    "Digital Workes",
+    "AI Automation",
+    "Reservation Management",
+    "centelli"
+   ],
+   "publishedAt": "2021-02-26T13:39:30Z",
+   "durationSeconds": 127,
+   "isShort": true,
+   "viewCount": 1022,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/shorts/-QLTzsekMF8",
+   "topic": "Automation & Workflows",
+   "related": [],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "ntiqBlxuhZk",
+   "title": "How Digital Workers Post Goods Receipts in SAP",
+   "description": "See how a Digital Worker automates Goods Receipt (GR) posting in SAP with speed and accuracy. In this demo, the Digital Worker processes multiple line items, posts the goods receipt in SAP, and automatically captures the document number at the end of the transaction. This example showcases how AI-po",
+   "tags": [
+    "SAP",
+    "Goods Receipt",
+    "SAP Automation",
+    "Digital Workers",
+    "RPA",
+    "Business Automation",
+    "AI Automation",
+    "Centelli"
+   ],
+   "publishedAt": "2021-01-19T15:10:19Z",
+   "durationSeconds": 46,
+   "isShort": true,
+   "viewCount": 127,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/shorts/ntiqBlxuhZk",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Digital Workers",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "PFhoPa3l7l4",
+   "title": "Dock Door Scheduling with Conversational AI | AI Automation by Centelli",
+   "description": "Discover how Centelli uses Conversational AI and SMS automation to streamline Dock Door Scheduling for logistics and warehouse operations. In this video, we demonstrate how businesses can automate scheduling workflows, reduce manual coordination, improve operational efficiency, and integrate with ex",
+   "tags": [
+    "Conversational AI",
+    "AI Automation",
+    "Logistics Automation",
+    "Supply chain Automation",
+    "Warehouse Automation",
+    "DockDoorScheduling",
+    "Centelli",
+    "SMS Automation"
+   ],
+   "publishedAt": "2021-01-14T00:46:35Z",
+   "durationSeconds": 312,
+   "isShort": false,
+   "viewCount": 176,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/watch?v=PFhoPa3l7l4",
+   "topic": "Automation & Workflows",
+   "related": [],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "Rd2qFnA-LP8",
+   "title": "How Digital Workers Eliminate Repetitive Work for Businesses | Centelli",
+   "description": "Learn how Digital Workers and AI-powered automation can help businesses automate repetitive tasks, improve efficiency, and reduce manual work. In this video, Centelli demonstrates how intelligent automation solutions streamline business processes across operations, finance, customer service, HR, and",
+   "tags": [
+    "Digital workers",
+    "Business Automation",
+    "AI Automation",
+    "RPA",
+    "Intelligent Automation",
+    "Centelli"
+   ],
+   "publishedAt": "2021-01-14T00:42:59Z",
+   "durationSeconds": 40,
+   "isShort": true,
+   "viewCount": 1026,
+   "likeCount": 5,
+   "url": "https://www.youtube.com/shorts/Rd2qFnA-LP8",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [
+    "Digital Workers",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
   }
  ],
- "lastScanAt": "2026-10-27T09:58:02.685Z",
+ "lastScanAt": "2026-10-27T12:37:44.488Z",
  "lastPublishedAt": "2026-10-27T05:21:22Z"
 }

@@ -1001,7 +1001,8 @@
   "ZW4p6xYkNgE",
   "yjQx31i--DA",
   "pg6a6wHhSeQ",
-  "jtTglR0EwI4"
+  "jtTglR0EwI4",
+  "rPoLNjfda2w"
  ],
  "videos": [
   {
@@ -10935,8 +10936,29 @@
    "style": "General / Commentary",
    "concepts": [],
    "scannedAt": "2026-10-27T09:58:02.685Z"
+  },
+  {
+   "id": "rPoLNjfda2w",
+   "title": "6 AI Agents, 6 Different Jobs",
+   "description": "Which AI agent is actually right for you? Here are six worth knowing, ordered from easiest to get value out of to most specialized, each doing something completely different. One lives in your existing chat apps as a personal assistant. One is self-improving and learns your tasks. One gets its own c",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-10-27T12:00:23Z",
+   "durationSeconds": 33,
+   "isShort": true,
+   "viewCount": 105,
+   "likeCount": 9,
+   "url": "https://www.youtube.com/shorts/rPoLNjfda2w",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Listicle",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-10-27T12:37:44.488Z"
   }
  ],
- "lastScanAt": "2026-10-27T09:58:02.685Z",
- "lastPublishedAt": "2026-10-26T14:02:34Z"
+ "lastScanAt": "2026-10-27T12:37:44.488Z",
+ "lastPublishedAt": "2026-10-27T12:00:23Z"
 }
