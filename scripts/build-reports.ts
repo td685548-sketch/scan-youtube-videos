@@ -1,6 +1,7 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { buildReport } from "../lib/report";
+import type { ChannelResult } from "../lib/publish";
 import { loadState, saveState, slug, WORK_DIR, type AiVideo, type VideoLabel } from "../lib/store";
 import type { VideoItem } from "../lib/types";
 
@@ -16,16 +17,6 @@ interface Pending {
   handle: string;
   full: boolean;
   videos: VideoItem[];
-}
-
-export interface ChannelResult {
-  name: string;
-  handle: string;
-  file?: string;
-  newAi: number;
-  totalAi: number;
-  newVideos: { title: string; url: string; topic: string }[];
-  error?: string;
 }
 
 const CONCEPTS = ["Agents", "Automation", "Digital Workers"];

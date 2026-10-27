@@ -1,0 +1,144 @@
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+
+// Upload of the daily reports to OneDrive (Microsoft Graph, app-only) and a Teams notification (Workflows webhook).
+
+export interface ChannelResult {
+  name: string;
+  handle: string;
+  file?: string;
+  newAi: number;
+  totalAi: number;
+  newVideos: { title: string; url: string; topic: string }[];
+  error?: string;
+}
+
+export interface Summary {
+  date: string;
+  results: ChannelResult[];
+}
+
+const GRAPH = "https://graph.microsoft.com/v1.0";
+
+export interface OneDriveConfig {
+  tenantId: string;
+  clientId: string;
+  clientSecret: string;
+  /** UPN / e-mail of the OneDrive owner (used when no drive id is given). */
+  user?: string;
+  /** Alternative to `user`: a drive id (e.g. a SharePoint document library). */
+  driveId?: string;
+  folder: string;
+}
+
+export function oneDriveConfig(env = process.env): OneDriveConfig | undefined {
+  const { MS_TENANT_ID, MS_CLIENT_ID, MS_CLIENT_SECRET, ONEDRIVE_USER, ONEDRIVE_DRIVE_ID } = env;
+  if (!MS_TENANT_ID || !MS_CLIENT_ID || !MS_CLIENT_SECRET || !(ONEDRIVE_USER || ONEDRIVE_DRIVE_ID)) return undefined;
+  return {
+    tenantId: MS_TENANT_ID,
+    clientId: MS_CLIENT_ID,
+    clientSecret: MS_CLIENT_SECRET,
+    user: ONEDRIVE_USER,
+    driveId: ONEDRIVE_DRIVE_ID,
+    folder: (env.ONEDRIVE_FOLDER || "YouTube AI Scan").replace(/^\/+|\/+$/g, ""),
+  };
+}
+
+async function token(c: OneDriveConfig): Promise<string> {
+  const res = await fetch(`https://login.microsoftonline.com/${c.tenantId}/oauth2/v2.0/token`, {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({
+      client_id: c.clientId,
+      client_secret: c.clientSecret,
+      scope: "https://graph.microsoft.com/.default",
+      grant_type: "client_credentials",
+    }),
+  });
+  if (!res.ok) throw new Error(`Microsoft sign-in failed: ${res.status} ${(await res.text()).slice(0, 300)}`);
+  return ((await res.json()) as { access_token: string }).access_token;
+}
+
+const encodePath = (p: string) => p.split("/").map(encodeURIComponent).join("/");
+
+/** Uploads one file (max ~4 MB, enough for these reports) and returns a link to it. Missing folders are created. */
+export async function uploadToOneDrive(c: OneDriveConfig, accessToken: string, localFile: string, remoteDir: string): Promise<string> {
+  const drive = c.driveId ? `${GRAPH}/drives/${encodeURIComponent(c.driveId)}` : `${GRAPH}/users/${encodeURIComponent(c.user!)}/drive`;
+  const remote = `${c.folder}/${remoteDir}/${path.basename(localFile)}`;
+  const body = await readFile(localFile);
+  const res = await fetch(`${drive}/root:/${encodePath(remote)}:/content?@microsoft.graph.conflictBehavior=replace`, {
+    method: "PUT",
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    },
+    body,
+  });
+  if (!res.ok) throw new Error(`OneDrive upload of ${path.basename(localFile)} failed: ${res.status} ${(await res.text()).slice(0, 300)}`);
+  const item = (await res.json()) as { id: string; webUrl: string };
+
+  // Organisation-wide view link; fall back to the plain URL when the tenant does not allow link creation.
+  const link = await fetch(`${drive}/items/${item.id}/createLink`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${accessToken}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ type: "view", scope: "organization" }),
+  });
+  if (link.ok) return ((await link.json()) as { link: { webUrl: string } }).link.webUrl;
+  return item.webUrl;
+}
+
+export async function uploadAll(c: OneDriveConfig, s: Summary, log: (m: string) => void): Promise<Map<string, string>> {
+  const links = new Map<string, string>();
+  const accessToken = await token(c);
+  const dateDir = s.date.slice(0, 10);
+  for (const r of s.results) {
+    if (!r.file) continue;
+    links.set(r.handle, await uploadToOneDrive(c, accessToken, r.file, dateDir));
+    log(`Uploaded ${path.basename(r.file)}`);
+  }
+  return links;
+}
+
+/** Adaptive card in the message format that Teams "Workflows" webhooks accept. */
+export function buildTeamsMessage(s: Summary, links: Map<string, string>) {
+  const day = s.date.slice(0, 10);
+  const totalNew = s.results.reduce((n, r) => n + r.newAi, 0);
+  const failed = s.results.filter((r) => r.error);
+  const body: unknown[] = [
+    { type: "TextBlock", text: `YouTube AI scan - ${day}`, weight: "Bolder", size: "Large", wrap: true },
+    {
+      type: "TextBlock",
+      text: totalNew ? `${totalNew} new AI video(s) across ${s.results.length} channels.` : `No new AI videos today across ${s.results.length} channels.`,
+      wrap: true,
+    },
+  ];
+  for (const r of s.results) {
+    const link = links.get(r.handle);
+    body.push({
+      type: "TextBlock",
+      text: r.error ? `**${r.name}** - failed: ${r.error.slice(0, 200)}` : `**${r.name}** - ${r.newAi} new (${r.totalAi} AI videos in total)${link ? ` - [Excel](${link})` : ""}`,
+      wrap: true,
+      spacing: "Medium",
+    });
+    for (const v of r.newVideos.slice(0, 3)) {
+      body.push({ type: "TextBlock", text: `- [${v.title.replace(/[[\]]/g, "")}](${v.url}) _(${v.topic})_`, wrap: true, size: "Small", spacing: "None" });
+    }
+    if (r.newVideos.length > 3) body.push({ type: "TextBlock", text: `- ... and ${r.newVideos.length - 3} more in the Excel file`, size: "Small", spacing: "None" });
+  }
+  if (failed.length) body.push({ type: "TextBlock", text: `${failed.length} channel(s) failed - check the run log.`, color: "Attention", wrap: true });
+  return {
+    type: "message",
+    attachments: [
+      {
+        contentType: "application/vnd.microsoft.card.adaptive",
+        contentUrl: null,
+        content: { $schema: "http://adaptivecards.io/schemas/adaptive-card.json", type: "AdaptiveCard", version: "1.4", body },
+      },
+    ],
+  };
+}
+
+export async function postToTeams(url: string, message: unknown): Promise<void> {
+  const res = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(message) });
+  if (!res.ok) throw new Error(`Teams webhook failed: ${res.status} ${(await res.text()).slice(0, 300)}`);
+}

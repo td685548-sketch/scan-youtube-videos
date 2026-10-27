@@ -83,3 +83,12 @@ npm run build-reports      # 2. merges labels, updates data/<channel>.json (stat
 ```
 
 `data/<channel>.json` keeps what was already scanned, so the next run only looks at videos newer than the last scan. `npm run fetch-new -- --full` rescans a channel from scratch.
+
+### Step 3: upload to OneDrive and notify Teams
+
+```bash
+npm run publish -- --dry-run   # prints the Teams message, uploads nothing
+npm run publish                # uploads output/<date>/*.xlsx to OneDrive/<ONEDRIVE_FOLDER>/<date>/ and posts the summary in Teams
+```
+
+Needs the `MS_*`, `ONEDRIVE_*` and `TEAMS_WEBHOOK_URL` variables from `.env.example`. Anything not configured is skipped with a warning.

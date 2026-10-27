@@ -10,6 +10,7 @@
     "channels": "tsx --env-file-if-exists=.env.local scripts/channels.ts",
     "fetch-new": "tsx --env-file-if-exists=.env.local scripts/fetch-new.ts",
     "build-reports": "tsx --env-file-if-exists=.env.local scripts/build-reports.ts",
+    "publish": "tsx --env-file-if-exists=.env.local scripts/publish.ts",
     "channels:style": "tsx --env-file-if-exists=.env.local scripts/channel-style.ts"
   },
   "dependencies": {
