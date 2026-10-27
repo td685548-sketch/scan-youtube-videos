@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Professor Glitch",
+    "handle": "@Professor-Glitch-automation",
+    "positioning": "First-principles mindset for non-tech: Uses everyday analogies to clearly separate automation, AI agents, and digital workers; emphasizes fixing workflows before adding AI."
+  },
+  {
+    "name": "IBM Technology",
+    "handle": "@IBMTechnology",
+    "positioning": "Enterprise architecture & standards: Uses lightboard sketches to show how to assemble AI agents into safe, secure, enterprise-grade digital worker systems."
+  },
+  {
+    "name": "AI Explained",
+    "handle": "@aiexplained-official",
+    "positioning": "Realistic AI capability testing: Relies on research papers to objectively pinpoint what AI agents can actually do vs. where they hallucinate, completely hype-free."
+  },
+  {
+    "name": "Fireship",
+    "handle": "@Fireship",
+    "positioning": "Bite-sized core concepts: Breaks down emerging tech and AI agents in 2-3-minute fast-paced, satirical videos tailored for developers."
+  },
+  {
+    "name": "Centelli",
+    "handle": "UCPtnuwzBrLzeFMa-aQZR_CQ",
+    "positioning": "Business operations & ROI: Shows how to pair traditional RPA bots with AI to handle accounting and paperwork, cutting real-world operational costs."
+  },
+  {
+    "name": "Michele Torti",
+    "handle": "UCFlzajVv85qdx_WJfbcjhVw",
+    "positioning": "Visual workflows for non-coders: Uses drag-and-drop tools (n8n, Make) to connect rigid automations and AI agents into smooth end-to-end routines."
+  },
+  {
+    "name": "Tech With Tim",
+    "handle": "@TechWithTim",
+    "positioning": "Hands-on agent coding: Live-codes in Python step-by-step to show how to build an AI agent from the ground up."
+  }
+]

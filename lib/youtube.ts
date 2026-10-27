@@ -19,28 +19,39 @@ function parseDuration(iso: string): number {
   return Number(m[1] ?? 0) * 3600 + Number(m[2] ?? 0) * 60 + Number(m[3] ?? 0);
 }
 
-export async function fetchChannelVideos(handle: string, key: string): Promise<VideoItem[]> {
+export interface FetchOptions {
+  /** ISO date of the newest video already scanned; older uploads are not fetched again. */
+  since?: string;
+  /** Video ids already scanned. */
+  known?: Set<string>;
+}
+
+export async function fetchChannelVideos(handle: string, key: string, opts: FetchOptions = {}): Promise<VideoItem[]> {
   const ch = await api<{ items?: { id: string; contentDetails: { relatedPlaylists: { uploads: string } } }[] }>(
     "channels",
-    { part: "contentDetails", forHandle: handle.startsWith("@") ? handle : `@${handle}` },
+    // A bare 24-character "UC..." value is a channel id (for channels whose @handle is unknown or changed).
+    { part: "contentDetails", ...(/^UC[\w-]{22}$/.test(handle) ? { id: handle } : { forHandle: handle.startsWith("@") ? handle : `@${handle}` }) },
     key,
   );
   const uploads = ch.items?.[0]?.contentDetails.relatedPlaylists.uploads;
   if (!uploads) throw new Error(`Channel ${handle} not found`);
 
   const ids: string[] = [];
+  // The uploads playlist is newest-first, so paging can stop once a page is older than the last scan (2-day safety margin).
+  const stopBefore = opts.since ? Date.parse(opts.since) - 2 * 86_400_000 : -Infinity;
   let pageToken = "";
   do {
     const page = await api<{
       nextPageToken?: string;
-      items: { contentDetails: { videoId: string } }[];
+      items: { contentDetails: { videoId: string; videoPublishedAt?: string } }[];
     }>(
       "playlistItems",
       { part: "contentDetails", playlistId: uploads, maxResults: "50", ...(pageToken && { pageToken }) },
       key,
     );
-    ids.push(...page.items.map((i) => i.contentDetails.videoId));
-    pageToken = page.nextPageToken ?? "";
+    ids.push(...page.items.map((i) => i.contentDetails.videoId).filter((id) => !opts.known?.has(id)));
+    const oldest = Math.min(...page.items.map((i) => Date.parse(i.contentDetails.videoPublishedAt ?? "") || Infinity));
+    pageToken = oldest < stopBefore ? "" : (page.nextPageToken ?? "");
   } while (pageToken);
 
   const videos: VideoItem[] = [];

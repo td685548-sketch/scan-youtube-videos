@@ -10,3 +10,6 @@ next-env.d.ts
 work/
 work2/
 work2b/
+
+# Daily scan output and scan state
+output/

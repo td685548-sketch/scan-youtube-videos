@@ -71,3 +71,15 @@ npm run channels:style -- --active-days=30                     # skip channels w
 Analysed thumbnails are cached in `.style-cache.json` (ignored by git), so after an interruption or error just run the same command again and it continues where it stopped. The cache is discarded automatically if the model or the style descriptions change. Network errors ("fetch failed") are retried automatically.
 
 If Gemini runs out of quota during style analysis, the run no longer loses everything: the Excel file is still written with the channels/videos analysed so far (the rest stay empty / `n/a`) and a `PARTIAL RESULT` warning is printed. Run the same command again after the quota resets to finish the remaining ones from the cache.
+
+## Daily AI scan of the channels in `channels.json` (topics labelled by Claude)
+
+Topics are **not** hardcoded or keyword-based: Claude reads every video and chooses the topic, related topics, style and Agents/Automation/Digital Workers concepts itself.
+
+```bash
+npm run fetch-new          # 1. new videos -> work/pending/<channel>.json (first run: whole channel; later: only newer uploads)
+#    Claude labels every pending video -> work/labels/<channel>.json  (array of {id, ai, topic, related, style, concepts} for the AI videos only; unlisted videos count as not AI)
+npm run build-reports      # 2. merges labels, updates data/<channel>.json (state), writes output/<date>/<channel>-AI-videos.xlsx + summary.json
+```
+
+`data/<channel>.json` keeps what was already scanned, so the next run only looks at videos newer than the last scan. `npm run fetch-new -- --full` rescans a channel from scratch.
