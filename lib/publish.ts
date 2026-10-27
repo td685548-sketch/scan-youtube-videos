@@ -100,7 +100,7 @@ export async function uploadAll(c: OneDriveConfig, s: Summary, log: (m: string) 
 }
 
 /** Adaptive card in the message format that Teams "Workflows" webhooks accept. */
-export function buildTeamsMessage(s: Summary, links: Map<string, string>) {
+export function buildTeamsMessage(s: Summary, links: Map<string, string>, folderUrl?: string) {
   const day = s.date.slice(0, 10);
   const totalNew = s.results.reduce((n, r) => n + r.newAi, 0);
   const failed = s.results.filter((r) => r.error);
@@ -125,6 +125,7 @@ export function buildTeamsMessage(s: Summary, links: Map<string, string>) {
     }
     if (r.newVideos.length > 3) body.push({ type: "TextBlock", text: `- ... and ${r.newVideos.length - 3} more in the Excel file`, size: "Small", spacing: "None" });
   }
+  if (folderUrl) body.push({ type: "TextBlock", text: `[Open the OneDrive folder with the Excel reports](${folderUrl})`, wrap: true, spacing: "Medium" });
   if (failed.length) body.push({ type: "TextBlock", text: `${failed.length} channel(s) failed - check the run log.`, color: "Attention", wrap: true });
   return {
     type: "message",
@@ -141,4 +142,34 @@ export function buildTeamsMessage(s: Summary, links: Map<string, string>) {
 export async function postToTeams(url: string, message: unknown): Promise<void> {
   const res = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(message) });
   if (!res.ok) throw new Error(`Teams webhook failed: ${res.status} ${(await res.text()).slice(0, 300)}`);
+}
+
+/**
+ * Upload through a Power Automate flow (trigger "When an HTTP request is received" + OneDrive "Create file").
+ * Sends {folder, fileName, contentBase64}; if the flow answers with JSON {"link": "..."} (or "webUrl") that link is returned.
+ */
+export async function uploadViaFlow(flowUrl: string, localFile: string, folder: string): Promise<string | undefined> {
+  const res = await fetch(flowUrl, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ folder, fileName: path.basename(localFile), contentBase64: (await readFile(localFile)).toString("base64") }),
+  });
+  if (!res.ok) throw new Error(`OneDrive flow failed for ${path.basename(localFile)}: ${res.status} ${(await res.text()).slice(0, 300)}`);
+  try {
+    const j = (await res.json()) as { link?: string; webUrl?: string };
+    return j.link || j.webUrl;
+  } catch {
+    return undefined; // the flow replied without a JSON body
+  }
+}
+
+export async function uploadAllViaFlow(flowUrl: string, folder: string, s: Summary, log: (m: string) => void): Promise<Map<string, string>> {
+  const links = new Map<string, string>();
+  for (const r of s.results) {
+    if (!r.file) continue;
+    const link = await uploadViaFlow(flowUrl, r.file, `${folder}/${s.date.slice(0, 10)}`);
+    if (link) links.set(r.handle, link);
+    log(`Uploaded ${path.basename(r.file)}`);
+  }
+  return links;
 }
