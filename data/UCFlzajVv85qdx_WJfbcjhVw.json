@@ -302,7 +302,9 @@
   "XUcKjLc5_U8",
   "OYKjdvRO8N4",
   "7r4qPSVBtSk",
-  "TqB6U-BI5KA"
+  "TqB6U-BI5KA",
+  "MG25xCTMUyE",
+  "3eYLsMg95oY"
  ],
  "videos": [
   {
@@ -8755,8 +8757,46 @@
     "Automation"
    ],
    "scannedAt": "2026-10-27T09:58:02.685Z"
+  },
+  {
+   "id": "MG25xCTMUyE",
+   "title": "Brutally Honest Advice for AI Agencies in 16 Mins",
+   "description": "Get my 1-1 support to Start and Scale your AI Agency: https://go.jmsolutionss.digital/4950ccfd The fastest way to go from beginner → AI Automator: https://go.jmsolutionss.digital/e9434240 Want AI Training for Your Company? Apply Here: https://go.jmsolutionss.digital/41aa5524 Join my newsletter where",
+   "tags": [],
+   "publishedAt": "2026-10-27T23:03:55Z",
+   "durationSeconds": 950,
+   "isShort": false,
+   "viewCount": 250,
+   "likeCount": 10,
+   "url": "https://www.youtube.com/watch?v=MG25xCTMUyE",
+   "topic": "Business & Making Money",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Warning / Opinion",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-10-28T02:39:03.687Z"
+  },
+  {
+   "id": "3eYLsMg95oY",
+   "title": "API vs MCP, Explained Simply",
+   "description": "What’s the difference between an API and an MCP? An API is how software talks to software. It’s the foundational layer, how things actually work under the hood. An MCP is the feature Claude uses to connect to those different softwares. It runs on top of the API. So: API is the foundation. MCP is jus",
+   "tags": [],
+   "publishedAt": "2026-10-27T22:14:59Z",
+   "durationSeconds": 25,
+   "isShort": true,
+   "viewCount": 308,
+   "likeCount": 10,
+   "url": "https://www.youtube.com/shorts/3eYLsMg95oY",
+   "topic": "MCP, APIs & Integrations",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-10-28T02:39:03.687Z"
   }
  ],
- "lastScanAt": "2026-10-27T12:37:44.488Z",
- "lastPublishedAt": "2026-10-26T16:32:11Z"
+ "lastScanAt": "2026-10-28T02:39:03.687Z",
+ "lastPublishedAt": "2026-10-27T23:03:55Z"
 }

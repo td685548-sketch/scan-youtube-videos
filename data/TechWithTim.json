@@ -1002,7 +1002,8 @@
   "yjQx31i--DA",
   "pg6a6wHhSeQ",
   "jtTglR0EwI4",
-  "rPoLNjfda2w"
+  "rPoLNjfda2w",
+  "S8fc9na4pA8"
  ],
  "videos": [
   {
@@ -10957,8 +10958,41 @@
     "Agents"
    ],
    "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "S8fc9na4pA8",
+   "title": "Everything New in Hermes Agent (Full Setup Guide)",
+   "description": "Deploy Hermes agent with Hostinger and use code 'techwithtim' for 10% off: https://www.hostg.xyz/SHKIW This video will teach you 90% of Hermes Agent and everything you need to know. A lot has changed since my last videos, and Hermes has become even more powerful, so in about 42 minutes I set it up c",
+   "tags": [
+    "tech with tim",
+    "hermes agent",
+    "hermes agent tutorial",
+    "hermes agent setup",
+    "hermes agent full setup guide",
+    "hermes agent desktop app",
+    "hermes agent bot mode",
+    "hermes agent update",
+    "hermes agent hostinger",
+    "deploy hermes agent vps"
+   ],
+   "publishedAt": "2026-10-27T14:00:10Z",
+   "durationSeconds": 2530,
+   "isShort": false,
+   "viewCount": 16939,
+   "likeCount": 272,
+   "url": "https://www.youtube.com/watch?v=S8fc9na4pA8",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-28T02:39:03.687Z"
   }
  ],
- "lastScanAt": "2026-10-27T12:37:44.488Z",
- "lastPublishedAt": "2026-10-27T12:00:23Z"
+ "lastScanAt": "2026-10-28T02:39:03.687Z",
+ "lastPublishedAt": "2026-10-27T14:00:10Z"
 }

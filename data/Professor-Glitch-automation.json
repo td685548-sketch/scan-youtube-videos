@@ -561,7 +561,9 @@
   "rxFAc2GqXa8",
   "sfS8DHqmKEA",
   "R5UXMeTjefY",
-  "q2H6KmN2onI"
+  "q2H6KmN2onI",
+  "91QRZOGrg64",
+  "yWacjvehvHk"
  ],
  "videos": [
   {
@@ -10988,8 +10990,48 @@
     "Automation"
    ],
    "scannedAt": "2026-10-27T09:58:02.685Z"
+  },
+  {
+   "id": "91QRZOGrg64",
+   "title": "How to become the AI person at work: a 90-day plan to get noticed and promoted",
+   "description": "How to use AI at work to get noticed and promoted: the 90-day plan to become the AI person on your team. Every team is about to have one, and your company is already looking for them. Microsoft and LinkedIn asked thousands of leaders, and two out of three said they wouldn't hire someone without AI s",
+   "tags": [],
+   "publishedAt": "2026-10-27T23:00:48Z",
+   "durationSeconds": 146,
+   "isShort": true,
+   "viewCount": 25,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/shorts/91QRZOGrg64",
+   "topic": "Learning AI & Career",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "Roadmap / Learning guide",
+   "concepts": [],
+   "scannedAt": "2026-10-28T02:39:03.687Z"
+  },
+  {
+   "id": "yWacjvehvHk",
+   "title": "How to make AI write and look exactly like your brand",
+   "description": "If your AI writes like a robot, it has never seen your brand. The fix is a few files it reads before every job. 1. The handbook. Open Claude Code in an empty folder and add one file, CLAUDE.md. It says who you are, who you sell to, how you sound, and the words you never use. Claude reads it before e",
+   "tags": [],
+   "publishedAt": "2026-10-27T14:00:35Z",
+   "durationSeconds": 88,
+   "isShort": true,
+   "viewCount": 61,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/shorts/yWacjvehvHk",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-10-28T02:39:03.687Z"
   }
  ],
- "lastScanAt": "2026-10-27T12:37:44.488Z",
- "lastPublishedAt": "2026-10-26T23:00:57Z"
+ "lastScanAt": "2026-10-28T02:39:03.687Z",
+ "lastPublishedAt": "2026-10-27T23:00:48Z"
 }
