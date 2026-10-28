@@ -17,15 +17,15 @@ async function main() {
   if (!day) throw new Error(`No report folder in ${outRoot}; run build-reports first`);
   const summary: Summary = JSON.parse(await readFile(path.join(outRoot, day, "summary.json"), "utf8"));
 
-  let links = new Map<string, string>();
+  let reportLink: string | undefined;
   const od = oneDriveConfig();
   if (dryRun) console.log("Dry run: nothing is uploaded or posted.");
   else if (process.env.ONEDRIVE_FLOW_URL) {
-    links = await uploadAllViaFlow(process.env.ONEDRIVE_FLOW_URL, process.env.ONEDRIVE_FOLDER || "YouTube AI Scan", summary, console.log);
+    reportLink = await uploadAllViaFlow(process.env.ONEDRIVE_FLOW_URL, process.env.ONEDRIVE_FOLDER || "YouTube AI Scan", summary, console.log);
   } else if (!od) console.warn("OneDrive is not configured (ONEDRIVE_FLOW_URL, or MS_TENANT_ID, MS_CLIENT_ID, MS_CLIENT_SECRET and ONEDRIVE_USER / ONEDRIVE_DRIVE_ID); skipping upload.");
-  else links = await uploadAll(od, summary, console.log);
+  else reportLink = await uploadAll(od, summary, console.log);
 
-  const message = buildTeamsMessage(summary, links, process.env.ONEDRIVE_FOLDER_URL);
+  const message = buildTeamsMessage(summary, reportLink, process.env.ONEDRIVE_FOLDER_URL);
   const webhook = process.env.TEAMS_WEBHOOK_URL;
   if (dryRun) console.log(JSON.stringify(message, null, 1));
   else if (!webhook) console.warn("TEAMS_WEBHOOK_URL is not set; skipping the Teams message.");

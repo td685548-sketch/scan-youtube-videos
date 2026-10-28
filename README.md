@@ -79,7 +79,7 @@ Topics are **not** hardcoded or keyword-based: Claude reads every video and choo
 ```bash
 npm run fetch-new          # 1. new videos -> work/pending/<channel>.json (first run: whole channel; later: only newer uploads)
 #    Claude labels every pending video -> work/labels/<channel>.json  (array of {id, ai, topic, related, style, concepts} for the AI videos only; unlisted videos count as not AI)
-npm run build-reports      # 2. merges labels, updates data/<channel>.json (state), writes output/<date>/<channel>-AI-videos.xlsx + summary.json
+npm run build-reports      # 2. merges labels, updates data/<channel>.json (state), writes ONE combined report output/<date>/YouTube-AI-videos-<date>.xlsx + summary.json
 ```
 
 `data/<channel>.json` keeps what was already scanned, so the next run only looks at videos newer than the last scan. `npm run fetch-new -- --full` rescans a channel from scratch.
@@ -88,7 +88,7 @@ npm run build-reports      # 2. merges labels, updates data/<channel>.json (stat
 
 ```bash
 npm run publish -- --dry-run   # prints the Teams message, uploads nothing
-npm run publish                # uploads output/<date>/*.xlsx to OneDrive/<ONEDRIVE_FOLDER>/<date>/ and posts the summary in Teams
+npm run publish                # uploads the combined report to OneDrive/<ONEDRIVE_FOLDER>/<date>/ and posts the summary in Teams
 ```
 
 Needs the `MS_*`, `ONEDRIVE_*` and `TEAMS_WEBHOOK_URL` variables from `.env.example`. Anything not configured is skipped with a warning.
@@ -96,7 +96,7 @@ Needs the `MS_*`, `ONEDRIVE_*` and `TEAMS_WEBHOOK_URL` variables from `.env.exam
 ## Handover guide: the daily AI scan (read this first if you are another AI or a new maintainer)
 
 ### What it does
-Every day at 09:30 Vietnam time (02:30 UTC) a cloud routine scans the YouTube channels in `channels.json`, keeps only videos about AI, builds one Excel report per channel, uploads the reports to OneDrive and posts a short overview in a Teams chat. The first run covered every video published since 2025-01-01; later runs only look at newer uploads.
+Every day at 09:30 Vietnam time (02:30 UTC) a cloud routine scans the YouTube channels in `channels.json`, keeps only videos about AI, builds one combined Excel report with all channels (sheets: Overview, New, All Videos, By Topic, Topics x Channels, Agents-Automation-Workers; a Channel column tells the channels apart), uploads it to OneDrive and posts a short overview in a Teams chat. The first run covered every video published since 2025-01-01; later runs only look at newer uploads.
 
 ### Who does what
 - **Code** (this repo): fetches videos from the YouTube Data API, merges labels, builds Excel, uploads, posts to Teams, stores state in `data/`.
@@ -107,8 +107,8 @@ Every day at 09:30 Vietnam time (02:30 UTC) a cloud routine scans the YouTube ch
 npm install
 npm run fetch-new      # -> work/pending/<channel>.json (only videos not seen before)
 # YOU label every video in work/pending/*.json -> work/labels/<same file name>.json
-npm run build-reports  # merges labels, updates data/<channel>.json, writes output/<date>/*.xlsx + summary.json
-npm run publish        # uploads the xlsx files to OneDrive, posts the Teams overview
+npm run build-reports  # merges labels, updates data/<channel>.json, writes the combined output/<date>/YouTube-AI-videos-<date>.xlsx + summary.json
+npm run publish        # uploads the combined xlsx to OneDrive, posts the Teams overview
 git add data/ && git commit -m "Daily scan <date>" && git push origin HEAD:refs/heads/claude/cool-babbage-56uk4o
 ```
 `npm run publish -- --dry-run` prints the Teams message without uploading or posting. `npm run fetch-new -- --full --after=2025-01-01` rescans from scratch (add `--channel=@handle` to limit it to one channel).
@@ -133,7 +133,7 @@ Only titles, the first 300 characters of the description and tags are available,
 | Channels to scan | `channels.json` (`handle` is an `@handle`, or a bare `UC...` channel id when the handle is unknown) |
 | Scan state (seen video ids, AI videos found, newest upload date) | `data/<channel>.json`, **committed to git**; the only memory between runs |
 | Pending videos / labels (temporary) | `work/pending`, `work/labels` (git-ignored) |
-| Excel reports | `output/<date>/<Channel>-AI-videos.xlsx` (git-ignored; the copy lives in OneDrive) |
+| Excel report (all channels in one file) | `output/<date>/YouTube-AI-videos-<date>.xlsx` (git-ignored; the copy lives in OneDrive, one dated folder per day) |
 | Code | `scripts/fetch-new.ts`, `scripts/build-reports.ts`, `scripts/publish.ts`, `lib/report.ts` (Excel), `lib/publish.ts` (OneDrive + Teams), `lib/store.ts` (state), `lib/youtube.ts` |
 
 Each cloud run is a **fresh sandbox cloned from the default branch** `claude/cool-babbage-56uk4o`, so `data/` must be pushed to that branch at the end of every run, otherwise the next run re-scans the same videos.

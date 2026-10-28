@@ -1,13 +1,13 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { buildReport } from "../lib/report";
+import { buildReport, type ChannelData } from "../lib/report";
 import type { ChannelResult } from "../lib/publish";
 import { loadState, saveState, slug, WORK_DIR, type AiVideo, type VideoLabel } from "../lib/store";
 import type { VideoItem } from "../lib/types";
 
 // Step 2 of the daily scan: merge the labels Claude wrote (work/labels/<channel>.json) with the videos from
-// work/pending/<channel>.json, update data/<channel>.json and write output/<date>/<channel>-AI-videos.xlsx
-// plus output/<date>/summary.json (used for the OneDrive upload and the Teams message).
+// work/pending/<channel>.json, update data/<channel>.json and write ONE Excel report with all channels,
+// output/<date>/YouTube-AI-videos-<date>.xlsx, plus output/<date>/summary.json (used for the OneDrive upload and the Teams message).
 //
 // Usage: npm run build-reports [-- --out=output]
 const outRoot = process.argv.find((a) => a.startsWith("--out="))?.slice(6) ?? "output";
@@ -38,6 +38,7 @@ async function main() {
   const dir = path.join(outRoot, now.toISOString().slice(0, 10));
   await mkdir(dir, { recursive: true });
   const results: ChannelResult[] = [];
+  const fresher = new Map<string, AiVideo[]>(); // AI videos found in this run, per channel handle
 
   for (const file of (await readdir(path.join(WORK_DIR, "pending"))).filter((f) => f.endsWith(".json"))) {
     const pending: Pending = JSON.parse(await readFile(path.join(WORK_DIR, "pending", file), "utf8"));
@@ -68,24 +69,14 @@ async function main() {
       state.lastScanAt = scannedAt;
       state.lastPublishedAt = [state.lastPublishedAt ?? "", ...pending.videos.map((v) => v.publishedAt)].sort().at(-1) || undefined;
 
-      const wb = buildReport({
-        name: pending.channel,
-        handle: pending.handle,
-        videos: state.videos,
-        fresh: first ? [] : fresh,
-        scannedAt: now,
-        totalScanned: state.seen.length,
-      });
-      const out = path.join(dir, `${pending.channel.replace(/[^\w-]+/g, "_")}-AI-videos.xlsx`);
-      await wb.xlsx.writeFile(out);
       await saveState(state);
       // Consumed: remove so that running build-reports twice cannot add the same videos again.
       await rm(path.join(WORK_DIR, "pending", file));
       await rm(path.join(WORK_DIR, "labels", file));
-      console.log(`${pending.channel}: ${fresh.length} new AI video(s), ${state.videos.length} in total -> ${out}`);
+      console.log(`${pending.channel}: ${fresh.length} new AI video(s), ${state.videos.length} in total`);
+      fresher.set(pending.handle, first ? [] : fresh);
       results.push({
         ...base,
-        file: out,
         newAi: fresh.length,
         totalAi: state.videos.length,
         newVideos: fresh.map((v) => ({ title: v.title, url: v.url, topic: v.topic })),
@@ -97,7 +88,19 @@ async function main() {
     }
   }
 
-  await writeFile(path.join(dir, "summary.json"), JSON.stringify({ date: now.toISOString(), results }, null, 1));
+  // One workbook with every channel in channels.json (state of channels that were not processed is kept as it is).
+  const configured: { name: string; handle: string; positioning?: string }[] = JSON.parse(await readFile("channels.json", "utf8"));
+  const channels: ChannelData[] = [];
+  for (const c of configured) {
+    const st = await loadState(c.handle, c.name);
+    channels.push({ name: c.name, handle: c.handle, positioning: c.positioning, videos: st.videos, fresh: fresher.get(c.handle) ?? [] });
+  }
+  const day = now.toISOString().slice(0, 10);
+  const file = path.join(dir, `YouTube-AI-videos-${day}.xlsx`);
+  await buildReport({ channels, scannedAt: now }).xlsx.writeFile(file);
+  console.log(`Report with ${channels.reduce((n, c) => n + c.videos.length, 0)} AI videos -> ${file}`);
+
+  await writeFile(path.join(dir, "summary.json"), JSON.stringify({ date: now.toISOString(), file, results }, null, 1));
   if (results.some((r) => r.error)) process.exitCode = 1;
 }
 

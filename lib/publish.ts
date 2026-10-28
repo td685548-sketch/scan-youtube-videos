@@ -15,6 +15,8 @@ export interface ChannelResult {
 
 export interface Summary {
   date: string;
+  /** The one Excel report with all channels (output/<date>/YouTube-AI-videos-<date>.xlsx). */
+  file?: string;
   results: ChannelResult[];
 }
 
@@ -87,20 +89,16 @@ export async function uploadToOneDrive(c: OneDriveConfig, accessToken: string, l
   return item.webUrl;
 }
 
-export async function uploadAll(c: OneDriveConfig, s: Summary, log: (m: string) => void): Promise<Map<string, string>> {
-  const links = new Map<string, string>();
-  const accessToken = await token(c);
-  const dateDir = s.date.slice(0, 10);
-  for (const r of s.results) {
-    if (!r.file) continue;
-    links.set(r.handle, await uploadToOneDrive(c, accessToken, r.file, dateDir));
-    log(`Uploaded ${path.basename(r.file)}`);
-  }
-  return links;
+/** Uploads the combined report and returns its link. */
+export async function uploadAll(c: OneDriveConfig, s: Summary, log: (m: string) => void): Promise<string | undefined> {
+  if (!s.file) return undefined;
+  const link = await uploadToOneDrive(c, await token(c), s.file, s.date.slice(0, 10));
+  log(`Uploaded ${path.basename(s.file)}`);
+  return link;
 }
 
 /** Adaptive card in the message format that Teams "Workflows" webhooks accept: a short overview, one line per channel. */
-export function buildTeamsMessage(s: Summary, links: Map<string, string>, folderUrl?: string) {
+export function buildTeamsMessage(s: Summary, reportLink?: string, folderUrl?: string) {
   const day = s.date.slice(0, 10);
   const totalNew = s.results.reduce((n, r) => n + r.newAi, 0);
   const totalAll = s.results.reduce((n, r) => n + r.totalAi, 0);
@@ -114,14 +112,11 @@ export function buildTeamsMessage(s: Summary, links: Map<string, string>, folder
     },
     {
       type: "FactSet",
-      facts: s.results.map((r) => {
-        const link = links.get(r.handle);
-        const name = link ? `[${r.name}](${link})` : r.name;
-        return { title: name, value: r.error ? "failed" : `${r.newAi} new / ${r.totalAi} total` };
-      }),
+      facts: s.results.map((r) => ({ title: r.name, value: r.error ? "failed" : `${r.newAi} new / ${r.totalAi} total` })),
     },
   ];
-  if (folderUrl) body.push({ type: "TextBlock", text: `[Open the Excel reports on OneDrive](${folderUrl})`, wrap: true, spacing: "Medium" });
+  const links = [reportLink && `[Open today's Excel report](${reportLink})`, folderUrl && `[All reports](${folderUrl})`].filter(Boolean);
+  if (links.length) body.push({ type: "TextBlock", text: links.join(" | "), wrap: true, spacing: "Medium" });
   if (failed.length) body.push({ type: "TextBlock", text: `${failed.length} channel(s) failed: ${failed.map((r) => r.name).join(", ")}. Check the run log.`, color: "Attention", wrap: true });
   return {
     type: "message",
@@ -159,13 +154,10 @@ export async function uploadViaFlow(flowUrl: string, localFile: string, folder: 
   }
 }
 
-export async function uploadAllViaFlow(flowUrl: string, folder: string, s: Summary, log: (m: string) => void): Promise<Map<string, string>> {
-  const links = new Map<string, string>();
-  for (const r of s.results) {
-    if (!r.file) continue;
-    const link = await uploadViaFlow(flowUrl, r.file, `${folder}/${s.date.slice(0, 10)}`);
-    if (link) links.set(r.handle, link);
-    log(`Uploaded ${path.basename(r.file)}`);
-  }
-  return links;
+/** Uploads the combined report through the flow; returns the link when the flow answers with one. */
+export async function uploadAllViaFlow(flowUrl: string, folder: string, s: Summary, log: (m: string) => void): Promise<string | undefined> {
+  if (!s.file) return undefined;
+  const link = await uploadViaFlow(flowUrl, s.file, `${folder}/${s.date.slice(0, 10)}`);
+  log(`Uploaded ${path.basename(s.file)}`);
+  return link;
 }
