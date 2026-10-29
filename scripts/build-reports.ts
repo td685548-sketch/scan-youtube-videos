@@ -39,6 +39,7 @@ async function main() {
   await mkdir(dir, { recursive: true });
   const results: ChannelResult[] = [];
   const fresher = new Map<string, AiVideo[]>(); // AI videos found in this run, per channel handle
+  const checkedToday = new Map<string, number>(); // videos checked in this run, per channel handle
 
   for (const file of (await readdir(path.join(WORK_DIR, "pending"))).filter((f) => f.endsWith(".json"))) {
     const pending: Pending = JSON.parse(await readFile(path.join(WORK_DIR, "pending", file), "utf8"));
@@ -47,7 +48,6 @@ async function main() {
       const labels = validate(pending, JSON.parse(await readFile(path.join(WORK_DIR, "labels", file), "utf8")));
       const prev = await loadState(pending.handle, pending.channel);
       const state = pending.full ? { ...prev, seen: [], videos: [], lastPublishedAt: undefined } : prev;
-      const first = !state.lastPublishedAt;
       const scannedAt = now.toISOString();
 
       const fresh: AiVideo[] = [];
@@ -74,7 +74,8 @@ async function main() {
       await rm(path.join(WORK_DIR, "pending", file));
       await rm(path.join(WORK_DIR, "labels", file));
       console.log(`${pending.channel}: ${fresh.length} new AI video(s), ${state.videos.length} in total`);
-      fresher.set(pending.handle, first ? [] : fresh);
+      fresher.set(pending.handle, fresh);
+      checkedToday.set(pending.handle, pending.videos.length);
       results.push({
         ...base,
         newAi: fresh.length,
@@ -88,17 +89,19 @@ async function main() {
     }
   }
 
-  // One workbook with every channel in channels.json (state of channels that were not processed is kept as it is).
+  // One workbook with the AI videos found in this run, all channels together (the all-time list stays in data/).
   const configured: { name: string; handle: string; positioning?: string }[] = JSON.parse(await readFile("channels.json", "utf8"));
-  const channels: ChannelData[] = [];
-  for (const c of configured) {
-    const st = await loadState(c.handle, c.name);
-    channels.push({ name: c.name, handle: c.handle, positioning: c.positioning, checked: st.seen.length, videos: st.videos, fresh: fresher.get(c.handle) ?? [] });
-  }
+  const channels: ChannelData[] = configured.map((c) => ({
+    name: c.name,
+    handle: c.handle,
+    positioning: c.positioning,
+    checked: checkedToday.get(c.handle) ?? 0,
+    videos: fresher.get(c.handle) ?? [],
+  }));
   const day = now.toISOString().slice(0, 10);
   const file = path.join(dir, `YouTube-AI-videos-${day}.xlsx`);
   await buildReport({ channels, scannedAt: now }).xlsx.writeFile(file);
-  console.log(`Report with ${channels.reduce((n, c) => n + c.videos.length, 0)} AI videos -> ${file}`);
+  console.log(`Report with ${channels.reduce((n, c) => n + c.videos.length, 0)} AI videos found today -> ${file}`);
 
   await writeFile(path.join(dir, "summary.json"), JSON.stringify({ date: now.toISOString(), file, results }, null, 1));
   if (results.some((r) => r.error)) process.exitCode = 1;

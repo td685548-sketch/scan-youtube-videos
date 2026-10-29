@@ -82,12 +82,10 @@ export interface ChannelData {
   handle: string;
   /** Short description of the channel's positioning (from channels.json). */
   positioning?: string;
-  /** Videos of the channel that were checked so far (AI or not). */
+  /** Videos of the channel checked in this run (AI or not). */
   checked: number;
-  /** Every AI video found so far. */
+  /** AI videos found in this run; the report lists only these (the all-time list stays in data/). */
   videos: AiVideo[];
-  /** AI videos found in this run. */
-  fresh: AiVideo[];
 }
 
 export interface ReportInput {
@@ -95,7 +93,7 @@ export interface ReportInput {
   scannedAt: Date;
 }
 
-/** One workbook with all channels: Summary, Overview, New, All Videos, By Topic, Topics x Channels, Agents-Automation-Workers. */
+/** One workbook with the AI videos found in this run, all channels together: Summary, Overview, Videos <date>, By Topic, Topics x Channels, Agents-Automation-Workers. */
 export function buildReport(r: ReportInput): ExcelJS.Workbook {
   const wb = new ExcelJS.Workbook();
   wb.creator = "Scan Youtube Videos";
@@ -103,18 +101,16 @@ export function buildReport(r: ReportInput): ExcelJS.Workbook {
   const day = r.scannedAt.toISOString().slice(0, 10);
 
   const all: Row[] = r.channels.flatMap((c) => c.videos.map((v) => ({ channel: c.name, v }))).sort(byDate);
-  const fresh: Row[] = r.channels.flatMap((c) => c.fresh.map((v) => ({ channel: c.name, v }))).sort(byDate);
   const focus = all.filter((x) => x.v.concepts.length);
 
   // Summary: totals plus topic and style counts over all channels (same layout as the former per-channel Summary).
   const sm = wb.addWorksheet("Summary");
   const checked = r.channels.reduce((n, c) => n + c.checked, 0);
   const lines = [
-    "YouTube AI scan - all channels",
+    `YouTube AI scan - ${day}`,
     `Scanned: ${r.scannedAt.toISOString().slice(0, 16).replace("T", " ")} UTC`,
     `Channels: ${r.channels.length}`,
-    `Total AI videos: ${all.length} (of ${checked} videos checked)`,
-    `New AI videos in this run: ${fresh.length}`,
+    `AI videos found: ${all.length} (of ${checked} new videos checked)`,
     `Agents / Automation / Digital Workers videos: ${focus.length}`,
   ];
   lines.forEach((l, i) => (sm.getCell(i + 1, 1).value = l));
@@ -139,20 +135,19 @@ export function buildReport(r: ReportInput): ExcelJS.Workbook {
 
   // Overview: one line per channel.
   const ov = wb.addWorksheet("Overview");
-  header(ov, ["Channel", "YouTube link", "Videos checked", "AI videos", `New (${day})`, "Agents / Automation / DW", "Top topic", "Positioning summary"], [20, 52, 15, 11, 16, 24, 36, 90]);
+  header(ov, ["Channel", "YouTube link", "Videos checked", "AI videos", "Agents / Automation / DW", "Top topic", "Positioning summary"], [20, 52, 15, 11, 24, 36, 90]);
   for (const c of r.channels) {
     const url = `https://www.youtube.com/${c.handle.startsWith("@") ? c.handle : `channel/${c.handle}`}`;
     const topTopic = count(c.videos, (v) => v.topic)[0];
-    const row = ov.addRow([c.name, { text: url, hyperlink: url }, c.checked, c.videos.length, c.fresh.length, c.videos.filter((v) => v.concepts.length).length, topTopic ? `${topTopic[0]} (${topTopic[1]})` : "", c.positioning ?? ""]);
+    const row = ov.addRow([c.name, { text: url, hyperlink: url }, c.checked, c.videos.length, c.videos.filter((v) => v.concepts.length).length, topTopic ? `${topTopic[0]} (${topTopic[1]})` : "", c.positioning ?? ""]);
     row.getCell(2).font = { color: { argb: "FF0563C1" }, underline: true };
     row.alignment = { vertical: "middle", wrapText: true };
   }
-  const total = ov.addRow(["TOTAL", "", checked, all.length, fresh.length, focus.length]);
+  const total = ov.addRow(["TOTAL", "", checked, all.length, focus.length]);
   total.font = { bold: true };
   total.fill = { type: "pattern", pattern: "solid", fgColor: { argb: GROUP } };
 
-  if (fresh.length) flatSheet(wb, `New ${day}`, fresh);
-  flatSheet(wb, "All Videos", all);
+  flatSheet(wb, `Videos ${day}`, all);
 
   const bt = wb.addWorksheet("By Topic");
   header(bt, HEADERS, WIDTHS);
