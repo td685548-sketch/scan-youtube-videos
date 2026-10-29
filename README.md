@@ -96,7 +96,7 @@ Needs the `MS_*`, `ONEDRIVE_*` and `TEAMS_WEBHOOK_URL` variables from `.env.exam
 ## Handover guide: the daily AI scan (read this first if you are another AI or a new maintainer)
 
 ### What it does
-Every day at 09:30 Vietnam time (02:30 UTC) a cloud routine scans the YouTube channels in `channels.json`, keeps only videos about AI, builds one combined Excel report with all channels (sheets: Overview, New, All Videos, By Topic, Topics x Channels, Agents-Automation-Workers; a Channel column tells the channels apart), uploads it to OneDrive and posts a short overview in a Teams chat. The first run covered every video published since 2025-01-01; later runs only look at newer uploads.
+Every day at 09:30 Vietnam time (02:30 UTC) a cloud routine scans the YouTube channels in `channels.json`, keeps only videos about AI, builds one combined Excel report with all channels (sheets: Summary, Overview, New, All Videos, By Topic, Topics x Channels, Agents-Automation-Workers; a Channel column tells the channels apart), uploads it to OneDrive and posts a short overview in a Teams chat. The first run covered every video published since 2025-01-01; later runs only look at newer uploads.
 
 ### Who does what
 - **Code** (this repo): fetches videos from the YouTube Data API, merges labels, builds Excel, uploads, posts to Teams, stores state in `data/`.

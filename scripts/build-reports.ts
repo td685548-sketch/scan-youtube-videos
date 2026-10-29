@@ -93,7 +93,7 @@ async function main() {
   const channels: ChannelData[] = [];
   for (const c of configured) {
     const st = await loadState(c.handle, c.name);
-    channels.push({ name: c.name, handle: c.handle, positioning: c.positioning, videos: st.videos, fresh: fresher.get(c.handle) ?? [] });
+    channels.push({ name: c.name, handle: c.handle, positioning: c.positioning, checked: st.seen.length, videos: st.videos, fresh: fresher.get(c.handle) ?? [] });
   }
   const day = now.toISOString().slice(0, 10);
   const file = path.join(dir, `YouTube-AI-videos-${day}.xlsx`);

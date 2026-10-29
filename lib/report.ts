@@ -82,6 +82,8 @@ export interface ChannelData {
   handle: string;
   /** Short description of the channel's positioning (from channels.json). */
   positioning?: string;
+  /** Videos of the channel that were checked so far (AI or not). */
+  checked: number;
   /** Every AI video found so far. */
   videos: AiVideo[];
   /** AI videos found in this run. */
@@ -93,7 +95,7 @@ export interface ReportInput {
   scannedAt: Date;
 }
 
-/** One workbook with all channels: Overview, New, All Videos, By Topic, Topics x Channels, Agents-Automation-Workers. */
+/** One workbook with all channels: Summary, Overview, New, All Videos, By Topic, Topics x Channels, Agents-Automation-Workers. */
 export function buildReport(r: ReportInput): ExcelJS.Workbook {
   const wb = new ExcelJS.Workbook();
   wb.creator = "Scan Youtube Videos";
@@ -104,17 +106,48 @@ export function buildReport(r: ReportInput): ExcelJS.Workbook {
   const fresh: Row[] = r.channels.flatMap((c) => c.fresh.map((v) => ({ channel: c.name, v }))).sort(byDate);
   const focus = all.filter((x) => x.v.concepts.length);
 
+  // Summary: totals plus topic and style counts over all channels (same layout as the former per-channel Summary).
+  const sm = wb.addWorksheet("Summary");
+  const checked = r.channels.reduce((n, c) => n + c.checked, 0);
+  const lines = [
+    "YouTube AI scan - all channels",
+    `Scanned: ${r.scannedAt.toISOString().slice(0, 16).replace("T", " ")} UTC`,
+    `Channels: ${r.channels.length}`,
+    `Total AI videos: ${all.length} (of ${checked} videos checked)`,
+    `New AI videos in this run: ${fresh.length}`,
+    `Agents / Automation / Digital Workers videos: ${focus.length}`,
+  ];
+  lines.forEach((l, i) => (sm.getCell(i + 1, 1).value = l));
+  sm.getCell(1, 1).font = { bold: true, size: 14 };
+  const top = lines.length + 2;
+  ["Topic", "Videos"].forEach((t, i) => (sm.getCell(top, 1 + i).value = t));
+  ["Style", "Videos"].forEach((t, i) => (sm.getCell(top, 4 + i).value = t));
+  for (const c of [1, 2, 4, 5]) {
+    const cell = sm.getCell(top, c);
+    cell.font = { bold: true, color: { argb: "FFFFFFFF" } };
+    cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: DARK } };
+  }
+  count(all, (x) => x.v.topic).forEach(([k, n], i) => {
+    sm.getCell(top + 1 + i, 1).value = k;
+    sm.getCell(top + 1 + i, 2).value = n;
+  });
+  count(all, (x) => x.v.style).forEach(([k, n], i) => {
+    sm.getCell(top + 1 + i, 4).value = k;
+    sm.getCell(top + 1 + i, 5).value = n;
+  });
+  [32, 10, 4, 28, 10].forEach((w, i) => (sm.getColumn(i + 1).width = w));
+
   // Overview: one line per channel.
   const ov = wb.addWorksheet("Overview");
-  header(ov, ["Channel", "YouTube link", "AI videos", `New (${day})`, "Top topic", "Positioning summary"], [20, 52, 11, 16, 36, 90]);
+  header(ov, ["Channel", "YouTube link", "Videos checked", "AI videos", `New (${day})`, "Agents / Automation / DW", "Top topic", "Positioning summary"], [20, 52, 15, 11, 16, 24, 36, 90]);
   for (const c of r.channels) {
     const url = `https://www.youtube.com/${c.handle.startsWith("@") ? c.handle : `channel/${c.handle}`}`;
-    const top = count(c.videos, (v) => v.topic)[0];
-    const row = ov.addRow([c.name, { text: url, hyperlink: url }, c.videos.length, c.fresh.length, top ? `${top[0]} (${top[1]})` : "", c.positioning ?? ""]);
+    const topTopic = count(c.videos, (v) => v.topic)[0];
+    const row = ov.addRow([c.name, { text: url, hyperlink: url }, c.checked, c.videos.length, c.fresh.length, c.videos.filter((v) => v.concepts.length).length, topTopic ? `${topTopic[0]} (${topTopic[1]})` : "", c.positioning ?? ""]);
     row.getCell(2).font = { color: { argb: "FF0563C1" }, underline: true };
     row.alignment = { vertical: "middle", wrapText: true };
   }
-  const total = ov.addRow(["TOTAL", "", all.length, fresh.length]);
+  const total = ov.addRow(["TOTAL", "", checked, all.length, fresh.length, focus.length]);
   total.font = { bold: true };
   total.fill = { type: "pattern", pattern: "solid", fgColor: { argb: GROUP } };
 
