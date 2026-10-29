@@ -162,7 +162,8 @@
   "7rXgVsIGvGQ",
   "yvGY5vkONds",
   "mBFf-aYoV6Q",
-  "v4H2fTgHGuc"
+  "v4H2fTgHGuc",
+  "nEaJMdM1djM"
  ],
  "videos": [
   {
@@ -2285,8 +2286,32 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-10-27T09:58:02.685Z"
+  },
+  {
+   "id": "nEaJMdM1djM",
+   "title": "Did the AI bubble just pop?",
+   "description": "Try Hyperagent for free, or sign in with ChatGPT to get more usage from your existing plan: https://www.hyperagent.com/login?utm_source=youtube&utm_medium=influencer&utm_campaign=FIRESHIP Are we cooked chat? Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fireship.dev",
+   "tags": [
+    "webdev",
+    "app development",
+    "lesson",
+    "tutorial"
+   ],
+   "publishedAt": "2026-10-28T13:31:29Z",
+   "durationSeconds": 325,
+   "isShort": false,
+   "viewCount": 1262925,
+   "likeCount": 28531,
+   "url": "https://www.youtube.com/watch?v=nEaJMdM1djM",
+   "topic": "AI News & Models",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-10-29T02:44:55.270Z"
   }
  ],
- "lastScanAt": "2026-10-28T02:39:03.687Z",
- "lastPublishedAt": "2026-10-26T18:55:29Z"
+ "lastScanAt": "2026-10-29T02:44:55.270Z",
+ "lastPublishedAt": "2026-10-28T13:31:29Z"
 }

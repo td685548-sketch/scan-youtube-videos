@@ -44,7 +44,8 @@
   "-QLTzsekMF8",
   "ntiqBlxuhZk",
   "PFhoPa3l7l4",
-  "Rd2qFnA-LP8"
+  "Rd2qFnA-LP8",
+  "IJPAGHHKOXo"
  ],
  "videos": [
   {
@@ -1215,8 +1216,43 @@
     "Automation"
    ],
    "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "IJPAGHHKOXo",
+   "title": "Agentic Solutions That Keep Humans in Charge #aiagent #automation",
+   "description": "Automate administrative tasks while keeping humans in control. Agentic solutions can handle routine daily workloads, allowing your team to focus on decisions that require human judgment. In this video, we explore how AI agents can help manage repetitive administrative tasks, including reading and ca",
+   "tags": [
+    "business process automation",
+    "AI agents",
+    "artificial intelligence",
+    "agentic ai",
+    "AI",
+    "automation",
+    "CRM",
+    "PMS",
+    "productivity",
+    "CRM Automation"
+   ],
+   "publishedAt": "2026-10-28T11:03:57Z",
+   "durationSeconds": 66,
+   "isShort": true,
+   "viewCount": 7,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/IJPAGHHKOXo",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows",
+    "Business & Making Money"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents",
+    "Automation",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-10-29T02:44:55.270Z"
   }
  ],
- "lastScanAt": "2026-10-28T02:39:03.687Z",
- "lastPublishedAt": "2026-10-27T05:21:22Z"
+ "lastScanAt": "2026-10-29T02:44:55.270Z",
+ "lastPublishedAt": "2026-10-28T11:03:57Z"
 }

@@ -689,7 +689,8 @@
   "ZPiQzn7iIEw",
   "_c8x24OmGP4",
   "QzERUfTbKQw",
-  "5WlmyncEcNM"
+  "5WlmyncEcNM",
+  "VoSQZBguB1A"
  ],
  "videos": [
   {
@@ -12877,8 +12878,29 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-10-27T12:37:44.488Z"
+  },
+  {
+   "id": "VoSQZBguB1A",
+   "title": "The PHP bug threatening the web. Plus, who's auditing AI?",
+   "description": "Visit Security Intelligence podcast page to get more AI content → https://ibm.biz/~G9cZuMJdW An AI model helped researchers find two decade-old bugs in the code behind up to 70% of the web. Then the exploit details leaked before the patch did. This week on Security Intelligence, Nick Bradley, Don Co",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-10-28T10:00:33Z",
+   "durationSeconds": 1222,
+   "isShort": false,
+   "viewCount": 9964,
+   "likeCount": 114,
+   "url": "https://www.youtube.com/watch?v=VoSQZBguB1A",
+   "topic": "AI Risks & Safety",
+   "related": [
+    "AI News & Models"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-10-29T02:44:55.270Z"
   }
  ],
- "lastScanAt": "2026-10-28T02:39:03.687Z",
- "lastPublishedAt": "2026-10-27T11:00:06Z"
+ "lastScanAt": "2026-10-29T02:44:55.270Z",
+ "lastPublishedAt": "2026-10-28T10:00:33Z"
 }

@@ -1003,7 +1003,9 @@
   "pg6a6wHhSeQ",
   "jtTglR0EwI4",
   "rPoLNjfda2w",
-  "S8fc9na4pA8"
+  "S8fc9na4pA8",
+  "KlZDeqvD52A",
+  "6dsRGjyjqN4"
  ],
  "videos": [
   {
@@ -10991,8 +10993,64 @@
     "Automation"
    ],
    "scannedAt": "2026-10-28T02:39:03.687Z"
+  },
+  {
+   "id": "KlZDeqvD52A",
+   "title": "I Tested The Viral Reverse Engineering Repo",
+   "description": "Get started with OpenRouter here: https://openrouter.plug.dev/NY7fmtI What if you could reverse engineer almost any app and rebuild it from scratch using AI? In this video, I test the viral Reverse Engineer Anything (REA) repo to see what it can actually do. We’ll break down how it works, explore it",
+   "tags": [
+    "tech with tim",
+    "Reverse Engineer Anything",
+    "REA",
+    "reverse engineering AI",
+    "AI coding tools",
+    "AI agents",
+    "viral GitHub repo",
+    "GitHub projects",
+    "AI software development",
+    "code generation"
+   ],
+   "publishedAt": "2026-10-28T14:00:32Z",
+   "durationSeconds": 692,
+   "isShort": false,
+   "viewCount": 36407,
+   "likeCount": 425,
+   "url": "https://www.youtube.com/watch?v=KlZDeqvD52A",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-10-29T02:44:55.270Z"
+  },
+  {
+   "id": "6dsRGjyjqN4",
+   "title": "The AI Agent in Your Chat Apps",
+   "description": "What if your AI agent lived inside the chat apps you already use? That's OpenClaw, an always-on personal assistant you run from WhatsApp, Telegram, Slack, Discord, Signal, and more. What makes it different is that the chat apps come first and the agent sits behind them, so you basically never need t",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-10-28T12:00:21Z",
+   "durationSeconds": 39,
+   "isShort": true,
+   "viewCount": 2052,
+   "likeCount": 62,
+   "url": "https://www.youtube.com/shorts/6dsRGjyjqN4",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-29T02:44:55.270Z"
   }
  ],
- "lastScanAt": "2026-10-28T02:39:03.687Z",
- "lastPublishedAt": "2026-10-27T14:00:10Z"
+ "lastScanAt": "2026-10-29T02:44:55.270Z",
+ "lastPublishedAt": "2026-10-28T14:00:32Z"
 }

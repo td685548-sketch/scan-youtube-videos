@@ -563,7 +563,9 @@
   "R5UXMeTjefY",
   "q2H6KmN2onI",
   "91QRZOGrg64",
-  "yWacjvehvHk"
+  "yWacjvehvHk",
+  "TDyEQ6svqnA",
+  "CZ-Dq8Y-mSY"
  ],
  "videos": [
   {
@@ -11030,8 +11032,29 @@
     "Automation"
    ],
    "scannedAt": "2026-10-28T02:39:03.687Z"
+  },
+  {
+   "id": "CZ-Dq8Y-mSY",
+   "title": "How to set up AI automation for your small business (start here, not with the tools)",
+   "description": "How to use AI automation in a small business, step by step. Danny runs a home cleaning company with 140 clients. He tried 8 AI tools, put everything into ChatGPT, and still got wrong answers, like telling a client \"we clean on Sundays\". So we got on a Zoom call and mapped his business before touchin",
+   "tags": [],
+   "publishedAt": "2026-10-28T14:00:44Z",
+   "durationSeconds": 230,
+   "isShort": false,
+   "viewCount": 40,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/watch?v=CZ-Dq8Y-mSY",
+   "topic": "Automation & Workflows",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-10-29T02:44:55.270Z"
   }
  ],
- "lastScanAt": "2026-10-28T02:39:03.687Z",
- "lastPublishedAt": "2026-10-27T23:00:48Z"
+ "lastScanAt": "2026-10-29T02:44:55.270Z",
+ "lastPublishedAt": "2026-10-28T23:00:27Z"
 }
