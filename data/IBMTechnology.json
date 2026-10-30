@@ -690,7 +690,8 @@
   "_c8x24OmGP4",
   "QzERUfTbKQw",
   "5WlmyncEcNM",
-  "VoSQZBguB1A"
+  "VoSQZBguB1A",
+  "mmns33BsBcY"
  ],
  "videos": [
   {
@@ -12899,8 +12900,27 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-10-29T02:44:55.270Z"
+  },
+  {
+   "id": "mmns33BsBcY",
+   "title": "What Is Quantization? How AI Models Get Smaller & Faster",
+   "description": "Learn more about Quantization here → https://ibm.biz/~NdqpU881V Huge AI models come with huge memory requirements.Grace Ableidinger explains how quantization compresses LLMs using lower-precision formats like INT8 and INT4. Learn how model size, GPU memory, speed, and accuracy trade off during AI in",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-10-29T11:00:03Z",
+   "durationSeconds": 481,
+   "isShort": false,
+   "viewCount": 34368,
+   "likeCount": 652,
+   "url": "https://www.youtube.com/watch?v=mmns33BsBcY",
+   "topic": "AI News & Models",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-10-30T02:44:29.432Z"
   }
  ],
- "lastScanAt": "2026-10-29T02:44:55.270Z",
- "lastPublishedAt": "2026-10-28T10:00:33Z"
+ "lastScanAt": "2026-10-30T02:44:29.432Z",
+ "lastPublishedAt": "2026-10-29T11:00:03Z"
 }

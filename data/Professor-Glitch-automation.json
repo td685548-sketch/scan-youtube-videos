@@ -565,7 +565,9 @@
   "91QRZOGrg64",
   "yWacjvehvHk",
   "TDyEQ6svqnA",
-  "CZ-Dq8Y-mSY"
+  "CZ-Dq8Y-mSY",
+  "n4_7yNncVHE",
+  "CjplrfUN8XE"
  ],
  "videos": [
   {
@@ -11053,8 +11055,49 @@
     "Automation"
    ],
    "scannedAt": "2026-10-29T02:44:55.270Z"
+  },
+  {
+   "id": "n4_7yNncVHE",
+   "title": "How AI Agents Remember Everything: A Complete Guide",
+   "description": "Learn how AI agents store memory from short term to long term. Understand context windows and the role of semantic, procedural, and episodic memory. This video will show you how to build an AI that never forgets. It's all in my profile. #AIMemory #AI #MemoryManagement #TechGuide",
+   "tags": [],
+   "publishedAt": "2026-10-29T23:00:34Z",
+   "durationSeconds": 193,
+   "isShort": false,
+   "viewCount": 3,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/watch?v=n4_7yNncVHE",
+   "topic": "RAG, Memory & Knowledge",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-10-30T02:44:29.432Z"
+  },
+  {
+   "id": "CjplrfUN8XE",
+   "title": "\"Multi-agent AI\" isn't one thing — it's three. Here's each.",
+   "description": "You keep hearing \"multi-agent.\" For a big job you don't use one AI — you use a team. But there are three ways to wire that team, and they're not the same: Orchestrator (the manager) → one lead agent splits the job, hands each piece to a worker (each with its own fresh context), then collects it all ",
+   "tags": [],
+   "publishedAt": "2026-10-29T14:01:04Z",
+   "durationSeconds": 162,
+   "isShort": true,
+   "viewCount": 133,
+   "likeCount": 5,
+   "url": "https://www.youtube.com/shorts/CjplrfUN8XE",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-10-30T02:44:29.432Z"
   }
  ],
- "lastScanAt": "2026-10-29T02:44:55.270Z",
- "lastPublishedAt": "2026-10-28T23:00:27Z"
+ "lastScanAt": "2026-10-30T02:44:29.432Z",
+ "lastPublishedAt": "2026-10-29T23:00:34Z"
 }

@@ -1005,7 +1005,8 @@
   "rPoLNjfda2w",
   "S8fc9na4pA8",
   "KlZDeqvD52A",
-  "6dsRGjyjqN4"
+  "6dsRGjyjqN4",
+  "e1vuX2svBrE"
  ],
  "videos": [
   {
@@ -11049,8 +11050,31 @@
     "Automation"
    ],
    "scannedAt": "2026-10-29T02:44:55.270Z"
+  },
+  {
+   "id": "e1vuX2svBrE",
+   "title": "OpenClaw The Honest Pros and Cons",
+   "description": "Should you use OpenClaw as your AI assistant? The pros: it's one of the fastest and easiest to set up, works with any model, and has such a big community that if something breaks, someone's probably already fixed it. The cons: it doesn't improve on its own, the config gets messy once you add a lot o",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-10-29T12:00:32Z",
+   "durationSeconds": 34,
+   "isShort": true,
+   "viewCount": 1737,
+   "likeCount": 29,
+   "url": "https://www.youtube.com/shorts/e1vuX2svBrE",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "AI News & Models"
+   ],
+   "style": "Comparison",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-10-30T02:44:29.432Z"
   }
  ],
- "lastScanAt": "2026-10-29T02:44:55.270Z",
- "lastPublishedAt": "2026-10-28T14:00:32Z"
+ "lastScanAt": "2026-10-30T02:44:29.432Z",
+ "lastPublishedAt": "2026-10-29T12:00:32Z"
 }

@@ -45,7 +45,9 @@
   "ntiqBlxuhZk",
   "PFhoPa3l7l4",
   "Rd2qFnA-LP8",
-  "IJPAGHHKOXo"
+  "IJPAGHHKOXo",
+  "KdsvDg2gvlg",
+  "imc5-U0ExBM"
  ],
  "videos": [
   {
@@ -1251,8 +1253,74 @@
     "Digital Workers"
    ],
    "scannedAt": "2026-10-29T02:44:55.270Z"
+  },
+  {
+   "id": "KdsvDg2gvlg",
+   "title": "The hidden cost of a backlogged hotel inbox is bigger than you think.",
+   "description": "Hotel inbox management is essential for efficient hotel operations. When email backlogs grow, delayed responses, missed inquiries, and hours spent clearing emails can quietly become costly operational bottlenecks. In this video, Centelli explores the hidden cost of a backlogged hotel inbox and how a",
+   "tags": [
+    "hotel inbox management",
+    "hotel email management",
+    "hotel email automation",
+    "hotel management",
+    "inbox management",
+    "email automation",
+    "agentic AI",
+    "AI agents",
+    "hospitality automation",
+    "business process automation"
+   ],
+   "publishedAt": "2026-10-29T17:15:19Z",
+   "durationSeconds": 84,
+   "isShort": true,
+   "viewCount": 3,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/KdsvDg2gvlg",
+   "topic": "Business & Making Money",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-30T02:44:29.432Z"
+  },
+  {
+   "id": "imc5-U0ExBM",
+   "title": "Better inbox management starts with making every inquiry visible.",
+   "description": "Discover how agentic solutions can help improve inbox management, hospitality operations, and business process automation by reducing repetitive administrative work and ensuring inquiries don't go unnoticed. In this video, we share three key principles for better inbox management: ✅ Make every inqui",
+   "tags": [
+    "inbox management",
+    "email automation",
+    "AI email assistant",
+    "agentic AI",
+    "AI agents",
+    "business process automation",
+    "workflow automation",
+    "business automation",
+    "digital transformation",
+    "operational efficiency"
+   ],
+   "publishedAt": "2026-10-29T17:15:01Z",
+   "durationSeconds": 64,
+   "isShort": true,
+   "viewCount": 1,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/imc5-U0ExBM",
+   "topic": "Automation & Workflows",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "Listicle",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-30T02:44:29.432Z"
   }
  ],
- "lastScanAt": "2026-10-29T02:44:55.270Z",
- "lastPublishedAt": "2026-10-28T11:03:57Z"
+ "lastScanAt": "2026-10-30T02:44:29.432Z",
+ "lastPublishedAt": "2026-10-29T17:15:19Z"
 }
