@@ -691,7 +691,9 @@
   "QzERUfTbKQw",
   "5WlmyncEcNM",
   "VoSQZBguB1A",
-  "mmns33BsBcY"
+  "mmns33BsBcY",
+  "hOVaubDnu5A",
+  "K8NgeOuZmWU"
  ],
  "videos": [
   {
@@ -12919,8 +12921,50 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-10-30T02:44:29.432Z"
+  },
+  {
+   "id": "hOVaubDnu5A",
+   "title": "AI Exposes Legacy Code",
+   "description": "AI is forcing teams to revisit abandoned code. What dependencies are lurking? Time to modernize your stack before vulnerabilities strike. --------------------------------------------------------------------------------------------------------- Find us on YouTube: 🔵 IBM Technology: https://www.youtu",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-10-30T16:00:33Z",
+   "durationSeconds": 35,
+   "isShort": true,
+   "viewCount": 1760,
+   "likeCount": 25,
+   "url": "https://www.youtube.com/shorts/hOVaubDnu5A",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Risks & Safety"
+   ],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-10-31T02:44:39.345Z"
+  },
+  {
+   "id": "K8NgeOuZmWU",
+   "title": "AI exposes a major web security flaw, plus a new kind of voice model",
+   "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~7OaIQxINM This week on Mixture of Experts, host David Zax is joined by Ash Minhas, Judith Aquino and Jessica Nahulan to discuss how AI is testing the systems we rely on, from cybersecurity to model evaluation. First, the",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-10-30T10:00:19Z",
+   "durationSeconds": 2365,
+   "isShort": false,
+   "viewCount": 9719,
+   "likeCount": 102,
+   "url": "https://www.youtube.com/watch?v=K8NgeOuZmWU",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Risks & Safety"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-10-31T02:44:39.345Z"
   }
  ],
- "lastScanAt": "2026-10-30T02:44:29.432Z",
- "lastPublishedAt": "2026-10-29T11:00:03Z"
+ "lastScanAt": "2026-10-31T02:44:39.345Z",
+ "lastPublishedAt": "2026-10-30T16:00:33Z"
 }

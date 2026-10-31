@@ -567,7 +567,9 @@
   "TDyEQ6svqnA",
   "CZ-Dq8Y-mSY",
   "n4_7yNncVHE",
-  "CjplrfUN8XE"
+  "CjplrfUN8XE",
+  "GyKdzGsXhJk",
+  "Mfe6z7X42Ig"
  ],
  "videos": [
   {
@@ -11096,8 +11098,52 @@
     "Digital Workers"
    ],
    "scannedAt": "2026-10-30T02:44:29.432Z"
+  },
+  {
+   "id": "GyKdzGsXhJk",
+   "title": "The Most Important 15 Minutes for Your Career: Automate Your Tasks",
+   "description": "Learn how to identify and automate repetitive tasks in your work. I'll guide you through a process that replaces endless lists with real skills. Take control and gain back hours of your life. It's all in my profile. #automation #worksmarter #productivity #taskmanagement",
+   "tags": [],
+   "publishedAt": "2026-10-30T23:06:38Z",
+   "durationSeconds": 287,
+   "isShort": false,
+   "viewCount": 6,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/watch?v=GyKdzGsXhJk",
+   "topic": "Automation & Workflows",
+   "related": [
+    "Learning AI & Career"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-10-31T02:44:39.345Z"
+  },
+  {
+   "id": "Mfe6z7X42Ig",
+   "title": "Run Your Business with AI Workers on Your Mac",
+   "description": "Learn how to set up five AI workers to handle tasks while you sleep. From emails to proposals, each AI has a specific job. I guide you on building and connecting your own AI team. It's all in my profile. #AIWorkers #Automation #SmallBusiness #MacSetup",
+   "tags": [],
+   "publishedAt": "2026-10-30T14:01:17Z",
+   "durationSeconds": 145,
+   "isShort": true,
+   "viewCount": 17,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/shorts/Mfe6z7X42Ig",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Agents",
+    "Automation",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-10-31T02:44:39.345Z"
   }
  ],
- "lastScanAt": "2026-10-30T02:44:29.432Z",
- "lastPublishedAt": "2026-10-29T23:00:34Z"
+ "lastScanAt": "2026-10-31T02:44:39.345Z",
+ "lastPublishedAt": "2026-10-30T23:06:38Z"
 }

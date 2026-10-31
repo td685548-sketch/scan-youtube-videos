@@ -1006,7 +1006,9 @@
   "S8fc9na4pA8",
   "KlZDeqvD52A",
   "6dsRGjyjqN4",
-  "e1vuX2svBrE"
+  "e1vuX2svBrE",
+  "f9uAG3AQGWM",
+  "NH9jVwWa23Q"
  ],
  "videos": [
   {
@@ -11073,8 +11075,62 @@
     "Agents"
    ],
    "scannedAt": "2026-10-30T02:44:29.432Z"
+  },
+  {
+   "id": "f9uAG3AQGWM",
+   "title": "How to Build RAG From Scratch in 50 Lines of Python - Full Tutorial",
+   "description": "This video is sponsored by TripleTen, a professional education platform designed to help tech professionals and career changers move into higher-paying tech and AI roles. Explore two TripleTen programs for experienced engineers: AI Systems Engineering (22 weeks) https://tripleten.com/systems-enginee",
+   "tags": [
+    "tech with tim",
+    "rag from scratch python",
+    "build rag python",
+    "rag tutorial python",
+    "rag without langchain",
+    "rag without vector database",
+    "local rag ollama",
+    "ollama rag tutorial",
+    "rag in 50 lines of python",
+    "rag explained"
+   ],
+   "publishedAt": "2026-10-30T13:00:35Z",
+   "durationSeconds": 1594,
+   "isShort": false,
+   "viewCount": 21799,
+   "likeCount": 435,
+   "url": "https://www.youtube.com/watch?v=f9uAG3AQGWM",
+   "topic": "RAG, Memory & Knowledge",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [],
+   "scannedAt": "2026-10-31T02:44:39.345Z"
+  },
+  {
+   "id": "NH9jVwWa23Q",
+   "title": "The Simplest AI Assistant to Deploy",
+   "description": "Who should actually use Open Claw? Reach for it if you want an assistant you can message like a person and keep simple. Skip it if you want something more complex that improves over time and learns your workflows. It's the simplest assistant to deploy: message it a task, or set up a few cron jobs so",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-10-30T12:00:08Z",
+   "durationSeconds": 32,
+   "isShort": true,
+   "viewCount": 1146,
+   "likeCount": 26,
+   "url": "https://www.youtube.com/shorts/NH9jVwWa23Q",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Comparison",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-10-31T02:44:39.345Z"
   }
  ],
- "lastScanAt": "2026-10-30T02:44:29.432Z",
- "lastPublishedAt": "2026-10-29T12:00:32Z"
+ "lastScanAt": "2026-10-31T02:44:39.345Z",
+ "lastPublishedAt": "2026-10-30T13:00:35Z"
 }
