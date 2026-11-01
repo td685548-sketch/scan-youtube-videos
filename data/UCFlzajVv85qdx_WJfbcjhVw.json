@@ -304,7 +304,9 @@
   "7r4qPSVBtSk",
   "TqB6U-BI5KA",
   "MG25xCTMUyE",
-  "3eYLsMg95oY"
+  "3eYLsMg95oY",
+  "Kdr-W_obzZE",
+  "wOm431rUgLg"
  ],
  "videos": [
   {
@@ -8795,8 +8797,63 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-10-28T02:39:03.687Z"
+  },
+  {
+   "id": "Kdr-W_obzZE",
+   "title": "Stop Checking 9 Dashboards. Build One.",
+   "description": "The biggest Claude Code use case I see e-com, info, SaaS, doesn’t matter is data centralisation. You’re running your business across too many tools. For me it’s YouTube, Trakyo, Typeform, Notion, Stripe and Google Sheets. Instead of checking each one, pull everything into one dashboard. Mine shows t",
+   "tags": [],
+   "publishedAt": "2026-10-31T18:53:05Z",
+   "durationSeconds": 42,
+   "isShort": true,
+   "viewCount": 200,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/shorts/Kdr-W_obzZE",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "Automation & Workflows",
+    "Business & Making Money"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-01T02:44:46.946Z"
+  },
+  {
+   "id": "wOm431rUgLg",
+   "title": "Watch Me Fix an AI Agency’s Offer in 37 Minutes (Live Consult)",
+   "description": "Get my 1-1 support to Start and Scale your AI Agency: https://go.jmsolutionss.digital/5f135313 The fastest way to go from beginner → AI Automator: https://go.jmsolutionss.digital/f78a95b1 Want AI Training for Your Company? Apply Here: https://go.jmsolutionss.digital/da79513a Join my newsletter where",
+   "tags": [
+    "AI agency",
+    "how to start an AI agency",
+    "AI agency clients",
+    "cold calling script",
+    "cold calling for AI agency",
+    "AI voice agent",
+    "AI receptionist",
+    "sell AI voice agents",
+    "attraction offer",
+    "free website offer"
+   ],
+   "publishedAt": "2026-10-31T18:02:42Z",
+   "durationSeconds": 2266,
+   "isShort": false,
+   "viewCount": 661,
+   "likeCount": 19,
+   "url": "https://www.youtube.com/watch?v=wOm431rUgLg",
+   "topic": "Business & Making Money",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-01T02:44:46.946Z"
   }
  ],
- "lastScanAt": "2026-10-31T02:44:39.345Z",
- "lastPublishedAt": "2026-10-27T23:03:55Z"
+ "lastScanAt": "2026-11-01T02:44:46.946Z",
+ "lastPublishedAt": "2026-10-31T18:53:05Z"
 }

@@ -1008,7 +1008,9 @@
   "6dsRGjyjqN4",
   "e1vuX2svBrE",
   "f9uAG3AQGWM",
-  "NH9jVwWa23Q"
+  "NH9jVwWa23Q",
+  "Jwos3ibkEeM",
+  "LNu8NAJo62Y"
  ],
  "videos": [
   {
@@ -11129,8 +11131,61 @@
     "Automation"
    ],
    "scannedAt": "2026-10-31T02:44:39.345Z"
+  },
+  {
+   "id": "Jwos3ibkEeM",
+   "title": "Jev Python Tutorial: AI Decisions in 10 Minutes",
+   "description": "Download \"The AI Stack I Run My Business On\" in collaboration with HubSpot: https://clickhubspot.com/92149a What if you could let AI make structured decisions instead of just generating text? In this tutorial, I’ll show you how to use Jev with Python to build AI-powered decision systems in just 10 m",
+   "tags": [
+    "tech with tim",
+    "Jev Python tutorial",
+    "Jev AI",
+    "AI decisions",
+    "Python AI tutorial",
+    "AI programming",
+    "decision making AI",
+    "choice decision type",
+    "score decision type",
+    "structured AI outputs"
+   ],
+   "publishedAt": "2026-10-31T13:04:08Z",
+   "durationSeconds": 757,
+   "isShort": false,
+   "viewCount": 11974,
+   "likeCount": 120,
+   "url": "https://www.youtube.com/watch?v=Jwos3ibkEeM",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "Learning AI & Career"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [],
+   "scannedAt": "2026-11-01T02:44:46.946Z"
+  },
+  {
+   "id": "LNu8NAJo62Y",
+   "title": "The AI Agent That Teaches Itself",
+   "description": "What makes Hermes Agent different from other AI agents? It learns. On the surface it looks like Open Claw, but the difference is the core: Open Claw is a messaging gateway with an agent inside, while Hermes is a learning agent with a messaging gateway on top. After it finishes a task, it reviews wha",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-10-31T12:00:03Z",
+   "durationSeconds": 48,
+   "isShort": true,
+   "viewCount": 2611,
+   "likeCount": 62,
+   "url": "https://www.youtube.com/shorts/LNu8NAJo62Y",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "AI News & Models"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-01T02:44:46.946Z"
   }
  ],
- "lastScanAt": "2026-10-31T02:44:39.345Z",
- "lastPublishedAt": "2026-10-30T13:00:35Z"
+ "lastScanAt": "2026-11-01T02:44:46.946Z",
+ "lastPublishedAt": "2026-10-31T13:04:08Z"
 }

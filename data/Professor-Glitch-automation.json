@@ -569,7 +569,9 @@
   "n4_7yNncVHE",
   "CjplrfUN8XE",
   "GyKdzGsXhJk",
-  "Mfe6z7X42Ig"
+  "Mfe6z7X42Ig",
+  "Lgr9mN0uNcg",
+  "gwXqPEuLWYs"
  ],
  "videos": [
   {
@@ -11142,8 +11144,50 @@
     "Digital Workers"
    ],
    "scannedAt": "2026-10-31T02:44:39.345Z"
+  },
+  {
+   "id": "Lgr9mN0uNcg",
+   "title": "Understanding MCP: The AI Tool Standard",
+   "description": "Learn about the Model Context Protocol (MCP), a new standard enabling AI communication across tools. Discover how MCP reduces complexity by using one language for all AI integrations. For more details, it's all in my profile. #MCP #AITools #LinuxFoundation #Integration",
+   "tags": [],
+   "publishedAt": "2026-10-31T23:00:41Z",
+   "durationSeconds": 100,
+   "isShort": true,
+   "viewCount": 18,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/Lgr9mN0uNcg",
+   "topic": "MCP, APIs & Integrations",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-01T02:44:46.946Z"
+  },
+  {
+   "id": "gwXqPEuLWYs",
+   "title": "Understanding CLI, API, and MCP for Your AI Connections",
+   "description": "This video breaks down the three main ways to connect your AI: CLI, API, and MCP. Learn when to use each method to maximize your AI's potential. For more detailed learning, it's all in my profile. #AIConnections #TechExplained #AIIntegration #CLI #API #MCP",
+   "tags": [],
+   "publishedAt": "2026-10-31T14:00:49Z",
+   "durationSeconds": 215,
+   "isShort": false,
+   "viewCount": 24,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/watch?v=gwXqPEuLWYs",
+   "topic": "MCP, APIs & Integrations",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Comparison",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-01T02:44:46.946Z"
   }
  ],
- "lastScanAt": "2026-10-31T02:44:39.345Z",
- "lastPublishedAt": "2026-10-30T23:06:38Z"
+ "lastScanAt": "2026-11-01T02:44:46.946Z",
+ "lastPublishedAt": "2026-10-31T23:00:41Z"
 }
