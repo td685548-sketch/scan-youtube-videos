@@ -571,7 +571,9 @@
   "GyKdzGsXhJk",
   "Mfe6z7X42Ig",
   "Lgr9mN0uNcg",
-  "gwXqPEuLWYs"
+  "gwXqPEuLWYs",
+  "vN8i4xZ0Wm8",
+  "QQ0STvyrnh4"
  ],
  "videos": [
   {
@@ -11186,8 +11188,53 @@
     "Automation"
    ],
    "scannedAt": "2026-11-01T02:44:46.946Z"
+  },
+  {
+   "id": "vN8i4xZ0Wm8",
+   "title": "How This Guy Automated His Job and Built His Own Success",
+   "description": "This video shows how one person automated repetitive tasks at work, gaining extra hours each week. He used that time to create and test three products, eventually succeeding with a small SaaS tool. See how he went from employee tasks to building his own revenue stream. It's all in my profile. #autom",
+   "tags": [],
+   "publishedAt": "2026-11-02T00:00:39Z",
+   "durationSeconds": 118,
+   "isShort": true,
+   "viewCount": 9,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/vN8i4xZ0Wm8",
+   "topic": "Business & Making Money",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-02T02:44:53.883Z"
+  },
+  {
+   "id": "QQ0STvyrnh4",
+   "title": "Learn AI Automations: Every Step Explained",
+   "description": "This video is a complete roadmap to mastering AI automations. Learn about the anatomy of automations, building basic workflows, integrating AI, ensuring reliability, and scaling up your systems. All of this leads to a strong foundation for AI agents and employees. It's all in my profile. #AIAutomati",
+   "tags": [],
+   "publishedAt": "2026-11-01T15:00:46Z",
+   "durationSeconds": 242,
+   "isShort": false,
+   "viewCount": 19,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/watch?v=QQ0STvyrnh4",
+   "topic": "Automation & Workflows",
+   "related": [
+    "Learning AI & Career",
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Roadmap / Learning guide",
+   "concepts": [
+    "Automation",
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-02T02:44:53.883Z"
   }
  ],
- "lastScanAt": "2026-11-01T02:44:46.946Z",
- "lastPublishedAt": "2026-10-31T23:00:41Z"
+ "lastScanAt": "2026-11-02T02:44:53.883Z",
+ "lastPublishedAt": "2026-11-02T00:00:39Z"
 }

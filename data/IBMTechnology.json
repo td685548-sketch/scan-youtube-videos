@@ -694,7 +694,8 @@
   "mmns33BsBcY",
   "hOVaubDnu5A",
   "K8NgeOuZmWU",
-  "mfgSBLGePuA"
+  "mfgSBLGePuA",
+  "QUZ4KEDxhCM"
  ],
  "videos": [
   {
@@ -12964,8 +12965,29 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-10-31T02:44:39.345Z"
+  },
+  {
+   "id": "QUZ4KEDxhCM",
+   "title": "What Is torch.compile? Dynamo, PyTorch & Faster AI Models Explained",
+   "description": "Learn more about Faster AI Models here → https://ibm.biz/~9RJjTpaDF One line can change how your AI model runs. Avery Blanchard explains how torch.compile, Dynamo, AOT Autograd, and Inductor optimize PyTorch models. Learn how graph breaks, recompilation, and kernel fusion affect AI performance. 00:0",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-01T12:00:15Z",
+   "durationSeconds": 413,
+   "isShort": false,
+   "viewCount": 15482,
+   "likeCount": 178,
+   "url": "https://www.youtube.com/watch?v=QUZ4KEDxhCM",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-02T02:44:53.883Z"
   }
  ],
- "lastScanAt": "2026-11-01T02:44:46.946Z",
- "lastPublishedAt": "2026-10-31T16:00:22Z"
+ "lastScanAt": "2026-11-02T02:44:53.883Z",
+ "lastPublishedAt": "2026-11-01T12:00:15Z"
 }

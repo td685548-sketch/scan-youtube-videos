@@ -1010,7 +1010,8 @@
   "f9uAG3AQGWM",
   "NH9jVwWa23Q",
   "Jwos3ibkEeM",
-  "LNu8NAJo62Y"
+  "LNu8NAJo62Y",
+  "Z5QpwLqPQm4"
  ],
  "videos": [
   {
@@ -11184,8 +11185,29 @@
     "Agents"
    ],
    "scannedAt": "2026-11-01T02:44:46.946Z"
+  },
+  {
+   "id": "Z5QpwLqPQm4",
+   "title": "AI can do more than just generate text",
+   "description": "AI can generate text all day, but what if you could make it actually make structured decisions? Jev lets you build AI-powered decision systems with Python, using Choice to select between options and Score to evaluate them. So this is a quick breakdown of how Jev works, how to send your first request",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-01T12:00:02Z",
+   "durationSeconds": 44,
+   "isShort": true,
+   "viewCount": 5156,
+   "likeCount": 171,
+   "url": "https://www.youtube.com/shorts/Z5QpwLqPQm4",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "MCP, APIs & Integrations"
+   ],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-02T02:44:53.883Z"
   }
  ],
- "lastScanAt": "2026-11-01T02:44:46.946Z",
- "lastPublishedAt": "2026-10-31T13:04:08Z"
+ "lastScanAt": "2026-11-02T02:44:53.883Z",
+ "lastPublishedAt": "2026-11-01T12:00:02Z"
 }
