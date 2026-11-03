@@ -695,7 +695,8 @@
   "hOVaubDnu5A",
   "K8NgeOuZmWU",
   "mfgSBLGePuA",
-  "QUZ4KEDxhCM"
+  "QUZ4KEDxhCM",
+  "EkdIZXDnRK8"
  ],
  "videos": [
   {
@@ -12986,8 +12987,31 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-11-02T02:44:53.883Z"
+  },
+  {
+   "id": "EkdIZXDnRK8",
+   "title": "Context-Aware Coding: Give AI Agents the Right Context",
+   "description": "Learn more about Agentic Coding here → https://ibm.biz/~YeRLqinv2 A good prompt isn't enough for good AI code. Legare Kerrison explains how context helps AI coding agents understand your repository, dependencies, tests, and intent. Learn how to give agents the right context without overwhelming them",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-02T12:00:35Z",
+   "durationSeconds": 394,
+   "isShort": false,
+   "viewCount": 28429,
+   "likeCount": 398,
+   "url": "https://www.youtube.com/watch?v=EkdIZXDnRK8",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-03T02:44:12.317Z"
   }
  ],
- "lastScanAt": "2026-11-02T02:44:53.883Z",
- "lastPublishedAt": "2026-11-01T12:00:15Z"
+ "lastScanAt": "2026-11-03T02:44:12.317Z",
+ "lastPublishedAt": "2026-11-02T12:00:35Z"
 }

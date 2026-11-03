@@ -65,7 +65,8 @@
   "5LGwcBLGOio",
   "FraQpapjQ18",
   "59Etzj5gvsE",
-  "j3eQoooC7wc"
+  "j3eQoooC7wc",
+  "0Kw6_DTZPrY"
  ],
  "videos": [
   {
@@ -1219,8 +1220,27 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-10-27T09:58:02.685Z"
+  },
+  {
+   "id": "0Kw6_DTZPrY",
+   "title": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon",
+   "description": "You know what, by AI standards, it might not have been the craziest week, but that doesn’t mean several headline-worthy things happened - from Altman and Anthropic implying they would release models they can’t control, with behavior they cannot verify, to Gemini 4 Carbon bursting onto the scene, som",
+   "tags": [],
+   "publishedAt": "2026-11-02T17:02:16Z",
+   "durationSeconds": 1675,
+   "isShort": false,
+   "viewCount": 62766,
+   "likeCount": 1389,
+   "url": "https://www.youtube.com/watch?v=0Kw6_DTZPrY",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Risks & Safety"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-11-03T02:44:12.317Z"
   }
  ],
- "lastScanAt": "2026-11-02T02:44:53.883Z",
- "lastPublishedAt": "2026-10-12T22:52:31Z"
+ "lastScanAt": "2026-11-03T02:44:12.317Z",
+ "lastPublishedAt": "2026-11-02T17:02:16Z"
 }

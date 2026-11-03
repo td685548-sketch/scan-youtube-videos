@@ -573,7 +573,9 @@
   "Lgr9mN0uNcg",
   "gwXqPEuLWYs",
   "vN8i4xZ0Wm8",
-  "QQ0STvyrnh4"
+  "QQ0STvyrnh4",
+  "2QAID4JneOw",
+  "KGkB9uexKSA"
  ],
  "videos": [
   {
@@ -11233,8 +11235,51 @@
     "Digital Workers"
    ],
    "scannedAt": "2026-11-02T02:44:53.883Z"
+  },
+  {
+   "id": "2QAID4JneOw",
+   "title": "10 Hidden Features of Microsoft Copilot You Didn't Know",
+   "description": "Learn 10 unexpected features of Microsoft Copilot. From turning meetings into podcasts to building custom agents with plain English. It's all in my profile. #TechTips #MicrosoftCopilot #Productivity #Automation",
+   "tags": [],
+   "publishedAt": "2026-11-03T00:00:46Z",
+   "durationSeconds": 113,
+   "isShort": true,
+   "viewCount": 11,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/shorts/2QAID4JneOw",
+   "topic": "Learning AI & Career",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Listicle",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-03T02:44:12.317Z"
+  },
+  {
+   "id": "KGkB9uexKSA",
+   "title": "Automation vs AI Agents: Why Your AI Stack Keeps Breaking",
+   "description": "Learn to distinguish between automation and AI agents to build a stable AI stack. Understand when to use a fixed recipe and when to rely on the adaptable chef method. Get your AI stack right and avoid common pitfalls. It's all in my profile. #Automation #AIAgents #TechExplained #Workflow #AI",
+   "tags": [],
+   "publishedAt": "2026-11-02T15:00:46Z",
+   "durationSeconds": 95,
+   "isShort": true,
+   "viewCount": 96,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/shorts/KGkB9uexKSA",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-03T02:44:12.317Z"
   }
  ],
- "lastScanAt": "2026-11-02T02:44:53.883Z",
- "lastPublishedAt": "2026-11-02T00:00:39Z"
+ "lastScanAt": "2026-11-03T02:44:12.317Z",
+ "lastPublishedAt": "2026-11-03T00:00:46Z"
 }

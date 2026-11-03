@@ -1011,7 +1011,8 @@
   "NH9jVwWa23Q",
   "Jwos3ibkEeM",
   "LNu8NAJo62Y",
-  "Z5QpwLqPQm4"
+  "Z5QpwLqPQm4",
+  "1oMTgxXTFpI"
  ],
  "videos": [
   {
@@ -11206,8 +11207,32 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-11-02T02:44:53.883Z"
+  },
+  {
+   "id": "1oMTgxXTFpI",
+   "title": "This AI Agent Gets Smarter Over Time",
+   "description": "Should you use Hermes Agent? Go for it if you'll chat with it a lot and have workflows you want it to learn, because the more you use it, the smarter it gets. It's more complex than Open Claw and needs more interaction, but that's the point: it works great as a personal assistant running your workfl",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-02T12:00:22Z",
+   "durationSeconds": 43,
+   "isShort": true,
+   "viewCount": 1863,
+   "likeCount": 52,
+   "url": "https://www.youtube.com/shorts/1oMTgxXTFpI",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Comparison",
+   "concepts": [
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-03T02:44:12.317Z"
   }
  ],
- "lastScanAt": "2026-11-02T02:44:53.883Z",
- "lastPublishedAt": "2026-11-01T12:00:02Z"
+ "lastScanAt": "2026-11-03T02:44:12.317Z",
+ "lastPublishedAt": "2026-11-02T12:00:22Z"
 }
