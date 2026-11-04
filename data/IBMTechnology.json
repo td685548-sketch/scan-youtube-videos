@@ -696,7 +696,8 @@
   "K8NgeOuZmWU",
   "mfgSBLGePuA",
   "QUZ4KEDxhCM",
-  "EkdIZXDnRK8"
+  "EkdIZXDnRK8",
+  "jnP9AgtX0qo"
  ],
  "videos": [
   {
@@ -13010,8 +13011,28 @@
     "Agents"
    ],
    "scannedAt": "2026-11-03T02:44:12.317Z"
+  },
+  {
+   "id": "jnP9AgtX0qo",
+   "title": "Can Your AI Use Sensitive Data Safely? 5 Capabilities You Need",
+   "description": "Learn more about Digital Sovereignty here → https://ibm.biz/~Wxx0y9d9w Sensitive data makes AI powerful, but also risky. Jeff Crume explains five essential capabilities for using sensitive data safely across AI systems, agents, tools, and RAG pipelines. Learn how visibility, classification, governan",
+   "tags": [
+    "IBM",
+    "IBM Cloud"
+   ],
+   "publishedAt": "2026-11-03T12:00:36Z",
+   "durationSeconds": 695,
+   "isShort": false,
+   "viewCount": 18128,
+   "likeCount": 317,
+   "url": "https://www.youtube.com/watch?v=jnP9AgtX0qo",
+   "topic": "AI Risks & Safety",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-04T02:44:48.182Z"
   }
  ],
- "lastScanAt": "2026-11-03T02:44:12.317Z",
- "lastPublishedAt": "2026-11-02T12:00:35Z"
+ "lastScanAt": "2026-11-04T02:44:48.182Z",
+ "lastPublishedAt": "2026-11-03T12:00:36Z"
 }

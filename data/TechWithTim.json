@@ -1012,7 +1012,10 @@
   "Jwos3ibkEeM",
   "LNu8NAJo62Y",
   "Z5QpwLqPQm4",
-  "1oMTgxXTFpI"
+  "1oMTgxXTFpI",
+  "UUrTt-vTdTQ",
+  "Sc_D4o9-vNk",
+  "fBW4CFf9ztw"
  ],
  "videos": [
   {
@@ -11231,8 +11234,91 @@
     "Digital Workers"
    ],
    "scannedAt": "2026-11-03T02:44:12.317Z"
+  },
+  {
+   "id": "UUrTt-vTdTQ",
+   "title": "I Built an Entire AI Ad Campaign in One Chat Window",
+   "description": "Normally, creating an ad campaign means bouncing between chat, image generation tools, video editors, and downloads. But by connecting Runway directly to Claude, I can generate product images, turn them into video clips, and refine the results through a single conversation. So this is a look at how ",
+   "tags": [
+    "tech with tim",
+    "#MadeWithRunway",
+    "#AIAgents",
+    "#ContentCreation"
+   ],
+   "publishedAt": "2026-11-03T18:15:50Z",
+   "durationSeconds": 74,
+   "isShort": true,
+   "viewCount": 1206,
+   "likeCount": 38,
+   "url": "https://www.youtube.com/shorts/UUrTt-vTdTQ",
+   "topic": "Business & Making Money",
+   "related": [
+    "Automation & Workflows",
+    "MCP, APIs & Integrations"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-04T02:44:48.182Z"
+  },
+  {
+   "id": "Sc_D4o9-vNk",
+   "title": "I Looked Inside my Agents Context Window...",
+   "description": "Get started with BrightData's Scraper Studio here: https://brdta.com/twt_context The context window is the single most important thing in how well your AI agent works. It decides how much you pay, how fast it runs, and how accurate your answers are, and most people have no idea what’s inside it or h",
+   "tags": [
+    "tech with tim",
+    "ai agent context window",
+    "claude code context window",
+    "claude code /context",
+    "context window explained",
+    "ai agent token usage",
+    "reduce token usage claude code",
+    "ai agent cost optimization",
+    "ai web scraping",
+    "web scraping for ai agents"
+   ],
+   "publishedAt": "2026-11-03T14:06:47Z",
+   "durationSeconds": 1118,
+   "isShort": false,
+   "viewCount": 10722,
+   "likeCount": 102,
+   "url": "https://www.youtube.com/watch?v=Sc_D4o9-vNk",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-04T02:44:48.182Z"
+  },
+  {
+   "id": "fBW4CFf9ztw",
+   "title": "This AI Can Teach Itself Wrong",
+   "description": "What's the downside of a self-learning AI agent like Hermes? It can teach itself the wrong skills, and then it keeps repeating those mistakes, so it needs a bit more managing than something like Open Claw. It also takes more setup. The rule of thumb: use Hermes if you have recurring workflows you wa",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-03T12:00:15Z",
+   "durationSeconds": 23,
+   "isShort": true,
+   "viewCount": 1550,
+   "likeCount": 26,
+   "url": "https://www.youtube.com/shorts/fBW4CFf9ztw",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "AI Risks & Safety"
+   ],
+   "style": "Warning / Opinion",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-04T02:44:48.182Z"
   }
  ],
- "lastScanAt": "2026-11-03T02:44:12.317Z",
- "lastPublishedAt": "2026-11-02T12:00:22Z"
+ "lastScanAt": "2026-11-04T02:44:48.182Z",
+ "lastPublishedAt": "2026-11-03T18:15:50Z"
 }

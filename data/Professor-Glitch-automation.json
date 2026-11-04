@@ -575,7 +575,9 @@
   "vN8i4xZ0Wm8",
   "QQ0STvyrnh4",
   "2QAID4JneOw",
-  "KGkB9uexKSA"
+  "KGkB9uexKSA",
+  "qVu2VPejMB8",
+  "fULWqABAX3U"
  ],
  "videos": [
   {
@@ -11278,8 +11280,50 @@
     "Automation"
    ],
    "scannedAt": "2026-11-03T02:44:12.317Z"
+  },
+  {
+   "id": "qVu2VPejMB8",
+   "title": "How One-Person Companies Will Use AI by 2026",
+   "description": "This video explains how AI could allow a single person to run a billion-dollar company by 2026. It breaks down common misconceptions and outlines the roadmap for achieving this with AI employees. The details are all in my profile. #AI #BusinessFuture #TechCEOs #AIWorkforce",
+   "tags": [],
+   "publishedAt": "2026-11-04T00:01:09Z",
+   "durationSeconds": 300,
+   "isShort": false,
+   "viewCount": 5,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/watch?v=qVu2VPejMB8",
+   "topic": "Business & Making Money",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Roadmap / Learning guide",
+   "concepts": [
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-04T02:44:48.182Z"
+  },
+  {
+   "id": "fULWqABAX3U",
+   "title": "Set Up CLAUDE.md to Simplify Your Daily Workflow",
+   "description": "Learn how to use CLAUDE.md to organize your business guidelines in one place. This video shows you how to set up a markdown file that auto-loads every session, acting as a map to detailed documents. Keep it concise for the best results. It's all in my profile. #workflow #markdown #businessautomation",
+   "tags": [],
+   "publishedAt": "2026-11-03T15:00:23Z",
+   "durationSeconds": 148,
+   "isShort": true,
+   "viewCount": 35,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/shorts/fULWqABAX3U",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-04T02:44:48.182Z"
   }
  ],
- "lastScanAt": "2026-11-03T02:44:12.317Z",
- "lastPublishedAt": "2026-11-03T00:00:46Z"
+ "lastScanAt": "2026-11-04T02:44:48.182Z",
+ "lastPublishedAt": "2026-11-04T00:01:09Z"
 }

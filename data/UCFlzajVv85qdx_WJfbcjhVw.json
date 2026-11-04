@@ -307,7 +307,8 @@
   "3eYLsMg95oY",
   "Kdr-W_obzZE",
   "wOm431rUgLg",
-  "mKSgeXl9MAo"
+  "mKSgeXl9MAo",
+  "NGrLZjQWsEc"
  ],
  "videos": [
   {
@@ -8853,8 +8854,29 @@
     "Digital Workers"
    ],
    "scannedAt": "2026-11-01T02:44:46.946Z"
+  },
+  {
+   "id": "NGrLZjQWsEc",
+   "title": "How We Automated a Content Agency’s Scripting Process",
+   "description": "One client = one Claude Project. That’s how we automated a content agency’s entire scripting process. He was writing every client script manually. Slow, expensive, and most of it could be automated. A Project is just a space inside Claude with instructions (who it is, what the rules are) and files (",
+   "tags": [],
+   "publishedAt": "2026-11-03T17:59:47Z",
+   "durationSeconds": 76,
+   "isShort": true,
+   "viewCount": 52,
+   "likeCount": 4,
+   "url": "https://www.youtube.com/shorts/NGrLZjQWsEc",
+   "topic": "Automation & Workflows",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-04T02:44:48.182Z"
   }
  ],
- "lastScanAt": "2026-11-03T02:44:12.317Z",
- "lastPublishedAt": "2026-11-01T18:51:46Z"
+ "lastScanAt": "2026-11-04T02:44:48.182Z",
+ "lastPublishedAt": "2026-11-03T17:59:47Z"
 }
