@@ -577,7 +577,10 @@
   "2QAID4JneOw",
   "KGkB9uexKSA",
   "qVu2VPejMB8",
-  "fULWqABAX3U"
+  "fULWqABAX3U",
+  "kH2Atf1Eam8",
+  "xKhMo0ZjhIg",
+  "l9tz34a-1wc"
  ],
  "videos": [
   {
@@ -11322,8 +11325,68 @@
     "Automation"
    ],
    "scannedAt": "2026-11-04T02:44:48.182Z"
+  },
+  {
+   "id": "kH2Atf1Eam8",
+   "title": "Claude Duet: the Claude that comes to you first",
+   "description": "Anthropic just opened a research preview of Claude Duet, and it flips how you use Claude. The Claude you know waits for you to open a chat. Duet comes to you. Every morning it sends a short brief on what matters across your email, calendar and connected apps. Then it checks in every few hours and on",
+   "tags": [],
+   "publishedAt": "2026-11-05T00:00:57Z",
+   "durationSeconds": 262,
+   "isShort": false,
+   "viewCount": 6,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/watch?v=kH2Atf1Eam8",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-05T02:44:43.170Z"
+  },
+  {
+   "id": "xKhMo0ZjhIg",
+   "title": "How to check if your Claude account still has the 5-hour usage limit",
+   "description": "How Claude's usage limits work on the Ultra plan, and how to check whether the 5-hour limit is gone on your account. Usage ran on two clocks, a weekly limit and a 5-hour session window inside it. On verified Ultra accounts, only the weekly limit is left. 1. You have to be verified. Anthropic does it",
+   "tags": [],
+   "publishedAt": "2026-11-04T19:00:52Z",
+   "durationSeconds": 155,
+   "isShort": true,
+   "viewCount": 130,
+   "likeCount": 4,
+   "url": "https://www.youtube.com/shorts/xKhMo0ZjhIg",
+   "topic": "AI News & Models",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-05T02:44:43.170Z"
+  },
+  {
+   "id": "l9tz34a-1wc",
+   "title": "The AI plan for the rest of 2026, two weeks at a time",
+   "description": "The year is almost over. Next year, people who chat with AI will be competing with people who have AI doing real work for them. They aren't smarter. They have a system. Here's how to build one in five moves, one every two weeks. Days 1–15: Give AI context. Write one page: what you do, who it's for, ",
+   "tags": [],
+   "publishedAt": "2026-11-04T15:00:44Z",
+   "durationSeconds": 147,
+   "isShort": true,
+   "viewCount": 27,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/shorts/l9tz34a-1wc",
+   "topic": "Learning AI & Career",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Roadmap / Learning guide",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-05T02:44:43.170Z"
   }
  ],
- "lastScanAt": "2026-11-04T02:44:48.182Z",
- "lastPublishedAt": "2026-11-04T00:01:09Z"
+ "lastScanAt": "2026-11-05T02:44:43.170Z",
+ "lastPublishedAt": "2026-11-05T00:00:57Z"
 }

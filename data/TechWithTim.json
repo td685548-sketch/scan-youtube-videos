@@ -1015,7 +1015,9 @@
   "1oMTgxXTFpI",
   "UUrTt-vTdTQ",
   "Sc_D4o9-vNk",
-  "fBW4CFf9ztw"
+  "fBW4CFf9ztw",
+  "v5FYtD1hy6w",
+  "aZ1Ae7vjafk"
  ],
  "videos": [
   {
@@ -11317,8 +11319,63 @@
     "Agents"
    ],
    "scannedAt": "2026-11-04T02:44:48.182Z"
+  },
+  {
+   "id": "v5FYtD1hy6w",
+   "title": "The New Job of a Software Engineer (It's Not Writing Code)",
+   "description": "Try Air in JetBrains IDEs: https://jb.gg/uf1rym Google says about 75% of its new code is AI-generated. Anthropic says more than 90% of its code is written by Claude Code. So why are US software engineering job postings up about 18% compared to this time last year? Because the job itself has changed,",
+   "tags": [
+    "tech with tim",
+    "new job of a software engineer",
+    "software engineer 2026",
+    "future of software engineering",
+    "software engineering jobs 2026",
+    "will ai replace software engineers",
+    "how ai changed software engineering",
+    "ai coding agents",
+    "claude code",
+    "junior developer advice"
+   ],
+   "publishedAt": "2026-11-04T13:00:38Z",
+   "durationSeconds": 702,
+   "isShort": false,
+   "viewCount": 43756,
+   "likeCount": 571,
+   "url": "https://www.youtube.com/watch?v=v5FYtD1hy6w",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "Learning AI & Career"
+   ],
+   "style": "General / Commentary",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-05T02:44:43.170Z"
+  },
+  {
+   "id": "aZ1Ae7vjafk",
+   "title": "The AI Agent That Writes Its Own Tools",
+   "description": "What makes Agent Zero different from other AI agents? It gets a full Linux machine inside Docker all to itself, and instead of shipping with a fixed list of tools, it writes its own code and runs it in its own terminal when it needs something. It's very coding-centric. In the demo, I asked it to bui",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-04T12:00:28Z",
+   "durationSeconds": 59,
+   "isShort": true,
+   "viewCount": 2068,
+   "likeCount": 78,
+   "url": "https://www.youtube.com/shorts/aZ1Ae7vjafk",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-05T02:44:43.170Z"
   }
  ],
- "lastScanAt": "2026-11-04T02:44:48.182Z",
- "lastPublishedAt": "2026-11-03T18:15:50Z"
+ "lastScanAt": "2026-11-05T02:44:43.170Z",
+ "lastPublishedAt": "2026-11-04T13:00:38Z"
 }
