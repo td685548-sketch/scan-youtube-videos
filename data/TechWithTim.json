@@ -1017,7 +1017,8 @@
   "Sc_D4o9-vNk",
   "fBW4CFf9ztw",
   "v5FYtD1hy6w",
-  "aZ1Ae7vjafk"
+  "aZ1Ae7vjafk",
+  "q79euz_J1ag"
  ],
  "videos": [
   {
@@ -11374,8 +11375,29 @@
     "Agents"
    ],
    "scannedAt": "2026-11-05T02:44:43.170Z"
+  },
+  {
+   "id": "q79euz_J1ag",
+   "title": "The Most Transparent AI Agent",
+   "description": "Should you use Agent Zero? Reach for it if you want a flexible agent with access to its own computer, and skip it if you just want something running quietly in the background on scheduled tasks. It's one of the most flexible on the list: its own isolated, sandboxed machine means it can tackle comple",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-05T12:00:22Z",
+   "durationSeconds": 49,
+   "isShort": true,
+   "viewCount": 1445,
+   "likeCount": 42,
+   "url": "https://www.youtube.com/shorts/q79euz_J1ag",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-06T02:44:07.194Z"
   }
  ],
- "lastScanAt": "2026-11-05T02:44:43.170Z",
- "lastPublishedAt": "2026-11-04T13:00:38Z"
+ "lastScanAt": "2026-11-06T02:44:07.194Z",
+ "lastPublishedAt": "2026-11-05T12:00:22Z"
 }

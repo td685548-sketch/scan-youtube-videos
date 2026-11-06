@@ -698,7 +698,8 @@
   "QUZ4KEDxhCM",
   "EkdIZXDnRK8",
   "jnP9AgtX0qo",
-  "c5n94VqXZAw"
+  "c5n94VqXZAw",
+  "rXFV1ivDe6c"
  ],
  "videos": [
   {
@@ -13032,8 +13033,32 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-11-04T02:44:48.182Z"
+  },
+  {
+   "id": "rXFV1ivDe6c",
+   "title": "Are Vector Databases Still Needed? RAG, AI Agents & Search",
+   "description": "Learn more about Vector Databases here → https://ibm.biz/~aHY62ka9p Do AI applications still need vector databases? Martin Keen explores RAG, AI agents, embeddings, semantic search, and context windows to explain when vector databases matter and when simpler retrieval approaches work just as well. L",
+   "tags": [
+    "IBM",
+    "IBM Cloud"
+   ],
+   "publishedAt": "2026-11-05T12:00:09Z",
+   "durationSeconds": 601,
+   "isShort": false,
+   "viewCount": 57714,
+   "likeCount": 864,
+   "url": "https://www.youtube.com/watch?v=rXFV1ivDe6c",
+   "topic": "RAG, Memory & Knowledge",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-06T02:44:07.194Z"
   }
  ],
- "lastScanAt": "2026-11-05T02:44:43.170Z",
- "lastPublishedAt": "2026-11-04T10:00:20Z"
+ "lastScanAt": "2026-11-06T02:44:07.194Z",
+ "lastPublishedAt": "2026-11-05T12:00:09Z"
 }

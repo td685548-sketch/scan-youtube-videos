@@ -580,7 +580,10 @@
   "fULWqABAX3U",
   "kH2Atf1Eam8",
   "xKhMo0ZjhIg",
-  "l9tz34a-1wc"
+  "l9tz34a-1wc",
+  "fUqmaRRCu-Y",
+  "pB7baNRruhM",
+  "rLd0RJPtuDU"
  ],
  "videos": [
   {
@@ -11385,8 +11388,65 @@
     "Automation"
    ],
    "scannedAt": "2026-11-05T02:44:43.170Z"
+  },
+  {
+   "id": "fUqmaRRCu-Y",
+   "title": "How to run your own private AI (Ollama + Open WebUI, step by step, on hardware you control)",
+   "description": "How to run your own private AI, where your sensitive files stay on hardware you control. A lot of businesses avoid AI because of their data. A paid business plan from OpenAI or Anthropic doesn't train on your business data by default, but your data still goes to their servers. The other option is a ",
+   "tags": [],
+   "publishedAt": "2026-11-06T00:01:24Z",
+   "durationSeconds": 508,
+   "isShort": false,
+   "viewCount": 2,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/watch?v=fUqmaRRCu-Y",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [],
+   "scannedAt": "2026-11-06T02:44:07.194Z"
+  },
+  {
+   "id": "pB7baNRruhM",
+   "title": "How to start a business with an AI team from day one",
+   "description": "How to start a business with AI from day one, so your AI team learns it as you build. Most people build first and explain it to an AI later. Flip that. Work with the AI from the start and the handover happens as you go. 1. Talk instead of type. A voice tool like Voice Ink gets the whole story out of",
+   "tags": [],
+   "publishedAt": "2026-11-05T19:01:03Z",
+   "durationSeconds": 419,
+   "isShort": false,
+   "viewCount": 16,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/watch?v=pB7baNRruhM",
+   "topic": "Business & Making Money",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Listicle",
+   "concepts": [
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-06T02:44:07.194Z"
+  },
+  {
+   "id": "rLd0RJPtuDU",
+   "title": "The 6 levels of AI (and why you can't skip one)",
+   "description": "Most people think they're good at AI because they use it every day. That's level one. There are six. 0. You don't use it. You tried it once, got something generic, and decided it's overhyped. 1. Chat. Ask, get an answer, copy it somewhere. It saves minutes, but every chat starts from zero. 2. Contex",
+   "tags": [],
+   "publishedAt": "2026-11-05T15:00:56Z",
+   "durationSeconds": 195,
+   "isShort": false,
+   "viewCount": 25,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/watch?v=rLd0RJPtuDU",
+   "topic": "Learning AI & Career",
+   "related": [],
+   "style": "Roadmap / Learning guide",
+   "concepts": [],
+   "scannedAt": "2026-11-06T02:44:07.194Z"
   }
  ],
- "lastScanAt": "2026-11-05T02:44:43.170Z",
- "lastPublishedAt": "2026-11-05T00:00:57Z"
+ "lastScanAt": "2026-11-06T02:44:07.194Z",
+ "lastPublishedAt": "2026-11-06T00:01:24Z"
 }
