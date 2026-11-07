@@ -1018,7 +1018,9 @@
   "fBW4CFf9ztw",
   "v5FYtD1hy6w",
   "aZ1Ae7vjafk",
-  "q79euz_J1ag"
+  "q79euz_J1ag",
+  "oBvuhcdSsuw",
+  "s1EPftuxlAo"
  ],
  "videos": [
   {
@@ -11396,8 +11398,63 @@
     "Agents"
    ],
    "scannedAt": "2026-11-06T02:44:07.194Z"
+  },
+  {
+   "id": "oBvuhcdSsuw",
+   "title": "Learn 99% of Codex in One Video",
+   "description": "Deploy a Hostinger VPS and connect Hostinger connector to deploy the apps you build with Codex and use code TECHWITHTIM for an additional 10% off: https://www.hostg.xyz/SHKK6 Codex has changed a lot over the past few months, and most people open it, type a prompt, and never touch the features that a",
+   "tags": [
+    "tech with tim",
+    "codex tutorial",
+    "learn codex",
+    "openai codex tutorial",
+    "codex full course",
+    "codex for beginners",
+    "codex desktop app",
+    "chatgpt codex",
+    "codex effort levels",
+    "codex fast mode"
+   ],
+   "publishedAt": "2026-11-06T13:56:35Z",
+   "durationSeconds": 2869,
+   "isShort": false,
+   "viewCount": 16829,
+   "likeCount": 199,
+   "url": "https://www.youtube.com/watch?v=oBvuhcdSsuw",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "Learning AI & Career"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-07T02:44:50.042Z"
+  },
+  {
+   "id": "s1EPftuxlAo",
+   "title": "The Open Source AI Software Engineer",
+   "description": "What can an AI software engineer actually do? OpenHands (formerly OpenDevin) is the one agent built specifically for coding, and it works right inside your existing GitHub repo. Hand it tickets or issues and it comes back with a completed pull request. In the demo, I connected a small to-do list API",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-06T12:00:25Z",
+   "durationSeconds": 55,
+   "isShort": true,
+   "viewCount": 2218,
+   "likeCount": 65,
+   "url": "https://www.youtube.com/shorts/s1EPftuxlAo",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-07T02:44:50.042Z"
   }
  ],
- "lastScanAt": "2026-11-06T02:44:07.194Z",
- "lastPublishedAt": "2026-11-05T12:00:22Z"
+ "lastScanAt": "2026-11-07T02:44:50.042Z",
+ "lastPublishedAt": "2026-11-06T13:56:35Z"
 }

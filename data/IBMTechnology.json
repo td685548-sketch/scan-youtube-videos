@@ -699,7 +699,8 @@
   "EkdIZXDnRK8",
   "jnP9AgtX0qo",
   "c5n94VqXZAw",
-  "rXFV1ivDe6c"
+  "rXFV1ivDe6c",
+  "x_5JijpzprU"
  ],
  "videos": [
   {
@@ -13057,8 +13058,29 @@
     "Agents"
    ],
    "scannedAt": "2026-11-06T02:44:07.194Z"
+  },
+  {
+   "id": "x_5JijpzprU",
+   "title": "AI fixes AI in MIT study, Mistral's open model & Google Genie 4",
+   "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~Rz77ywquX How close are we to AI that can improve itself? This week on Mixture of Experts, guest host Aili McConnon is joined by Chris Hay, Sascha Brodsky and Kiyu Gabriel tackle that question and more from the latest AI",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-06T09:30:07Z",
+   "durationSeconds": 2155,
+   "isShort": false,
+   "viewCount": 9862,
+   "likeCount": 138,
+   "url": "https://www.youtube.com/watch?v=x_5JijpzprU",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Risks & Safety"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-11-07T02:44:50.042Z"
   }
  ],
- "lastScanAt": "2026-11-06T02:44:07.194Z",
- "lastPublishedAt": "2026-11-05T12:00:09Z"
+ "lastScanAt": "2026-11-07T02:44:50.042Z",
+ "lastPublishedAt": "2026-11-06T09:30:07Z"
 }

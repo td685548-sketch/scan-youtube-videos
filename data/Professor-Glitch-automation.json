@@ -583,7 +583,10 @@
   "l9tz34a-1wc",
   "fUqmaRRCu-Y",
   "pB7baNRruhM",
-  "rLd0RJPtuDU"
+  "rLd0RJPtuDU",
+  "wcyLqSBCDZ0",
+  "0qBFmTswJJI",
+  "xsPuKMjNLJw"
  ],
  "videos": [
   {
@@ -11445,8 +11448,69 @@
    "style": "Roadmap / Learning guide",
    "concepts": [],
    "scannedAt": "2026-11-06T02:44:07.194Z"
+  },
+  {
+   "id": "wcyLqSBCDZ0",
+   "title": "How to make money with AI, starting from zero",
+   "description": "Nobody can promise you a number. What I can show you is where the money actually is, and how to get there faster with AI doing half the work. Five real ways, from fastest to slowest: 1. Sell a service you already know, ten times faster. 2. Build small AI systems for local businesses: answer the webs",
+   "tags": [],
+   "publishedAt": "2026-11-07T00:00:48Z",
+   "durationSeconds": 224,
+   "isShort": false,
+   "viewCount": 3,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/watch?v=wcyLqSBCDZ0",
+   "topic": "Business & Making Money",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Listicle",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-07T02:44:50.042Z"
+  },
+  {
+   "id": "0qBFmTswJJI",
+   "title": "How to make money with AI: the 7 laws most people break",
+   "description": "How to make money with AI, in seven laws. Most people break at least five. 1. Scale. You can't scale your hours, you can scale a system. Doing the same task by hand twice means a system you haven't built. 2. The boring problem. People pay to make a painful job disappear. Invoices, follow-ups, data e",
+   "tags": [],
+   "publishedAt": "2026-11-06T19:00:50Z",
+   "durationSeconds": 150,
+   "isShort": true,
+   "viewCount": 66,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/shorts/0qBFmTswJJI",
+   "topic": "Business & Making Money",
+   "related": [],
+   "style": "Listicle",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-07T02:44:50.042Z"
+  },
+  {
+   "id": "xsPuKMjNLJw",
+   "title": "How you actually make a video with AI (the real 7 steps)",
+   "description": "Most AI video tutorials show you one prompt and one clip. That's not how a finished video gets made. A real video is a stack of parts: a script, characters, voices, pictures, motion, music, sound and color. Today an AI model can make every one of them, and Claude can run all of those models for you.",
+   "tags": [],
+   "publishedAt": "2026-11-06T15:00:45Z",
+   "durationSeconds": 210,
+   "isShort": false,
+   "viewCount": 24,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/watch?v=xsPuKMjNLJw",
+   "topic": "Learning AI & Career",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-07T02:44:50.042Z"
   }
  ],
- "lastScanAt": "2026-11-06T02:44:07.194Z",
- "lastPublishedAt": "2026-11-06T00:01:24Z"
+ "lastScanAt": "2026-11-07T02:44:50.042Z",
+ "lastPublishedAt": "2026-11-07T00:00:48Z"
 }
