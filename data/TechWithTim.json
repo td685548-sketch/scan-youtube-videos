@@ -1020,7 +1020,8 @@
   "aZ1Ae7vjafk",
   "q79euz_J1ag",
   "oBvuhcdSsuw",
-  "s1EPftuxlAo"
+  "s1EPftuxlAo",
+  "BTaLk9W-SMo"
  ],
  "videos": [
   {
@@ -11453,8 +11454,31 @@
     "Agents"
    ],
    "scannedAt": "2026-11-07T02:44:50.042Z"
+  },
+  {
+   "id": "BTaLk9W-SMo",
+   "title": "The AI Coding Agent for Your Ticket Backlog",
+   "description": "Is OpenHands the right AI coding agent for you? The upside: it gives the best end-to-end coding performance of any agent here, and nothing leaves your server except model calls, so it's private and works with almost any model. The downsides: it's only useful for coding, it's heavier because of every",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-07T12:00:18Z",
+   "durationSeconds": 42,
+   "isShort": true,
+   "viewCount": 1466,
+   "likeCount": 28,
+   "url": "https://www.youtube.com/shorts/BTaLk9W-SMo",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Comparison",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-08T02:44:17.086Z"
   }
  ],
- "lastScanAt": "2026-11-07T02:44:50.042Z",
- "lastPublishedAt": "2026-11-06T13:56:35Z"
+ "lastScanAt": "2026-11-08T02:44:17.086Z",
+ "lastPublishedAt": "2026-11-07T12:00:18Z"
 }

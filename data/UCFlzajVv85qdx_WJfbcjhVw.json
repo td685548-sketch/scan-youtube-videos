@@ -308,7 +308,8 @@
   "Kdr-W_obzZE",
   "wOm431rUgLg",
   "mKSgeXl9MAo",
-  "NGrLZjQWsEc"
+  "NGrLZjQWsEc",
+  "bG0vttn-Bvg"
  ],
  "videos": [
   {
@@ -8875,8 +8876,29 @@
     "Automation"
    ],
    "scannedAt": "2026-11-04T02:44:48.182Z"
+  },
+  {
+   "id": "bG0vttn-Bvg",
+   "title": "Brutally Honest Advice for Starting an AI Agency",
+   "description": "",
+   "tags": [],
+   "publishedAt": "2026-11-07T20:01:01Z",
+   "durationSeconds": 46,
+   "isShort": true,
+   "viewCount": 231,
+   "likeCount": 6,
+   "url": "https://www.youtube.com/shorts/bG0vttn-Bvg",
+   "topic": "Business & Making Money",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Warning / Opinion",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-08T02:44:17.086Z"
   }
  ],
- "lastScanAt": "2026-11-07T02:44:50.042Z",
- "lastPublishedAt": "2026-11-03T17:59:47Z"
+ "lastScanAt": "2026-11-08T02:44:17.086Z",
+ "lastPublishedAt": "2026-11-07T20:01:01Z"
 }

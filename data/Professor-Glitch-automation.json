@@ -586,7 +586,10 @@
   "rLd0RJPtuDU",
   "wcyLqSBCDZ0",
   "0qBFmTswJJI",
-  "xsPuKMjNLJw"
+  "xsPuKMjNLJw",
+  "N-9CoPIv-U4",
+  "kRdDu7pub7Y",
+  "b9js94An8Qs"
  ],
  "videos": [
   {
@@ -11509,8 +11512,68 @@
     "Automation"
    ],
    "scannedAt": "2026-11-07T02:44:50.042Z"
+  },
+  {
+   "id": "N-9CoPIv-U4",
+   "title": "Build your first AI agent with Claude Code (step by step)",
+   "description": "Most people's first \"agent\" is a chatbot they have to babysit. This one does a real job: the 40 minutes you lose every morning working out what needs you today. Here's the whole build in Claude Code, in the desktop app and in the terminal: 1. Dump everything on your plate and let Claude find the job",
+   "tags": [],
+   "publishedAt": "2026-11-08T00:00:48Z",
+   "durationSeconds": 252,
+   "isShort": false,
+   "viewCount": 5,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/watch?v=N-9CoPIv-U4",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-08T02:44:17.086Z"
+  },
+  {
+   "id": "kRdDu7pub7Y",
+   "title": "5 AI skills to learn instead of chasing the newest model",
+   "description": "The AI skills worth learning right now, and why chasing the newest model won't get you there. The model is rarely the problem. These five things separate people who play with AI from people who build with it. 1. Prompting. Communicate badly and you get a fraction of what the model can do. 2. Context",
+   "tags": [],
+   "publishedAt": "2026-11-07T19:00:45Z",
+   "durationSeconds": 159,
+   "isShort": true,
+   "viewCount": 21,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/kRdDu7pub7Y",
+   "topic": "Learning AI & Career",
+   "related": [],
+   "style": "Listicle",
+   "concepts": [],
+   "scannedAt": "2026-11-08T02:44:17.086Z"
+  },
+  {
+   "id": "b9js94An8Qs",
+   "title": "Why your AI app has zero sales (and the system that fixes it)",
+   "description": "AI made building easy. An app in a weekend, a landing page in an hour. So everybody has an idea, a few people finish it, and then it sits there with zero visitors. The fix is the same AI that helped you build it. Here's the content system I walk through in this video: 1. Ideas: AI reads what your bu",
+   "tags": [],
+   "publishedAt": "2026-11-07T15:00:56Z",
+   "durationSeconds": 184,
+   "isShort": false,
+   "viewCount": 21,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/watch?v=b9js94An8Qs",
+   "topic": "Business & Making Money",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-08T02:44:17.086Z"
   }
  ],
- "lastScanAt": "2026-11-07T02:44:50.042Z",
- "lastPublishedAt": "2026-11-07T00:00:48Z"
+ "lastScanAt": "2026-11-08T02:44:17.086Z",
+ "lastPublishedAt": "2026-11-08T00:00:48Z"
 }
