@@ -1021,7 +1021,8 @@
   "q79euz_J1ag",
   "oBvuhcdSsuw",
   "s1EPftuxlAo",
-  "BTaLk9W-SMo"
+  "BTaLk9W-SMo",
+  "JsfKoOkAqxU"
  ],
  "videos": [
   {
@@ -11477,8 +11478,32 @@
     "Agents"
    ],
    "scannedAt": "2026-11-08T02:44:17.086Z"
+  },
+  {
+   "id": "JsfKoOkAqxU",
+   "title": "An AI That Runs a Whole Company",
+   "description": "What if an AI didn't do the work itself, but managed a whole team of agents to do it? That's Paperclip. It runs agents like a company: I set up one called Agent Builders HQ with a single goal, and it hired a small team with a real org chart, a CEO, a founding engineer, and a researcher, all working ",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-08T12:00:13Z",
+   "durationSeconds": 58,
+   "isShort": true,
+   "viewCount": 1857,
+   "likeCount": 59,
+   "url": "https://www.youtube.com/shorts/JsfKoOkAqxU",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-09T02:44:26.195Z"
   }
  ],
- "lastScanAt": "2026-11-08T02:44:17.086Z",
- "lastPublishedAt": "2026-11-07T12:00:18Z"
+ "lastScanAt": "2026-11-09T02:44:26.195Z",
+ "lastPublishedAt": "2026-11-08T12:00:13Z"
 }

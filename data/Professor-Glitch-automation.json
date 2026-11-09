@@ -589,7 +589,10 @@
   "xsPuKMjNLJw",
   "N-9CoPIv-U4",
   "kRdDu7pub7Y",
-  "b9js94An8Qs"
+  "b9js94An8Qs",
+  "PvaLmLEMvIE",
+  "XRLEhdP0PFQ",
+  "iZmcYrpKtd8"
  ],
  "videos": [
   {
@@ -11572,8 +11575,71 @@
     "Automation"
    ],
    "scannedAt": "2026-11-08T02:44:17.086Z"
+  },
+  {
+   "id": "PvaLmLEMvIE",
+   "title": "The next ten years of AI, told through one life",
+   "description": "Nobody knows how the next ten years of AI go. Not the people who build it. Not the AI. So Claude imagines them through Maya, 24, on the night of her first real job: the email that replaces her team, the election nobody can trust, the call from a mom who isn't her mom, the day a million agents break ",
+   "tags": [],
+   "publishedAt": "2026-11-09T00:00:52Z",
+   "durationSeconds": 345,
+   "isShort": false,
+   "viewCount": 3,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/watch?v=PvaLmLEMvIE",
+   "topic": "AI Risks & Safety",
+   "related": [
+    "AI News & Models"
+   ],
+   "style": "General / Commentary",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-09T02:44:26.195Z"
+  },
+  {
+   "id": "XRLEhdP0PFQ",
+   "title": "How to learn AI automation from scratch in three months, in the right order",
+   "description": "How to learn AI automation from scratch in three months, in the order I'd do it. Month one 1. The concepts. Model, context, and how automations, agents and AI employees differ. 2. Map your system. What starts a job, what happens next, where someone decides. 3. Write it down. You can't hand off what ",
+   "tags": [],
+   "publishedAt": "2026-11-08T19:01:01Z",
+   "durationSeconds": 158,
+   "isShort": true,
+   "viewCount": 96,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/XRLEhdP0PFQ",
+   "topic": "Learning AI & Career",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Roadmap / Learning guide",
+   "concepts": [
+    "Automation",
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-09T02:44:26.195Z"
+  },
+  {
+   "id": "iZmcYrpKtd8",
+   "title": "How to build a private RAG on your Mac (Ollama + AnythingLLM, step by step, free models)",
+   "description": "How to build a private RAG on your Mac: an AI that answers from your own business files, shows you where it found each answer, and keeps every file on your Mac. Two free apps (Ollama and AnythingLLM Desktop), free open models, no Docker, no cloud account. By the end you'll know what every piece of a",
+   "tags": [],
+   "publishedAt": "2026-11-08T15:00:58Z",
+   "durationSeconds": 386,
+   "isShort": false,
+   "viewCount": 26,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/watch?v=iZmcYrpKtd8",
+   "topic": "RAG, Memory & Knowledge",
+   "related": [
+    "Learning AI & Career"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [],
+   "scannedAt": "2026-11-09T02:44:26.195Z"
   }
  ],
- "lastScanAt": "2026-11-08T02:44:17.086Z",
- "lastPublishedAt": "2026-11-08T00:00:48Z"
+ "lastScanAt": "2026-11-09T02:44:26.195Z",
+ "lastPublishedAt": "2026-11-09T00:00:52Z"
 }
