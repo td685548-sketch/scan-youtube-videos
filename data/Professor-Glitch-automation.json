@@ -589,7 +589,14 @@
   "xsPuKMjNLJw",
   "N-9CoPIv-U4",
   "kRdDu7pub7Y",
-  "b9js94An8Qs"
+  "b9js94An8Qs",
+  "YXx9zISgyfU",
+  "XEdz3LLncoo",
+  "gJTJherdcZc",
+  "g0cplmmYDeQ",
+  "c7MCKij29J4",
+  "44jA_xlEPPA",
+  "XRLEhdP0PFQ"
  ],
  "videos": [
   {
@@ -11572,8 +11579,178 @@
     "Automation"
    ],
    "scannedAt": "2026-11-08T02:44:17.086Z"
+  },
+  {
+   "id": "YXx9zISgyfU",
+   "title": "The 3 AI skills worth learning first, and the order to learn them",
+   "description": "The three AI skills worth learning, in order. Everything else is a side quest. 1. Talking to AI so it gives you what you want. Be specific about format and structure, say what to avoid, show examples of good output. 2. Designing systems. Knowing what tools exist and how to wire them together, withou",
+   "tags": [],
+   "publishedAt": "2026-11-12T19:01:07Z",
+   "durationSeconds": 169,
+   "isShort": true,
+   "viewCount": 15,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/YXx9zISgyfU",
+   "topic": "Learning AI & Career",
+   "related": [],
+   "style": "Roadmap / Learning guide",
+   "concepts": [],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "XEdz3LLncoo",
+   "title": "How to Build an AI Text Assistant for Property Management (That Never Misses an Emergency)",
+   "description": "👉 Join the community: https://askglitch.com How to build an AI text assistant for a property management company, step by step. Denise runs Birchgate: 140 units, 31 buildings, two people and a handyman. At 2:14 a.m. on a Saturday a tenant texted \"smells like gas in the hallway\". She saw it Monday, b",
+   "tags": [
+    "property management",
+    "ai for property managers",
+    "property management automation",
+    "ai text assistant",
+    "tenant texts",
+    "tenant communication",
+    "after hours maintenance",
+    "emergency maintenance calls",
+    "landlord ai",
+    "rental property management"
+   ],
+   "publishedAt": "2026-11-12T18:11:00Z",
+   "durationSeconds": 288,
+   "isShort": false,
+   "viewCount": 25,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/watch?v=XEdz3LLncoo",
+   "topic": "Automation & Workflows",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation",
+    "Agents"
+   ],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "gJTJherdcZc",
+   "title": "How to Price an AI Automation Project (and What to Say on the Call)",
+   "description": "👉 Join the community: https://askglitch.com If you sell AI automation, or you're about to, this is how you price it: the math, the packages, and the exact words to say on the call. A real example, a heating and air company (fictional) with a follow-up problem worth about $90,000 a year, priced step",
+   "tags": [
+    "ow to price ai automation",
+    "ai automation pricing",
+    "ai agency pricing",
+    "how to charge for ai",
+    "ai consulting",
+    "sell ai automation",
+    "ai automation business",
+    "pricing ai services",
+    "value based pricing",
+    "ai freelancing"
+   ],
+   "publishedAt": "2026-11-11T16:08:54Z",
+   "durationSeconds": 783,
+   "isShort": false,
+   "viewCount": 195,
+   "likeCount": 4,
+   "url": "https://www.youtube.com/watch?v=gJTJherdcZc",
+   "topic": "Business & Making Money",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "g0cplmmYDeQ",
+   "title": "I Gave Claude Fable 5.2 Four Impossible Jobs. One Message Each.",
+   "description": "👉 Join the community: https://askglitch.com Claude Fable 5.2 is out, and it's already in the Claude app on Pro and up. I gave it four jobs, one message each, and tested every result: - a full operating system in a browser tab - the office system a heating company runs on - a 3D flight game - an ope",
+   "tags": [
+    "claude fable 5.2",
+    "claude ai",
+    "anthropic",
+    "fable 5.2",
+    "claude new model",
+    "ai coding",
+    "ai benchmarks",
+    "claude opus 5.5",
+    "ai game",
+    "ai built an operating system"
+   ],
+   "publishedAt": "2026-11-10T23:30:31Z",
+   "durationSeconds": 606,
+   "isShort": false,
+   "viewCount": 238,
+   "likeCount": 4,
+   "url": "https://www.youtube.com/watch?v=g0cplmmYDeQ",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Comparison",
+   "concepts": [],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "c7MCKij29J4",
+   "title": "How to make your first $1,000 with AI in 30 days by selling an AI front desk",
+   "description": "How to make your first $1,000 with AI by selling one service, an AI front desk for local businesses. It answers questions on a business's website from their own information, day and night, and sends the owner a name and number when someone wants to book. No promises on the money, just the plan. 1. W",
+   "tags": [],
+   "publishedAt": "2026-11-09T19:01:11Z",
+   "durationSeconds": 162,
+   "isShort": true,
+   "viewCount": 272,
+   "likeCount": 6,
+   "url": "https://www.youtube.com/shorts/c7MCKij29J4",
+   "topic": "Business & Making Money",
+   "related": [],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "44jA_xlEPPA",
+   "title": "The 4 levels of AI in a business: how to go from AI tasks to an AI-run operation",
+   "description": "How to use AI in your business: there are four levels, and most owners never leave level one. At level four, a whole part of the business runs without you in the room. Here is the ladder, using Fernway, a fictional cleaning business, as the example: 1. Tasks. You open the chat, ask, and AI writes th",
+   "tags": [],
+   "publishedAt": "2026-11-09T15:01:01Z",
+   "durationSeconds": 139,
+   "isShort": true,
+   "viewCount": 118,
+   "likeCount": 4,
+   "url": "https://www.youtube.com/shorts/44jA_xlEPPA",
+   "topic": "Business & Making Money",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Automation",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "XRLEhdP0PFQ",
+   "title": "How to learn AI automation from scratch in three months, in the right order",
+   "description": "How to learn AI automation from scratch in three months, in the order I'd do it. Month one 1. The concepts. Model, context, and how automations, agents and AI employees differ. 2. Map your system. What starts a job, what happens next, where someone decides. 3. Write it down. You can't hand off what ",
+   "tags": [],
+   "publishedAt": "2026-11-08T19:01:01Z",
+   "durationSeconds": 158,
+   "isShort": true,
+   "viewCount": 320,
+   "likeCount": 6,
+   "url": "https://www.youtube.com/shorts/XRLEhdP0PFQ",
+   "topic": "Learning AI & Career",
+   "related": [],
+   "style": "Roadmap / Learning guide",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
   }
  ],
- "lastScanAt": "2026-11-08T02:44:17.086Z",
- "lastPublishedAt": "2026-11-08T00:00:48Z"
+ "lastScanAt": "2026-11-13T02:44:21.446Z",
+ "lastPublishedAt": "2026-11-12T19:01:07Z"
 }

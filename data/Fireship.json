@@ -165,7 +165,10 @@
   "v4H2fTgHGuc",
   "nEaJMdM1djM",
   "k2ruCf_z75I",
-  "iw9SZgyahqg"
+  "iw9SZgyahqg",
+  "SOwUWPtXQ9I",
+  "1FurWDiK9A4",
+  "pf5tXJZM1Rw"
  ],
  "videos": [
   {
@@ -2334,8 +2337,78 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-11-07T02:44:50.042Z"
+  },
+  {
+   "id": "SOwUWPtXQ9I",
+   "title": "Jensen Huang just pulled out of Nvidia...",
+   "description": "Manufact is the easiest way to build and deploy your MCP. Get $100 in free credits: https://manufact.com/fireship Jensen Huang just resigned as Nvidia’s CEO four days after admitting to an affair with a suspected Chinese spy whose tiny Singapore company bought $4.8 billion of Nvidia GPUs. Let's dive",
+   "tags": [
+    "webdev",
+    "app development",
+    "lesson",
+    "tutorial"
+   ],
+   "publishedAt": "2026-11-12T21:17:10Z",
+   "durationSeconds": 336,
+   "isShort": false,
+   "viewCount": 667296,
+   "likeCount": 12482,
+   "url": "https://www.youtube.com/watch?v=SOwUWPtXQ9I",
+   "topic": "AI News & Models",
+   "related": [],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "1FurWDiK9A4",
+   "title": "Did Anthropic just save its $1 trillion IPO?",
+   "description": "Mux is the video API that translates audio and answers questions about your video. Get $50 in free credits: https://mux.com/fireship Anthropic just dropped Fable and Mythos 5.2 in the middle of a rocky IPO roadshow. Let's dive into what they can do 🐎. Want more Fireship? 🗞️ Newsletter: https://byt",
+   "tags": [
+    "webdev",
+    "app development",
+    "lesson",
+    "tutorial"
+   ],
+   "publishedAt": "2026-11-10T18:19:55Z",
+   "durationSeconds": 334,
+   "isShort": false,
+   "viewCount": 1568124,
+   "likeCount": 27344,
+   "url": "https://www.youtube.com/watch?v=1FurWDiK9A4",
+   "topic": "AI News & Models",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "pf5tXJZM1Rw",
+   "title": "OpenAI spent $1.2 million hacking Linux... and it was a bargain",
+   "description": "Greptile is the only AI code reviewer that actually runs your code. Try it for free: https://greptile.com/go/fireship A model you're not allowed to use just tore through the Linux kernel and came back with 948 root exploits... let's break it down. Want more Fireship? 🗞️ Newsletter: https://bytes.de",
+   "tags": [
+    "webdev",
+    "app development",
+    "lesson",
+    "tutorial"
+   ],
+   "publishedAt": "2026-11-09T21:04:16Z",
+   "durationSeconds": 390,
+   "isShort": false,
+   "viewCount": 1795568,
+   "likeCount": 25568,
+   "url": "https://www.youtube.com/watch?v=pf5tXJZM1Rw",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Risks & Safety"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
   }
  ],
- "lastScanAt": "2026-11-08T02:44:17.086Z",
- "lastPublishedAt": "2026-11-06T16:42:38Z"
+ "lastScanAt": "2026-11-13T02:44:21.446Z",
+ "lastPublishedAt": "2026-11-12T21:17:10Z"
 }

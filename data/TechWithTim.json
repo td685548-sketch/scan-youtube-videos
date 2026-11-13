@@ -1021,7 +1021,12 @@
   "q79euz_J1ag",
   "oBvuhcdSsuw",
   "s1EPftuxlAo",
-  "BTaLk9W-SMo"
+  "BTaLk9W-SMo",
+  "xKlUf-dw_Lw",
+  "dypZz-6RV7c",
+  "5z5aoqMURFM",
+  "NdTTX-TPdhE",
+  "JsfKoOkAqxU"
  ],
  "videos": [
   {
@@ -11477,8 +11482,144 @@
     "Agents"
    ],
    "scannedAt": "2026-11-08T02:44:17.086Z"
+  },
+  {
+   "id": "xKlUf-dw_Lw",
+   "title": "Claude Fable 5.2 is INSANE",
+   "description": "Learn how to make money with AI agents: https://aiagentbuilders.co/pro I gave Claude Fable 5.2 one prompt, went to bed, and woke up to three finished apps. In this video I show you the exact prompt, what it built overnight, and what it actually cost in tokens and usage limits. By the morning it had ",
+   "tags": [
+    "tech with tim",
+    "claude fable 5.2",
+    "fable 5.2",
+    "claude fable",
+    "claude fable 5.2 demo",
+    "claude fable 5.2 review",
+    "fable 5.2 review",
+    "anthropic fable",
+    "claude 5",
+    "new claude model"
+   ],
+   "publishedAt": "2026-11-12T10:25:46Z",
+   "durationSeconds": 630,
+   "isShort": false,
+   "viewCount": 51667,
+   "likeCount": 402,
+   "url": "https://www.youtube.com/watch?v=xKlUf-dw_Lw",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "dypZz-6RV7c",
+   "title": "I Tested the Cheapest Coding Model on 7 Real Builds",
+   "description": "🔗 Read more about MiniMax M3.1 Flash: http://minimax.io/blog/minimax-m31f 💻 Download MiniMax Code Desktop: https://agent.minimax.io/download For about two weeks, a mystery AI model called Space Bunny held the #1 spot on OpenRouter, and nobody knew who was behind it. Turns out, it was an early vers",
+   "tags": [
+    "tech with tim",
+    "minimax m3.1 flash",
+    "minimax m3.1",
+    "minimax m3.1 flash review",
+    "space bunny ai model",
+    "space bunny openrouter",
+    "stealth model openrouter",
+    "minimax vs opus 5.5",
+    "minimax claude code",
+    "minimax claude code setup"
+   ],
+   "publishedAt": "2026-11-11T14:21:42Z",
+   "durationSeconds": 1081,
+   "isShort": false,
+   "viewCount": 21170,
+   "likeCount": 192,
+   "url": "https://www.youtube.com/watch?v=dypZz-6RV7c",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Comparison",
+   "concepts": [],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "5z5aoqMURFM",
+   "title": "Why Your AI Agent Needs an IDE (Real Experiment, Not Hype)",
+   "description": "Give your AI agent the same tools you use. Try JetBrains IDEs free 👉 https://jb.gg/IDEs-JetBrains 📖 Why we still need an IDE (JetBrains blog): https://jb.gg/6d1jwb Some developers say AI killed the IDE. The agent writes the code and runs the tests, so why not just live in the terminal? On small pr",
+   "tags": [
+    "tech with tim",
+    "do you need an ide",
+    "is the ide dead",
+    "ide vs terminal",
+    "ai agent ide",
+    "claude code ide",
+    "claude code pycharm",
+    "claude code rider",
+    "pycharm mcp server",
+    "jetbrains mcp server"
+   ],
+   "publishedAt": "2026-11-09T15:11:46Z",
+   "durationSeconds": 1006,
+   "isShort": false,
+   "viewCount": 40291,
+   "likeCount": 292,
+   "url": "https://www.youtube.com/watch?v=5z5aoqMURFM",
+   "topic": "AI Coding & App Building",
+   "related": [],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "NdTTX-TPdhE",
+   "title": "The Most Autonomous AI Agent",
+   "description": "Is Paperclip worth it? It's one of the more out-there agent frameworks, and probably the most autonomous on the list. Set it up right and you've got a full team of agents running on a budget all day, completing work for you, organizing themselves, even hiring new agents, like a whole company running",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-09T11:27:51Z",
+   "durationSeconds": 42,
+   "isShort": true,
+   "viewCount": 4481,
+   "likeCount": 156,
+   "url": "https://www.youtube.com/shorts/NdTTX-TPdhE",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Comparison",
+   "concepts": [
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "JsfKoOkAqxU",
+   "title": "An AI That Runs a Whole Company",
+   "description": "What if an AI didn't do the work itself, but managed a whole team of agents to do it? That's Paperclip. It runs agents like a company: I set up one called Agent Builders HQ with a single goal, and it hired a small team with a real org chart, a CEO, a founding engineer, and a researcher, all working ",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-08T12:00:13Z",
+   "durationSeconds": 58,
+   "isShort": true,
+   "viewCount": 7507,
+   "likeCount": 257,
+   "url": "https://www.youtube.com/shorts/JsfKoOkAqxU",
+   "topic": "AI Agents & Digital Workers",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
   }
  ],
- "lastScanAt": "2026-11-08T02:44:17.086Z",
- "lastPublishedAt": "2026-11-07T12:00:18Z"
+ "lastScanAt": "2026-11-13T02:44:21.446Z",
+ "lastPublishedAt": "2026-11-12T10:25:46Z"
 }

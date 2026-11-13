@@ -309,7 +309,9 @@
   "wOm431rUgLg",
   "mKSgeXl9MAo",
   "NGrLZjQWsEc",
-  "bG0vttn-Bvg"
+  "bG0vttn-Bvg",
+  "Yxr-MtvUvgA",
+  "BSgQ7QGAWVA"
  ],
  "videos": [
   {
@@ -8897,8 +8899,59 @@
     "Agents"
    ],
    "scannedAt": "2026-11-08T02:44:17.086Z"
+  },
+  {
+   "id": "Yxr-MtvUvgA",
+   "title": "Watch Me Automate a Stranger's Airbnb Business with AI",
+   "description": "Get my 1-1 support to Start and Scale your AI Agency: https://go.jmsolutionss.digital/8e3e3dd3 Want AI Training for Your Company? Apply Here: https://go.jmsolutionss.digital/adda88d0 The fastest way to go from beginner → AI Automator: https://go.jmsolutionss.digital/0d035f23 Join my newsletter where",
+   "tags": [
+    "AI for business",
+    "how to use AI in business",
+    "AI automation",
+    "AI business automation",
+    "Claude Code",
+    "Claude Code tutorial",
+    "ManyChat",
+    "ManyChat WhatsApp",
+    "WhatsApp automation",
+    "AI WhatsApp agent"
+   ],
+   "publishedAt": "2026-11-10T14:17:41Z",
+   "durationSeconds": 2964,
+   "isShort": false,
+   "viewCount": 1159,
+   "likeCount": 26,
+   "url": "https://www.youtube.com/watch?v=Yxr-MtvUvgA",
+   "topic": "Automation & Workflows",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "BSgQ7QGAWVA",
+   "title": "Stop Selling “AI Automations” (Do This Instead)",
+   "description": "I used to pitch my service as “custom AI automations for businesses,” and prospects still couldn’t tell if I could help them, because I never named a problem I solve. Most business owners don’t know much about AI, so talking in AI terms means nothing to them. What works better: - find out how the ow",
+   "tags": [],
+   "publishedAt": "2026-11-09T20:30:15Z",
+   "durationSeconds": 45,
+   "isShort": true,
+   "viewCount": 841,
+   "likeCount": 40,
+   "url": "https://www.youtube.com/shorts/BSgQ7QGAWVA",
+   "topic": "Business & Making Money",
+   "related": [],
+   "style": "Warning / Opinion",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
   }
  ],
- "lastScanAt": "2026-11-08T02:44:17.086Z",
- "lastPublishedAt": "2026-11-07T20:01:01Z"
+ "lastScanAt": "2026-11-13T02:44:21.446Z",
+ "lastPublishedAt": "2026-11-10T14:17:41Z"
 }

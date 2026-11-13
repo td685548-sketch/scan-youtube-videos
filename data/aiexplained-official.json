@@ -66,7 +66,8 @@
   "FraQpapjQ18",
   "59Etzj5gvsE",
   "j3eQoooC7wc",
-  "0Kw6_DTZPrY"
+  "0Kw6_DTZPrY",
+  "583ThJIqQ7k"
  ],
  "videos": [
   {
@@ -1239,8 +1240,27 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-11-03T02:44:12.317Z"
+  },
+  {
+   "id": "583ThJIqQ7k",
+   "title": "Fable 5.2: The Self-Improvement Loop Keeps Loopin’ … (plus Gemini Carbon)",
+   "description": "I’ve read the full Fable 5.2 report at 264 pages, the 30 page METR RSI report, and tested Gemini Carbon and Fable 5.2 hundreds of times. There’s too much to cover in one video, but let’s explore everything from how fast AI is accelerating AI, five benchmarks few others will talk about, why Simple Be",
+   "tags": [],
+   "publishedAt": "2026-11-10T23:11:36Z",
+   "durationSeconds": 1901,
+   "isShort": false,
+   "viewCount": 183996,
+   "likeCount": 3309,
+   "url": "https://www.youtube.com/watch?v=583ThJIqQ7k",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Risks & Safety"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-11-13T02:44:21.446Z"
   }
  ],
- "lastScanAt": "2026-11-08T02:44:17.086Z",
- "lastPublishedAt": "2026-11-02T17:02:16Z"
+ "lastScanAt": "2026-11-13T02:44:21.446Z",
+ "lastPublishedAt": "2026-11-10T23:11:36Z"
 }
