@@ -596,7 +596,8 @@
   "g0cplmmYDeQ",
   "c7MCKij29J4",
   "44jA_xlEPPA",
-  "XRLEhdP0PFQ"
+  "XRLEhdP0PFQ",
+  "BaQI3Zrumng"
  ],
  "videos": [
   {
@@ -11749,8 +11750,29 @@
     "Automation"
    ],
    "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "BaQI3Zrumng",
+   "title": "I made a movie trailer with AI in one night",
+   "description": "No actors. No camera. No crew. Just me and Claude running every AI tool. Sound first → casting sheets → a still for every shot → the lip-sync test → fixing the gunshots → the grade. 9 actors · 68 shots · one night · under $100. The full build is a lesson in my AI Film course, live inside my communit",
+   "tags": [],
+   "publishedAt": "2026-11-13T15:00:48Z",
+   "durationSeconds": 131,
+   "isShort": true,
+   "viewCount": 38,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/shorts/BaQI3Zrumng",
+   "topic": "Automation & Workflows",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-14T02:44:16.821Z"
   }
  ],
- "lastScanAt": "2026-11-13T02:44:21.446Z",
- "lastPublishedAt": "2026-11-12T19:01:07Z"
+ "lastScanAt": "2026-11-14T02:44:16.821Z",
+ "lastPublishedAt": "2026-11-13T15:00:48Z"
 }

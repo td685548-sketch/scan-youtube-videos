@@ -1026,7 +1026,8 @@
   "dypZz-6RV7c",
   "5z5aoqMURFM",
   "NdTTX-TPdhE",
-  "JsfKoOkAqxU"
+  "JsfKoOkAqxU",
+  "fpnKkmfApIg"
  ],
  "videos": [
   {
@@ -11618,8 +11619,40 @@
     "Digital Workers"
    ],
    "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "fpnKkmfApIg",
+   "title": "Python Voice Agent Tutorial: Clone Your Voice & Talk to AI",
+   "description": "Get started with AssemblyAI here: https://www.assemblyai.com/dashboard/signup?utm_source=youtube&utm_medium=influencer&utm_campaign=techwithtim&utm_content=tts_voice_agent In this video I clone my own voice and build a Python AI agent that talks back to me in it, in under 100 lines of code. You’ll h",
+   "tags": [
+    "tech with tim",
+    "voice clone python",
+    "clone your voice ai",
+    "ai voice clone tutorial",
+    "python voice agent",
+    "build voice agent python",
+    "ai voice assistant python",
+    "speech to text python",
+    "text to speech python",
+    "ai that talks like me"
+   ],
+   "publishedAt": "2026-11-13T14:00:29Z",
+   "durationSeconds": 944,
+   "isShort": false,
+   "viewCount": 12841,
+   "likeCount": 165,
+   "url": "https://www.youtube.com/watch?v=fpnKkmfApIg",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-14T02:44:16.821Z"
   }
  ],
- "lastScanAt": "2026-11-13T02:44:21.446Z",
- "lastPublishedAt": "2026-11-12T10:25:46Z"
+ "lastScanAt": "2026-11-14T02:44:16.821Z",
+ "lastPublishedAt": "2026-11-13T14:00:29Z"
 }

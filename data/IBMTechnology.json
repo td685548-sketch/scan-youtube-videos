@@ -705,7 +705,9 @@
   "NuL5VFS8Prs",
   "4uvq8Cz3A7Y",
   "GpZ5T51jE4U",
-  "H_GJapsoLyU"
+  "H_GJapsoLyU",
+  "4pjeaeK4S9o",
+  "Az2aRR51fDU"
  ],
  "videos": [
   {
@@ -13164,8 +13166,46 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "4pjeaeK4S9o",
+   "title": "Huang's Nvidia Legacy",
+   "description": "Jensen Huang built Nvidia over 30 years with relentless passion. Can anyone replace him? Explore the challenge facing AI's most iconic leader. --------------------------------------------------------------------------------------------------------- Find us on YouTube: 🔵 IBM Technology: https://www.",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-13T17:00:36Z",
+   "durationSeconds": 40,
+   "isShort": true,
+   "viewCount": 3873,
+   "likeCount": 33,
+   "url": "https://www.youtube.com/shorts/4pjeaeK4S9o",
+   "topic": "AI News & Models",
+   "related": [],
+   "style": "General / Commentary",
+   "concepts": [],
+   "scannedAt": "2026-11-14T02:44:16.821Z"
+  },
+  {
+   "id": "Az2aRR51fDU",
+   "title": "Jensen Huang exits NVIDIA & does Claude Fable 5.2 count as AGI?",
+   "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~MikQp78Aa Who can replace a founder like Jensen Huang? This week on Mixture of Experts, host David Zax is joined by Derek Robertson, Bri Kopecki and Kiyu Gabriel. First, NVIDIA CEO Jensen Huang resigns after more than th",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-13T09:30:11Z",
+   "durationSeconds": 2155,
+   "isShort": false,
+   "viewCount": 12532,
+   "likeCount": 117,
+   "url": "https://www.youtube.com/watch?v=Az2aRR51fDU",
+   "topic": "AI News & Models",
+   "related": [],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-11-14T02:44:16.821Z"
   }
  ],
- "lastScanAt": "2026-11-13T02:44:21.446Z",
- "lastPublishedAt": "2026-11-12T12:00:39Z"
+ "lastScanAt": "2026-11-14T02:44:16.821Z",
+ "lastPublishedAt": "2026-11-13T17:00:36Z"
 }
