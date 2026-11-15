@@ -597,7 +597,9 @@
   "c7MCKij29J4",
   "44jA_xlEPPA",
   "XRLEhdP0PFQ",
-  "BaQI3Zrumng"
+  "BaQI3Zrumng",
+  "-kMfeobWjvU",
+  "CIn-u7W0Wsc"
  ],
  "videos": [
   {
@@ -11771,8 +11773,50 @@
     "Automation"
    ],
    "scannedAt": "2026-11-14T02:44:16.821Z"
+  },
+  {
+   "id": "-kMfeobWjvU",
+   "title": "AI vs automation explained, and how to wire them together",
+   "description": "The difference between AI and automation, and why you need both to build anything that works. AI is the brain. Give it a messy email from a frustrated customer and it understands the tone, the intent and what they need. It can't send the reply or update your CRM. Automation is the body. It moves dat",
+   "tags": [],
+   "publishedAt": "2026-11-14T19:00:30Z",
+   "durationSeconds": 91,
+   "isShort": true,
+   "viewCount": 15,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/-kMfeobWjvU",
+   "topic": "Automation & Workflows",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-15T02:44:28.602Z"
+  },
+  {
+   "id": "CIn-u7W0Wsc",
+   "title": "If I had to make my first $1,000 with AI in 30 days, here's what I'd sell: an AI receptionist for l…",
+   "description": "If I had to make my first $1,000 with AI in 30 days, this is the offer I'd sell and the plan I'd run. No promises on the money: nobody honest can give you one, and results depend on your skills, your market and the work you put in. Just the plan, and what I'd charge. The tools cost money too. The of",
+   "tags": [],
+   "publishedAt": "2026-11-14T15:00:54Z",
+   "durationSeconds": 164,
+   "isShort": true,
+   "viewCount": 46,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/shorts/CIn-u7W0Wsc",
+   "topic": "Business & Making Money",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Roadmap / Learning guide",
+   "concepts": [
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-15T02:44:28.602Z"
   }
  ],
- "lastScanAt": "2026-11-14T02:44:16.821Z",
- "lastPublishedAt": "2026-11-13T15:00:48Z"
+ "lastScanAt": "2026-11-15T02:44:28.602Z",
+ "lastPublishedAt": "2026-11-14T19:00:30Z"
 }
