@@ -599,7 +599,9 @@
   "XRLEhdP0PFQ",
   "BaQI3Zrumng",
   "-kMfeobWjvU",
-  "CIn-u7W0Wsc"
+  "CIn-u7W0Wsc",
+  "guxMoS8peG8",
+  "DxbI3VZQ9Bs"
  ],
  "videos": [
   {
@@ -11815,8 +11817,59 @@
     "Digital Workers"
    ],
    "scannedAt": "2026-11-15T02:44:28.602Z"
+  },
+  {
+   "id": "guxMoS8peG8",
+   "title": "Machines Didn't Take Our Jobs. Here's Why AI Will.",
+   "description": "👉 Join the community: https://askglitch.com Five times in 200 years, people were sure machines would take their jobs. The Luddites in 1811. The census machine in 1890. The automation scare of 1961. The cash machine in 1967. The spreadsheet in 1979. Every time, the work came back, and there was more",
+   "tags": [
+    "will ai take my job",
+    "when will ai take our jobs",
+    "ai taking jobs",
+    "ai replacing jobs",
+    "jobs ai will replace",
+    "ai and jobs",
+    "ai jobs",
+    "future of work",
+    "ai news",
+    "artificial intelligence"
+   ],
+   "publishedAt": "2026-11-15T23:26:35Z",
+   "durationSeconds": 524,
+   "isShort": false,
+   "viewCount": 5,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/watch?v=guxMoS8peG8",
+   "topic": "Learning AI & Career",
+   "related": [
+    "AI News & Models"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-16T02:44:24.656Z"
+  },
+  {
+   "id": "DxbI3VZQ9Bs",
+   "title": "How to give AI the context your business runs on with one folder and an index file",
+   "description": "How to give AI the context of your business, in a way every model you use inherits. The smartest models have read the internet and not one line about your business. Folders and files fix that. 1. Make a raw folder. Notes, invoices, call transcripts, the messy pricing doc. Don't organize it. 2. Give ",
+   "tags": [],
+   "publishedAt": "2026-11-15T19:00:30Z",
+   "durationSeconds": 119,
+   "isShort": true,
+   "viewCount": 20,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/DxbI3VZQ9Bs",
+   "topic": "RAG, Memory & Knowledge",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [],
+   "scannedAt": "2026-11-16T02:44:24.656Z"
   }
  ],
- "lastScanAt": "2026-11-15T02:44:28.602Z",
- "lastPublishedAt": "2026-11-14T19:00:30Z"
+ "lastScanAt": "2026-11-16T02:44:24.656Z",
+ "lastPublishedAt": "2026-11-15T23:26:35Z"
 }

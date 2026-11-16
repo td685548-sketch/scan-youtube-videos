@@ -708,7 +708,8 @@
   "H_GJapsoLyU",
   "4pjeaeK4S9o",
   "Az2aRR51fDU",
-  "sZg4uJnU9rU"
+  "sZg4uJnU9rU",
+  "K6ffYKrlPdU"
  ],
  "videos": [
   {
@@ -13205,8 +13206,29 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-11-14T02:44:16.821Z"
+  },
+  {
+   "id": "K6ffYKrlPdU",
+   "title": "AI Model Debugging: Find the First Divergence Across AI Accelerators",
+   "description": "Learn more about AI Debugging here → https://ibm.biz/~i26jCJsKx The same AI model can produce different results across accelerators. Kaoutar El Maghraoui explains AI model debugging by finding the first observed divergence between executions. Learn how tensor comparisons, tolerances, and minimal tes",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-15T12:00:36Z",
+   "durationSeconds": 870,
+   "isShort": false,
+   "viewCount": 10287,
+   "likeCount": 115,
+   "url": "https://www.youtube.com/watch?v=K6ffYKrlPdU",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-16T02:44:24.656Z"
   }
  ],
- "lastScanAt": "2026-11-15T02:44:28.602Z",
- "lastPublishedAt": "2026-11-14T05:00:28Z"
+ "lastScanAt": "2026-11-16T02:44:24.656Z",
+ "lastPublishedAt": "2026-11-15T12:00:36Z"
 }
