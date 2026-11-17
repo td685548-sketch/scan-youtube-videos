@@ -709,7 +709,8 @@
   "4pjeaeK4S9o",
   "Az2aRR51fDU",
   "sZg4uJnU9rU",
-  "K6ffYKrlPdU"
+  "K6ffYKrlPdU",
+  "iv32wI3MBpw"
  ],
  "videos": [
   {
@@ -13227,8 +13228,29 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-11-16T02:44:24.656Z"
+  },
+  {
+   "id": "iv32wI3MBpw",
+   "title": "Software Supply Chain Security: What AI Coding Changes",
+   "description": "Learn more about Supply Chain Security here → https://ibm.biz/~k518Rj9sC Your code is only part of what reaches production. Cedric Clyburn explains how dependencies, CI/CD pipelines, open source, and AI-generated code expand the software supply chain. Learn how SBOMs, automated checks, independent r",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-16T14:45:14Z",
+   "durationSeconds": 579,
+   "isShort": false,
+   "viewCount": 17544,
+   "likeCount": 248,
+   "url": "https://www.youtube.com/watch?v=iv32wI3MBpw",
+   "topic": "AI Risks & Safety",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-17T02:44:09.218Z"
   }
  ],
- "lastScanAt": "2026-11-16T02:44:24.656Z",
- "lastPublishedAt": "2026-11-15T12:00:36Z"
+ "lastScanAt": "2026-11-17T02:44:09.218Z",
+ "lastPublishedAt": "2026-11-16T14:45:14Z"
 }

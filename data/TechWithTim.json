@@ -1027,7 +1027,8 @@
   "5z5aoqMURFM",
   "NdTTX-TPdhE",
   "JsfKoOkAqxU",
-  "fpnKkmfApIg"
+  "fpnKkmfApIg",
+  "DweFQOPbCz0"
  ],
  "videos": [
   {
@@ -11651,8 +11652,42 @@
     "Agents"
    ],
    "scannedAt": "2026-11-14T02:44:16.821Z"
+  },
+  {
+   "id": "DweFQOPbCz0",
+   "title": "I Let an AI Company Run Itself for 7 Days (Real Results)",
+   "description": "Deploy an AI company for yourself using Paperclip on Hostinger (use code 'techwithtim' for an additional 10% off): https://www.hostg.xyz/SHKOC I gave a company of 8 AI agents one job: sell a $9 guide to strangers on the internet in 7 days, without using my audience. They wrote the guide in 21 minute",
+   "tags": [
+    "tech with tim",
+    "AI company",
+    "AI agents",
+    "Paperclip AI",
+    "AI agent company",
+    "autonomous AI company",
+    "I let AI run a company",
+    "AI runs a business",
+    "AI CEO",
+    "multi agent system"
+   ],
+   "publishedAt": "2026-11-16T17:03:05Z",
+   "durationSeconds": 1077,
+   "isShort": false,
+   "viewCount": 10968,
+   "likeCount": 114,
+   "url": "https://www.youtube.com/watch?v=DweFQOPbCz0",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Agents",
+    "Digital Workers",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-17T02:44:09.218Z"
   }
  ],
- "lastScanAt": "2026-11-16T02:44:24.656Z",
- "lastPublishedAt": "2026-11-13T14:00:29Z"
+ "lastScanAt": "2026-11-17T02:44:09.218Z",
+ "lastPublishedAt": "2026-11-16T17:03:05Z"
 }

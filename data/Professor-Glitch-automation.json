@@ -601,7 +601,10 @@
   "-kMfeobWjvU",
   "CIn-u7W0Wsc",
   "guxMoS8peG8",
-  "DxbI3VZQ9Bs"
+  "DxbI3VZQ9Bs",
+  "y7at9rOrh3g",
+  "_MsA-bWHm-Q",
+  "nblrgUch1mQ"
  ],
  "videos": [
   {
@@ -11868,8 +11871,72 @@
    "style": "Step-by-step tutorial",
    "concepts": [],
    "scannedAt": "2026-11-16T02:44:24.656Z"
+  },
+  {
+   "id": "y7at9rOrh3g",
+   "title": "How to make an AI video without knowing how to edit",
+   "description": "How to make an AI video without knowing how to edit. No timeline, no keyframes, no twelve-week Premiere course. I made this whole AI trailer by giving notes, like a director. Real notes I gave Claude: 1. \"The boom at the end sounds cheap and metallic. Make it a clean, deep hit.\" Done. 2. \"This riser",
+   "tags": [],
+   "publishedAt": "2026-11-17T00:00:37Z",
+   "durationSeconds": 71,
+   "isShort": true,
+   "viewCount": 7,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/y7at9rOrh3g",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "Learning AI & Career"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-17T02:44:09.218Z"
+  },
+  {
+   "id": "_MsA-bWHm-Q",
+   "title": "What .md means and how to use Markdown to get better answers from AI",
+   "description": "What a .md file is, and why Claude, ChatGPT and AI agents run on Markdown. You've seen CLAUDE.md, AGENTS.md and SKILL.md. The .md means Markdown. Markdown is a plain text file with a few symbols that add structure. A hashtag makes a heading. Two stars around a word make it bold. A dash starts a bull",
+   "tags": [],
+   "publishedAt": "2026-11-16T19:00:35Z",
+   "durationSeconds": 160,
+   "isShort": true,
+   "viewCount": 55,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/shorts/_MsA-bWHm-Q",
+   "topic": "Learning AI & Career",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-17T02:44:09.218Z"
+  },
+  {
+   "id": "nblrgUch1mQ",
+   "title": "The 5 levels of using AI. Which one are you?",
+   "description": "There are five levels of using AI, and only one question decides which one you're at: who's doing the work, you or the AI? Level 1: you do the work and AI answers questions. Level 2: AI drafts and you fix. Level 3: AI does it from your written steps and you only check. Level 4: AI works while you sl",
+   "tags": [],
+   "publishedAt": "2026-11-16T15:00:41Z",
+   "durationSeconds": 166,
+   "isShort": true,
+   "viewCount": 48,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/shorts/nblrgUch1mQ",
+   "topic": "Learning AI & Career",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Roadmap / Learning guide",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-17T02:44:09.218Z"
   }
  ],
- "lastScanAt": "2026-11-16T02:44:24.656Z",
- "lastPublishedAt": "2026-11-15T23:26:35Z"
+ "lastScanAt": "2026-11-17T02:44:09.218Z",
+ "lastPublishedAt": "2026-11-17T00:00:37Z"
 }
