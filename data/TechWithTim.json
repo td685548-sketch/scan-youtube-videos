@@ -1028,7 +1028,9 @@
   "NdTTX-TPdhE",
   "JsfKoOkAqxU",
   "fpnKkmfApIg",
-  "DweFQOPbCz0"
+  "DweFQOPbCz0",
+  "IKHF1u7N75o",
+  "DfAOBID70Q0"
  ],
  "videos": [
   {
@@ -11686,8 +11688,70 @@
     "Automation"
    ],
    "scannedAt": "2026-11-17T02:44:09.218Z"
+  },
+  {
+   "id": "IKHF1u7N75o",
+   "title": "Claude Can Now Ship Real Apps (IT Approved)",
+   "description": "🔗 Try Superblocks: https://superblocks.com/?utm_source=youtube&utm_medium=influencer&utm_content=techwithtim Most apps people build with Claude never leave one laptop. In this video I take a real internal tool, a vendor renewals tracker built in a Claude chat, and ship it to production without leav",
+   "tags": [
+    "tech with tim",
+    "superblocks app database",
+    "claude",
+    "claude ai",
+    "claude mcp",
+    "mcp connector",
+    "model context protocol",
+    "claude apps",
+    "build apps with claude",
+    "deploy claude app"
+   ],
+   "publishedAt": "2026-11-17T22:10:24Z",
+   "durationSeconds": 759,
+   "isShort": false,
+   "viewCount": 4311,
+   "likeCount": 64,
+   "url": "https://www.youtube.com/watch?v=IKHF1u7N75o",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "MCP, APIs & Integrations"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [],
+   "scannedAt": "2026-11-18T02:44:36.363Z"
+  },
+  {
+   "id": "DfAOBID70Q0",
+   "title": "5 Concepts to Know for Coding with AI Agents",
+   "description": "Click this link https://boot.dev/?promo=TECHWITHTIMBFCM and use my code TECHWITHTIMBFCM to get 45% off your first payment for boot.dev. An AI coding agent is a lot more than autocomplete. It reads your files, runs commands, looks at the output, decides what to do next, and keeps going around that lo",
+   "tags": [
+    "tech with tim",
+    "coding with ai agents",
+    "ai coding agent tips",
+    "ai coding agents explained",
+    "claude code tips",
+    "claude code context window",
+    "claude code /context",
+    "claude code claude md",
+    "claude md file",
+    "agents md file"
+   ],
+   "publishedAt": "2026-11-17T13:00:33Z",
+   "durationSeconds": 1188,
+   "isShort": false,
+   "viewCount": 21882,
+   "likeCount": 260,
+   "url": "https://www.youtube.com/watch?v=DfAOBID70Q0",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Listicle",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-18T02:44:36.363Z"
   }
  ],
- "lastScanAt": "2026-11-17T02:44:09.218Z",
- "lastPublishedAt": "2026-11-16T17:03:05Z"
+ "lastScanAt": "2026-11-18T02:44:36.363Z",
+ "lastPublishedAt": "2026-11-17T22:10:24Z"
 }

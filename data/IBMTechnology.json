@@ -710,7 +710,8 @@
   "Az2aRR51fDU",
   "sZg4uJnU9rU",
   "K6ffYKrlPdU",
-  "iv32wI3MBpw"
+  "iv32wI3MBpw",
+  "0MvcuIrects"
  ],
  "videos": [
   {
@@ -13249,8 +13250,29 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-11-17T02:44:09.218Z"
+  },
+  {
+   "id": "0MvcuIrects",
+   "title": "Is AI Really Superintelligence? ANI, AGI & ASI Explained",
+   "description": "Learn more about Artificial Superintelligence? here → https://ibm.biz/~ma2KWmdlF Is today’s AI truly superintelligent, or are we overstating its capabilities? Jeff Crume explains intelligence through perception, thinking, learning, and action, then compares ANI, AGI, and ASI. Learn why current AI re",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-17T12:00:39Z",
+   "durationSeconds": 806,
+   "isShort": false,
+   "viewCount": 26293,
+   "likeCount": 445,
+   "url": "https://www.youtube.com/watch?v=0MvcuIrects",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Risks & Safety"
+   ],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-18T02:44:36.363Z"
   }
  ],
- "lastScanAt": "2026-11-17T02:44:09.218Z",
- "lastPublishedAt": "2026-11-16T14:45:14Z"
+ "lastScanAt": "2026-11-18T02:44:36.363Z",
+ "lastPublishedAt": "2026-11-17T12:00:39Z"
 }

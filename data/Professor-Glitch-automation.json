@@ -604,7 +604,8 @@
   "DxbI3VZQ9Bs",
   "y7at9rOrh3g",
   "_MsA-bWHm-Q",
-  "nblrgUch1mQ"
+  "nblrgUch1mQ",
+  "4fGlBAO4fto"
  ],
  "videos": [
   {
@@ -11935,8 +11936,29 @@
     "Automation"
    ],
    "scannedAt": "2026-11-17T02:44:09.218Z"
+  },
+  {
+   "id": "4fGlBAO4fto",
+   "title": "How to automate website leads with AI: reply in 2 minutes and follow up automatically",
+   "description": "How to automate website leads with AI so every lead gets a reply in 2 minutes. A team got 40 leads from the website last month and nobody owns the shared inbox, which has 312 unread emails. So I joined their Zoom call and showed them a system I built before. Every lead takes the same path. Here is t",
+   "tags": [],
+   "publishedAt": "2026-11-18T00:00:50Z",
+   "durationSeconds": 100,
+   "isShort": true,
+   "viewCount": 3,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/4fGlBAO4fto",
+   "topic": "Automation & Workflows",
+   "related": [
+    "Business & Making Money"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-18T02:44:36.363Z"
   }
  ],
- "lastScanAt": "2026-11-17T02:44:09.218Z",
- "lastPublishedAt": "2026-11-17T00:00:37Z"
+ "lastScanAt": "2026-11-18T02:44:36.363Z",
+ "lastPublishedAt": "2026-11-18T00:00:50Z"
 }
