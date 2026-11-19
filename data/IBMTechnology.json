@@ -711,7 +711,9 @@
   "sZg4uJnU9rU",
   "K6ffYKrlPdU",
   "iv32wI3MBpw",
-  "0MvcuIrects"
+  "0MvcuIrects",
+  "w9VqhLZhRks",
+  "Bn8DhYpy-qI"
  ],
  "videos": [
   {
@@ -13271,8 +13273,29 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-11-18T02:44:36.363Z"
+  },
+  {
+   "id": "Bn8DhYpy-qI",
+   "title": "Grok Build leaks apps and Outlook goes dark worldwide",
+   "description": "Visit Security Intelligence podcast page to get more AI content →https://ibm.biz/~NqgBKzBGg What happens when your private AI app isn't so private? This week on Security Intelligence, Austin Zeizel, Sophie Cunningham and Bryan Clark join host Patrick Austin to unpack this week's cybersecurity news. ",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-18T09:30:38Z",
+   "durationSeconds": 1572,
+   "isShort": false,
+   "viewCount": 8582,
+   "likeCount": 89,
+   "url": "https://www.youtube.com/watch?v=Bn8DhYpy-qI",
+   "topic": "AI Risks & Safety",
+   "related": [
+    "AI News & Models"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-11-19T02:44:13.138Z"
   }
  ],
- "lastScanAt": "2026-11-18T02:44:36.363Z",
- "lastPublishedAt": "2026-11-17T12:00:39Z"
+ "lastScanAt": "2026-11-19T02:44:13.138Z",
+ "lastPublishedAt": "2026-11-18T17:00:25Z"
 }

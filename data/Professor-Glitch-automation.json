@@ -605,7 +605,9 @@
   "y7at9rOrh3g",
   "_MsA-bWHm-Q",
   "nblrgUch1mQ",
-  "4fGlBAO4fto"
+  "4fGlBAO4fto",
+  "jZEHZNYyg3g",
+  "3DoY2lxFM9M"
  ],
  "videos": [
   {
@@ -11957,8 +11959,49 @@
     "Automation"
    ],
    "scannedAt": "2026-11-18T02:44:36.363Z"
+  },
+  {
+   "id": "jZEHZNYyg3g",
+   "title": "MCP explained in one drawing: how your AI gets inside your apps (Claude, n8n, Gmail)",
+   "description": "Here's how your AI actually gets inside your apps. It's called MCP, and it fits in one drawing. On its own, an AI is a brain in a box. It can talk and think, but it can't open your email or build anything in n8n. It has no hands. 1. The door is the API. Most apps have a door for other software: Gmai",
+   "tags": [],
+   "publishedAt": "2026-11-19T00:01:07Z",
+   "durationSeconds": 177,
+   "isShort": true,
+   "viewCount": 6,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/jZEHZNYyg3g",
+   "topic": "MCP, APIs & Integrations",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-19T02:44:13.138Z"
+  },
+  {
+   "id": "3DoY2lxFM9M",
+   "title": "How to finish an AI project and make your first dollar (instead of starting 14 more)",
+   "description": "How to finish an AI project and turn one idea into your first dollar. With AI, starting is free: a landing page in ten minutes, a logo in ten seconds, a whole app over a weekend. So starting feels like progress, but finishing is still hard. Selling it, testing it, delivering it to real people. Most ",
+   "tags": [],
+   "publishedAt": "2026-11-18T15:00:28Z",
+   "durationSeconds": 128,
+   "isShort": true,
+   "viewCount": 56,
+   "likeCount": 4,
+   "url": "https://www.youtube.com/shorts/3DoY2lxFM9M",
+   "topic": "Business & Making Money",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "General / Commentary",
+   "concepts": [],
+   "scannedAt": "2026-11-19T02:44:13.138Z"
   }
  ],
- "lastScanAt": "2026-11-18T02:44:36.363Z",
- "lastPublishedAt": "2026-11-18T00:00:50Z"
+ "lastScanAt": "2026-11-19T02:44:13.138Z",
+ "lastPublishedAt": "2026-11-19T00:01:07Z"
 }
