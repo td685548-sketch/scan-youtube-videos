@@ -67,7 +67,8 @@
   "59Etzj5gvsE",
   "j3eQoooC7wc",
   "0Kw6_DTZPrY",
-  "583ThJIqQ7k"
+  "583ThJIqQ7k",
+  "KGA7B_c_S4s"
  ],
  "videos": [
   {
@@ -1259,8 +1260,27 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-11-13T02:44:21.446Z"
+  },
+  {
+   "id": "KGA7B_c_S4s",
+   "title": "Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story",
+   "description": "GPT 6.2 Astra is OpenAI’s best model, so for each of the last 4 years this would have been the only headline. But now Gemini is catching up fast, with 4 Carbon and Neon, and Anthropic are IPO-ing after promising imminent RSI. And even all this isn’t quite the main story, is it? We now have data on w",
+   "tags": [],
+   "publishedAt": "2026-11-19T20:03:10Z",
+   "durationSeconds": 1842,
+   "isShort": false,
+   "viewCount": 61539,
+   "likeCount": 1216,
+   "url": "https://www.youtube.com/watch?v=KGA7B_c_S4s",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Risks & Safety"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-11-20T02:44:10.769Z"
   }
  ],
- "lastScanAt": "2026-11-19T02:44:13.138Z",
- "lastPublishedAt": "2026-11-10T23:11:36Z"
+ "lastScanAt": "2026-11-20T02:44:10.769Z",
+ "lastPublishedAt": "2026-11-19T20:03:10Z"
 }

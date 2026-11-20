@@ -1030,7 +1030,9 @@
   "fpnKkmfApIg",
   "DweFQOPbCz0",
   "IKHF1u7N75o",
-  "DfAOBID70Q0"
+  "DfAOBID70Q0",
+  "CRSj9JQJktc",
+  "lTb_-tBZpD4"
  ],
  "videos": [
   {
@@ -11750,8 +11752,64 @@
     "Agents"
    ],
    "scannedAt": "2026-11-18T02:44:36.363Z"
+  },
+  {
+   "id": "CRSj9JQJktc",
+   "title": "How AI App Builders Actually Work - Full Breakdown",
+   "description": "Get started with Base44 for free: https://base44.pxf.io/QYrkgP You type “add a dark mode toggle” into an AI app builder, and a few seconds later there’s a working toggle inside your app. Almost nobody explains what happens in between those two moments. In this video I show you exactly how these tool",
+   "tags": [
+    "tech with tim",
+    "how ai app builders work",
+    "ai app builders explained",
+    "ai app builder under the hood",
+    "how does base44 work",
+    "base44 base code",
+    "base44 github",
+    "ai agent loop explained",
+    "llm tool calling explained",
+    "context engineering"
+   ],
+   "publishedAt": "2026-11-19T21:59:24Z",
+   "durationSeconds": 1367,
+   "isShort": false,
+   "viewCount": 4831,
+   "likeCount": 51,
+   "url": "https://www.youtube.com/watch?v=CRSj9JQJktc",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-20T02:44:10.769Z"
+  },
+  {
+   "id": "lTb_-tBZpD4",
+   "title": "One Workspace for Your Team and Your AI Agents",
+   "description": "What if you could work alongside your AI agents like coworkers? That's Buzz. It isn't an agent itself, it's a shared room where you, your team, and your agents all work together. You can bring in multiple agents with different personalities, roles, and even different providers, Claude, Codex, an Ope",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-19T11:52:33Z",
+   "durationSeconds": 34,
+   "isShort": true,
+   "viewCount": 1884,
+   "likeCount": 42,
+   "url": "https://www.youtube.com/shorts/lTb_-tBZpD4",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "General / Commentary",
+   "concepts": [
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-20T02:44:10.769Z"
   }
  ],
- "lastScanAt": "2026-11-19T02:44:13.138Z",
- "lastPublishedAt": "2026-11-17T22:10:24Z"
+ "lastScanAt": "2026-11-20T02:44:10.769Z",
+ "lastPublishedAt": "2026-11-19T21:59:24Z"
 }

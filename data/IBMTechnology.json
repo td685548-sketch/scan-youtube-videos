@@ -713,7 +713,8 @@
   "iv32wI3MBpw",
   "0MvcuIrects",
   "w9VqhLZhRks",
-  "Bn8DhYpy-qI"
+  "Bn8DhYpy-qI",
+  "4LINhsEZEDI"
  ],
  "videos": [
   {
@@ -13294,8 +13295,32 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-11-19T02:44:13.138Z"
+  },
+  {
+   "id": "4LINhsEZEDI",
+   "title": "4 Types of AI Agent Loops: From Human-Led to Autonomous",
+   "description": "Learn more about Loop Engineering here → https://ibm.biz/~o7OvraY9S Not every AI agent should have the same autonomy. Martin Keen explains four AI agent loops: interactive, delegated, scheduled, and event-driven. Learn how goals, triggers, stopping conditions, and human review shape each agentic wor",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-19T12:00:08Z",
+   "durationSeconds": 548,
+   "isShort": false,
+   "viewCount": 28856,
+   "likeCount": 414,
+   "url": "https://www.youtube.com/watch?v=4LINhsEZEDI",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-20T02:44:10.769Z"
   }
  ],
- "lastScanAt": "2026-11-19T02:44:13.138Z",
- "lastPublishedAt": "2026-11-18T17:00:25Z"
+ "lastScanAt": "2026-11-20T02:44:10.769Z",
+ "lastPublishedAt": "2026-11-19T12:00:08Z"
 }
