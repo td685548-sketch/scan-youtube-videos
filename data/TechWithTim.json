@@ -1032,7 +1032,9 @@
   "IKHF1u7N75o",
   "DfAOBID70Q0",
   "CRSj9JQJktc",
-  "lTb_-tBZpD4"
+  "lTb_-tBZpD4",
+  "NGZ5P-l_qEE",
+  "ln1KbRyJdt8"
  ],
  "videos": [
   {
@@ -11808,8 +11810,59 @@
     "Digital Workers"
    ],
    "scannedAt": "2026-11-20T02:44:10.769Z"
+  },
+  {
+   "id": "NGZ5P-l_qEE",
+   "title": "Claude Just Got a MASSIVE Upgrade. Here’s What You’re Missing",
+   "description": "Most people are barely scratching the surface of what Claude can do 👇 Claude has a ton of powerful features that many people aren't using, especially inside Claude Code. Here's a quick look at some of the most useful features, plus the new Fable 5.2 model, what it's designed for, and when you shoul",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-20T18:03:31Z",
+   "durationSeconds": 44,
+   "isShort": true,
+   "viewCount": 1228,
+   "likeCount": 34,
+   "url": "https://www.youtube.com/shorts/NGZ5P-l_qEE",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "AI News & Models"
+   ],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-21T02:44:35.548Z"
+  },
+  {
+   "id": "ln1KbRyJdt8",
+   "title": "Anthropic Just Shipped Claude 2.0 (Master it in 15 minutes)",
+   "description": "Checkout this free guide from HubSpot to learn how to use Claude like an AI Expert: https://offers.hubspot.com/use-claude-like-an-ai-expert In about 14 minutes I show you a ton of features inside Claude and Claude Code that I don’t see many people using, and I cover the new Fable 5.2 model: what it’",
+   "tags": [
+    "tech with tim",
+    "claude 2.0",
+    "new claude update",
+    "claude new features",
+    "claude desktop app",
+    "claude desktop app tutorial",
+    "fable 5.2",
+    "claude fable 5.2",
+    "fable 5.2 vs opus 5.5",
+    "claude chat vs code"
+   ],
+   "publishedAt": "2026-11-20T17:53:30Z",
+   "durationSeconds": 847,
+   "isShort": false,
+   "viewCount": 18354,
+   "likeCount": 184,
+   "url": "https://www.youtube.com/watch?v=ln1KbRyJdt8",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "AI News & Models"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [],
+   "scannedAt": "2026-11-21T02:44:35.548Z"
   }
  ],
- "lastScanAt": "2026-11-20T02:44:10.769Z",
- "lastPublishedAt": "2026-11-19T21:59:24Z"
+ "lastScanAt": "2026-11-21T02:44:35.548Z",
+ "lastPublishedAt": "2026-11-20T18:03:31Z"
 }

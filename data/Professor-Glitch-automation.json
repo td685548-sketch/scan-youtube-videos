@@ -607,7 +607,8 @@
   "nblrgUch1mQ",
   "4fGlBAO4fto",
   "jZEHZNYyg3g",
-  "3DoY2lxFM9M"
+  "3DoY2lxFM9M",
+  "NSdnT8uUIkQ"
  ],
  "videos": [
   {
@@ -12000,8 +12001,31 @@
    "style": "General / Commentary",
    "concepts": [],
    "scannedAt": "2026-11-19T02:44:13.138Z"
+  },
+  {
+   "id": "NSdnT8uUIkQ",
+   "title": "The 5 AI skills the job market pays for most, and the one that's fading",
+   "description": "The five AI skills the job market is paying for. They stack on top of each other. 1. Building AI agents that take a task and finish it. 2. Giving AI a knowledge base. That's RAG, so it answers from your information instead of guessing. 3. Connecting AI to your tools. Email, calendar and data, usuall",
+   "tags": [],
+   "publishedAt": "2026-11-20T19:00:33Z",
+   "durationSeconds": 149,
+   "isShort": true,
+   "viewCount": 28,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/NSdnT8uUIkQ",
+   "topic": "Learning AI & Career",
+   "related": [
+    "AI Agents & Digital Workers",
+    "RAG, Memory & Knowledge"
+   ],
+   "style": "Listicle",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-21T02:44:35.548Z"
   }
  ],
- "lastScanAt": "2026-11-20T02:44:10.769Z",
- "lastPublishedAt": "2026-11-19T00:01:07Z"
+ "lastScanAt": "2026-11-21T02:44:35.548Z",
+ "lastPublishedAt": "2026-11-20T19:00:33Z"
 }
