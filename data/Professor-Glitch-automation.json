@@ -608,7 +608,8 @@
   "4fGlBAO4fto",
   "jZEHZNYyg3g",
   "3DoY2lxFM9M",
-  "NSdnT8uUIkQ"
+  "NSdnT8uUIkQ",
+  "o3vj6qcP3fQ"
  ],
  "videos": [
   {
@@ -12024,8 +12025,29 @@
     "Automation"
    ],
    "scannedAt": "2026-11-21T02:44:35.548Z"
+  },
+  {
+   "id": "o3vj6qcP3fQ",
+   "title": "How to sell an AI system to a business owner in one call",
+   "description": "The full call, step by step, using a missed-call text-back system for a plumber as the example. 1. Homework first: their Google listing, reviews and website. Build the demo on THEIR business. 2. Questions before the demo. Let the owner work out what missed calls cost them. 3. A short demo on their s",
+   "tags": [],
+   "publishedAt": "2026-11-22T00:00:44Z",
+   "durationSeconds": 177,
+   "isShort": true,
+   "viewCount": 34,
+   "likeCount": 2,
+   "url": "https://www.youtube.com/shorts/o3vj6qcP3fQ",
+   "topic": "Business & Making Money",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-22T02:44:20.475Z"
   }
  ],
- "lastScanAt": "2026-11-21T02:44:35.548Z",
- "lastPublishedAt": "2026-11-20T19:00:33Z"
+ "lastScanAt": "2026-11-22T02:44:20.475Z",
+ "lastPublishedAt": "2026-11-22T00:00:44Z"
 }
