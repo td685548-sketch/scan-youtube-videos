@@ -609,7 +609,9 @@
   "jZEHZNYyg3g",
   "3DoY2lxFM9M",
   "NSdnT8uUIkQ",
-  "o3vj6qcP3fQ"
+  "o3vj6qcP3fQ",
+  "R21w6Xz75Dw",
+  "mw8-nfYSiS0"
  ],
  "videos": [
   {
@@ -12046,8 +12048,50 @@
     "Automation"
    ],
    "scannedAt": "2026-11-22T02:44:20.475Z"
+  },
+  {
+   "id": "R21w6Xz75Dw",
+   "title": "How to build an AI front office for a service business with n8n and Claude",
+   "description": "How an AI front office for a plumbing company works, block by block, built in n8n with Claude. At 9pm a customer fills in one form. Within a minute he's qualified, booked and the team knows. 1. Automation. The form triggers a fixed path. 2. AI inside the automation. Claude reads the message and chec",
+   "tags": [],
+   "publishedAt": "2026-11-22T19:00:54Z",
+   "durationSeconds": 134,
+   "isShort": true,
+   "viewCount": 16,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/R21w6Xz75Dw",
+   "topic": "Automation & Workflows",
+   "related": [
+    "AI Agents & Digital Workers",
+    "Business & Making Money"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Automation",
+    "Agents"
+   ],
+   "scannedAt": "2026-11-23T02:44:43.327Z"
+  },
+  {
+   "id": "mw8-nfYSiS0",
+   "title": "Why your AI gets dumber the longer you chat",
+   "description": "Why does your AI get worse the longer you talk to it? It's called context rot, and it happens in Claude, ChatGPT, Gemini and other AI assistants. Two hours into a chat, you've told it four times not to touch the headline, and it touches the headline. It heard you the first time. Your rule is buried ",
+   "tags": [],
+   "publishedAt": "2026-11-22T15:00:57Z",
+   "durationSeconds": 144,
+   "isShort": true,
+   "viewCount": 259,
+   "likeCount": 4,
+   "url": "https://www.youtube.com/shorts/mw8-nfYSiS0",
+   "topic": "Learning AI & Career",
+   "related": [
+    "RAG, Memory & Knowledge"
+   ],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-23T02:44:43.327Z"
   }
  ],
- "lastScanAt": "2026-11-22T02:44:20.475Z",
- "lastPublishedAt": "2026-11-22T00:00:44Z"
+ "lastScanAt": "2026-11-23T02:44:43.327Z",
+ "lastPublishedAt": "2026-11-22T19:00:54Z"
 }

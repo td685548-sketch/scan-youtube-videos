@@ -314,7 +314,8 @@
   "BSgQ7QGAWVA",
   "-t0k6Eo0CX0",
   "Y0bokTp0MFk",
-  "Y7ykb9ek6RM"
+  "Y7ykb9ek6RM",
+  "JG23n3nXaQw"
  ],
  "videos": [
   {
@@ -9053,8 +9054,29 @@
     "Agents"
    ],
    "scannedAt": "2026-11-18T02:44:36.363Z"
+  },
+  {
+   "id": "JG23n3nXaQw",
+   "title": "I'm Shutting Down My 1-on-1 Mentorship (Seriously)",
+   "description": "On December 23rd, I’m closing applications for my 1:1 mentorship to start & scale your AI agency to $10k/mo. Apply before then to save your spot: https://go.jmsolutionss.digital/f3fab69e",
+   "tags": [],
+   "publishedAt": "2026-11-22T18:28:55Z",
+   "durationSeconds": 764,
+   "isShort": false,
+   "viewCount": 582,
+   "likeCount": 14,
+   "url": "https://www.youtube.com/watch?v=JG23n3nXaQw",
+   "topic": "Business & Making Money",
+   "related": [
+    "Learning AI & Career"
+   ],
+   "style": "General / Commentary",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-23T02:44:43.327Z"
   }
  ],
- "lastScanAt": "2026-11-22T02:44:20.475Z",
- "lastPublishedAt": "2026-11-17T22:56:33Z"
+ "lastScanAt": "2026-11-23T02:44:43.327Z",
+ "lastPublishedAt": "2026-11-22T18:28:55Z"
 }

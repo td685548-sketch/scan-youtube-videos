@@ -716,7 +716,8 @@
   "Bn8DhYpy-qI",
   "4LINhsEZEDI",
   "hWQjNS8iP7M",
-  "Y6npte_lEKU"
+  "Y6npte_lEKU",
+  "IYVqarjWO2g"
  ],
  "videos": [
   {
@@ -13363,8 +13364,27 @@
     "Agents"
    ],
    "scannedAt": "2026-11-21T02:44:35.548Z"
+  },
+  {
+   "id": "IYVqarjWO2g",
+   "title": "AI Accelerators vs. CPUs: Why They Think Differently",
+   "description": "Learn more about AI Accelerators here → https://ibm.biz/~ioJcnGCZ4 The same math can behave very differently across AI hardware. Swagath Venkataramani compares CPUs, GPUs, and AI accelerators through scheduling, parallelism, and data movement. Learn why control flow, dataflow, latency, and throughpu",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-22T12:00:34Z",
+   "durationSeconds": 678,
+   "isShort": false,
+   "viewCount": 11232,
+   "likeCount": 109,
+   "url": "https://www.youtube.com/watch?v=IYVqarjWO2g",
+   "topic": "AI News & Models",
+   "related": [],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-23T02:44:43.327Z"
   }
  ],
- "lastScanAt": "2026-11-22T02:44:20.475Z",
- "lastPublishedAt": "2026-11-20T17:00:35Z"
+ "lastScanAt": "2026-11-23T02:44:43.327Z",
+ "lastPublishedAt": "2026-11-22T12:00:34Z"
 }
