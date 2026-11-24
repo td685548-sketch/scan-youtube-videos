@@ -315,7 +315,8 @@
   "-t0k6Eo0CX0",
   "Y0bokTp0MFk",
   "Y7ykb9ek6RM",
-  "JG23n3nXaQw"
+  "JG23n3nXaQw",
+  "VxeBX9qZL48"
  ],
  "videos": [
   {
@@ -9075,8 +9076,30 @@
     "Automation"
    ],
    "scannedAt": "2026-11-23T02:44:43.327Z"
+  },
+  {
+   "id": "VxeBX9qZL48",
+   "title": "24hrs Inside a $30M YC Startup Building AI That Runs Businesses on Autopilot",
+   "description": "Try Flowglad for FREE: https://go.flowglad.com/michele On December 23rd, I’m closing applications for my 1:1 mentorship to start & scale your AI agency to $10k/mo. Apply before then to save your spot: https://go.jmsolutionss.digital/cb5c7996 The fastest way to go from beginner → AI Automator: https:",
+   "tags": [],
+   "publishedAt": "2026-11-23T17:59:48Z",
+   "durationSeconds": 1770,
+   "isShort": false,
+   "viewCount": 602,
+   "likeCount": 9,
+   "url": "https://www.youtube.com/watch?v=VxeBX9qZL48",
+   "topic": "Business & Making Money",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-24T02:44:30.263Z"
   }
  ],
- "lastScanAt": "2026-11-23T02:44:43.327Z",
- "lastPublishedAt": "2026-11-22T18:28:55Z"
+ "lastScanAt": "2026-11-24T02:44:30.263Z",
+ "lastPublishedAt": "2026-11-23T17:59:48Z"
 }

@@ -717,7 +717,8 @@
   "4LINhsEZEDI",
   "hWQjNS8iP7M",
   "Y6npte_lEKU",
-  "IYVqarjWO2g"
+  "IYVqarjWO2g",
+  "h4tHDFCPmQE"
  ],
  "videos": [
   {
@@ -13383,8 +13384,31 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-11-23T02:44:43.327Z"
+  },
+  {
+   "id": "h4tHDFCPmQE",
+   "title": "Vibe Coding vs. Agentic Coding: Which Should You Use?",
+   "description": "Learn more about Agentic Coding here → https://ibm.biz/~6fQmfF0jA Not every AI coding task needs the same workflow. Grace Ableidinger compares Vibe Coding with Agentic Coding across context, planning, testing, validation, and security. Learn which approach fits prototypes, production features, and c",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-23T12:00:09Z",
+   "durationSeconds": 517,
+   "isShort": false,
+   "viewCount": 55747,
+   "likeCount": 918,
+   "url": "https://www.youtube.com/watch?v=h4tHDFCPmQE",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Comparison",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-24T02:44:30.263Z"
   }
  ],
- "lastScanAt": "2026-11-23T02:44:43.327Z",
- "lastPublishedAt": "2026-11-22T12:00:34Z"
+ "lastScanAt": "2026-11-24T02:44:30.263Z",
+ "lastPublishedAt": "2026-11-23T12:00:09Z"
 }

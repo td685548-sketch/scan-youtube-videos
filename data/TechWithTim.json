@@ -1034,7 +1034,8 @@
   "CRSj9JQJktc",
   "lTb_-tBZpD4",
   "NGZ5P-l_qEE",
-  "ln1KbRyJdt8"
+  "ln1KbRyJdt8",
+  "zqswGa4erWc"
  ],
  "videos": [
   {
@@ -11861,8 +11862,29 @@
    "style": "Step-by-step tutorial",
    "concepts": [],
    "scannedAt": "2026-11-21T02:44:35.548Z"
+  },
+  {
+   "id": "zqswGa4erWc",
+   "title": "I Asked GitHub's COO if CS Grads Are Cooked",
+   "description": "Are CS grads cooked? I sat down with Kyle Daigle, COO of GitHub, at Microsoft Ignite and asked him directly. We get into whether AI means fewer developer jobs, what CS students should actually be doing right now, whether LeetCode still matters, and if vibe coding is a shortcut or a trap. Kyle also e",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-23T15:26:31Z",
+   "durationSeconds": 636,
+   "isShort": false,
+   "viewCount": 12587,
+   "likeCount": 205,
+   "url": "https://www.youtube.com/watch?v=zqswGa4erWc",
+   "topic": "Learning AI & Career",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "General / Commentary",
+   "concepts": [],
+   "scannedAt": "2026-11-24T02:44:30.263Z"
   }
  ],
- "lastScanAt": "2026-11-23T02:44:43.327Z",
- "lastPublishedAt": "2026-11-20T18:03:31Z"
+ "lastScanAt": "2026-11-24T02:44:30.263Z",
+ "lastPublishedAt": "2026-11-23T15:26:31Z"
 }

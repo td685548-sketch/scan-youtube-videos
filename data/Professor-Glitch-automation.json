@@ -611,7 +611,10 @@
   "NSdnT8uUIkQ",
   "o3vj6qcP3fQ",
   "R21w6Xz75Dw",
-  "mw8-nfYSiS0"
+  "mw8-nfYSiS0",
+  "M20YO1f67p8",
+  "BilYvj312iU",
+  "rjei23NWpRA"
  ],
  "videos": [
   {
@@ -12090,8 +12093,75 @@
    "style": "Explainer",
    "concepts": [],
    "scannedAt": "2026-11-23T02:44:43.327Z"
+  },
+  {
+   "id": "M20YO1f67p8",
+   "title": "How to learn AI from zero: the AI roadmap, month by month (n8n, Claude Code, AI agents)",
+   "description": "How to learn AI from zero, in the right order. This is the AI roadmap I'd give you, month by month, from knowing nothing to AI employees running parts of your business. Each step stands on the one before it. 1. Month 1, Foundations. Learn the words first. An LLM is the brain behind ChatGPT, and it c",
+   "tags": [],
+   "publishedAt": "2026-11-24T00:01:00Z",
+   "durationSeconds": 176,
+   "isShort": true,
+   "viewCount": 45,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/shorts/M20YO1f67p8",
+   "topic": "Learning AI & Career",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Roadmap / Learning guide",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-24T02:44:30.263Z"
+  },
+  {
+   "id": "BilYvj312iU",
+   "title": "How to build a team of AI employees, one automation at a time",
+   "description": "How to build a team of AI employees, one automation at a time. Five AI employees run most of my business now, and I climbed to it. 1. Automate one boring, repetitive task. 2. Give that automation a brain so it can make a decision. 3. Let it handle things on its own as an AI agent. 4. Keep going unti",
+   "tags": [],
+   "publishedAt": "2026-11-23T19:00:25Z",
+   "durationSeconds": 104,
+   "isShort": true,
+   "viewCount": 41,
+   "likeCount": 1,
+   "url": "https://www.youtube.com/shorts/BilYvj312iU",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Roadmap / Learning guide",
+   "concepts": [
+    "Agents",
+    "Automation",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-24T02:44:30.263Z"
+  },
+  {
+   "id": "rjei23NWpRA",
+   "title": "AI feels like too much? Here's what to learn first.",
+   "description": "ChatGPT, Claude Code, agents, MCP, n8n, a new tool every week. Most people never start because it looks like you need all of it. Almost all of it does one of two jobs. Learn one automation tool and one AI agent inside out, connect them to what you already use, and ignore every new launch until they ",
+   "tags": [],
+   "publishedAt": "2026-11-23T15:00:45Z",
+   "durationSeconds": 180,
+   "isShort": true,
+   "viewCount": 95,
+   "likeCount": 3,
+   "url": "https://www.youtube.com/shorts/rjei23NWpRA",
+   "topic": "Learning AI & Career",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-24T02:44:30.263Z"
   }
  ],
- "lastScanAt": "2026-11-23T02:44:43.327Z",
- "lastPublishedAt": "2026-11-22T19:00:54Z"
+ "lastScanAt": "2026-11-24T02:44:30.263Z",
+ "lastPublishedAt": "2026-11-24T00:01:00Z"
 }
