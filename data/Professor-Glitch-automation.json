@@ -614,7 +614,9 @@
   "mw8-nfYSiS0",
   "M20YO1f67p8",
   "BilYvj312iU",
-  "rjei23NWpRA"
+  "rjei23NWpRA",
+  "wQEWlDkS6yg",
+  "vnDwNGD9fVc"
  ],
  "videos": [
   {
@@ -12160,8 +12162,29 @@
     "Automation"
    ],
    "scannedAt": "2026-11-24T02:44:30.263Z"
+  },
+  {
+   "id": "wQEWlDkS6yg",
+   "title": "How AI and automation work together (every bill email becomes a calendar reminder + a budget row)",
+   "description": "How AI and automation actually work together, with something you'll use every week: every bill in your email sets its own calendar reminder and adds itself to your budget sheet. No more finding the water bill a day late, under forty sale emails. First, what each one is. Automation is a set of steps ",
+   "tags": [],
+   "publishedAt": "2026-11-25T00:00:46Z",
+   "durationSeconds": 118,
+   "isShort": true,
+   "viewCount": 8,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/wQEWlDkS6yg",
+   "topic": "Automation & Workflows",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-25T02:44:14.021Z"
   }
  ],
- "lastScanAt": "2026-11-24T02:44:30.263Z",
- "lastPublishedAt": "2026-11-24T00:01:00Z"
+ "lastScanAt": "2026-11-25T02:44:14.021Z",
+ "lastPublishedAt": "2026-11-25T00:00:46Z"
 }

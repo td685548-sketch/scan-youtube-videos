@@ -718,7 +718,8 @@
   "hWQjNS8iP7M",
   "Y6npte_lEKU",
   "IYVqarjWO2g",
-  "h4tHDFCPmQE"
+  "h4tHDFCPmQE",
+  "OX9-zSfT4xI"
  ],
  "videos": [
   {
@@ -13407,8 +13408,31 @@
     "Agents"
    ],
    "scannedAt": "2026-11-24T02:44:30.263Z"
+  },
+  {
+   "id": "OX9-zSfT4xI",
+   "title": "What Is Sovereign AI? Data, Models & AI Agents Explained",
+   "description": "Learn more about AI Sovereignty here → https://ibm.biz/~6CDCav44a Sovereign AI goes far beyond controlling where data lives. Sam Anthony explains how sovereignty extends across AI models, infrastructure, inference, governance, and AI agents. Learn how visibility, continuous controls, and hybrid depl",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-24T12:00:16Z",
+   "durationSeconds": 522,
+   "isShort": false,
+   "viewCount": 12928,
+   "likeCount": 188,
+   "url": "https://www.youtube.com/watch?v=OX9-zSfT4xI",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "AI Risks & Safety"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-25T02:44:14.021Z"
   }
  ],
- "lastScanAt": "2026-11-24T02:44:30.263Z",
- "lastPublishedAt": "2026-11-23T12:00:09Z"
+ "lastScanAt": "2026-11-25T02:44:14.021Z",
+ "lastPublishedAt": "2026-11-24T12:00:16Z"
 }

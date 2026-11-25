@@ -1035,7 +1035,8 @@
   "lTb_-tBZpD4",
   "NGZ5P-l_qEE",
   "ln1KbRyJdt8",
-  "zqswGa4erWc"
+  "zqswGa4erWc",
+  "7KfSA7HvavE"
  ],
  "videos": [
   {
@@ -11883,8 +11884,36 @@
    "style": "General / Commentary",
    "concepts": [],
    "scannedAt": "2026-11-24T02:44:30.263Z"
+  },
+  {
+   "id": "7KfSA7HvavE",
+   "title": "How I’d Learn Claude FAST (Do This Instead of Watching Tutorials)",
+   "description": "Best course to learn Claude hands-on! Follow the same path I walk through in this video: 🎓 DataCamp's Claude Fundamentals track: https://datacamp.pxf.io/bkXq1M 🔥 Get 25% OFF DataCamp and start building with AI and Python today: https://datacamp.pxf.io/KBbP3e Most people try to learn Claude by watc",
+   "tags": [
+    "tech with tim",
+    "learn claude",
+    "how to learn claude",
+    "claude ai",
+    "claude tutorial",
+    "claude for beginners",
+    "how to use claude",
+    "claude ai tutorial",
+    "anthropic claude",
+    "claude projects"
+   ],
+   "publishedAt": "2026-11-24T13:00:01Z",
+   "durationSeconds": 779,
+   "isShort": false,
+   "viewCount": 27074,
+   "likeCount": 298,
+   "url": "https://www.youtube.com/watch?v=7KfSA7HvavE",
+   "topic": "Learning AI & Career",
+   "related": [],
+   "style": "Roadmap / Learning guide",
+   "concepts": [],
+   "scannedAt": "2026-11-25T02:44:14.021Z"
   }
  ],
- "lastScanAt": "2026-11-24T02:44:30.263Z",
- "lastPublishedAt": "2026-11-23T15:26:31Z"
+ "lastScanAt": "2026-11-25T02:44:14.021Z",
+ "lastPublishedAt": "2026-11-24T13:00:01Z"
 }
