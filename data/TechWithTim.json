@@ -1036,7 +1036,8 @@
   "NGZ5P-l_qEE",
   "ln1KbRyJdt8",
   "zqswGa4erWc",
-  "7KfSA7HvavE"
+  "7KfSA7HvavE",
+  "u4Y6qAcl3MU"
  ],
  "videos": [
   {
@@ -11912,8 +11913,32 @@
    "style": "Roadmap / Learning guide",
    "concepts": [],
    "scannedAt": "2026-11-25T02:44:14.021Z"
+  },
+  {
+   "id": "u4Y6qAcl3MU",
+   "title": "Which AI Agent Should You Use",
+   "description": "Which AI agent should you actually use? 🤖 Here's a quick breakdown of 6 AI agents and what each does best, from personal assistants to coding agents and multi-agent teams. 🚀 Join the AI Agent Builders community: https://www.skool.com/ai-agent-builders-pro/about I've tried them all, but Hermes is m",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-25T11:45:23Z",
+   "durationSeconds": 58,
+   "isShort": true,
+   "viewCount": 2636,
+   "likeCount": 115,
+   "url": "https://www.youtube.com/shorts/u4Y6qAcl3MU",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Learning AI & Career"
+   ],
+   "style": "Comparison",
+   "concepts": [
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-26T02:44:15.198Z"
   }
  ],
- "lastScanAt": "2026-11-25T02:44:14.021Z",
- "lastPublishedAt": "2026-11-24T13:00:01Z"
+ "lastScanAt": "2026-11-26T02:44:15.198Z",
+ "lastPublishedAt": "2026-11-25T11:45:23Z"
 }

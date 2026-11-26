@@ -172,7 +172,8 @@
   "ytmawkPTP24",
   "Qxor6jpfSiU",
   "rMaMe32qQkA",
-  "jP9yjEDlc4k"
+  "jP9yjEDlc4k",
+  "Jatwf_XOncE"
  ],
  "videos": [
   {
@@ -2433,8 +2434,32 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-11-24T02:44:30.263Z"
+  },
+  {
+   "id": "Jatwf_XOncE",
+   "title": "17 million lines of AI slop just cracked a 167-year-old math problem...",
+   "description": "Start a free 14-day CodeRabbit Explain trial, no credit card required: https://coderabbit.link/fireship-012 A 41 day conversation with Claude just spat out 17 million lines of Lean that claim to prove the Riemann Hypothesis, the most famous unsolved problem in math. Let's dive in. Want more Fireship",
+   "tags": [
+    "webdev",
+    "app development",
+    "lesson",
+    "tutorial"
+   ],
+   "publishedAt": "2026-11-25T17:19:51Z",
+   "durationSeconds": 330,
+   "isShort": false,
+   "viewCount": 852459,
+   "likeCount": 13035,
+   "url": "https://www.youtube.com/watch?v=Jatwf_XOncE",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-11-26T02:44:15.198Z"
   }
  ],
- "lastScanAt": "2026-11-25T02:44:14.021Z",
- "lastPublishedAt": "2026-11-23T19:14:30Z"
+ "lastScanAt": "2026-11-26T02:44:15.198Z",
+ "lastPublishedAt": "2026-11-25T17:19:51Z"
 }

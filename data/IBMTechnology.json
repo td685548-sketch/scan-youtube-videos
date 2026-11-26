@@ -719,7 +719,8 @@
   "Y6npte_lEKU",
   "IYVqarjWO2g",
   "h4tHDFCPmQE",
-  "OX9-zSfT4xI"
+  "OX9-zSfT4xI",
+  "51rbs_HA3m4"
  ],
  "videos": [
   {
@@ -13431,8 +13432,29 @@
     "Agents"
    ],
    "scannedAt": "2026-11-25T02:44:14.021Z"
+  },
+  {
+   "id": "51rbs_HA3m4",
+   "title": "OpenAI's $1.2M bug hunt, Grok Bot after dark & Optimizely malware",
+   "description": "Visit Security Intelligence podcast page to get more AI content → https://ibm.biz/~NbOgTyIYe What does a $1.2 million AI bug hunt get you? For OpenAI, 948 working Linux kernel exploits. On episode 61 of Security Intelligence, Nick Bradley, San Sanda Htyte and Kimmie Farrington join host Patrick Aust",
+   "tags": [
+    "IBM"
+   ],
+   "publishedAt": "2026-11-25T10:30:58Z",
+   "durationSeconds": 1664,
+   "isShort": false,
+   "viewCount": 8806,
+   "likeCount": 59,
+   "url": "https://www.youtube.com/watch?v=51rbs_HA3m4",
+   "topic": "AI Risks & Safety",
+   "related": [
+    "AI News & Models"
+   ],
+   "style": "News / Breakdown",
+   "concepts": [],
+   "scannedAt": "2026-11-26T02:44:15.198Z"
   }
  ],
- "lastScanAt": "2026-11-25T02:44:14.021Z",
- "lastPublishedAt": "2026-11-24T12:00:16Z"
+ "lastScanAt": "2026-11-26T02:44:15.198Z",
+ "lastPublishedAt": "2026-11-25T10:30:58Z"
 }

@@ -316,7 +316,8 @@
   "Y0bokTp0MFk",
   "Y7ykb9ek6RM",
   "JG23n3nXaQw",
-  "VxeBX9qZL48"
+  "VxeBX9qZL48",
+  "YQlziLFhVaI"
  ],
  "videos": [
   {
@@ -9098,8 +9099,42 @@
     "Automation"
    ],
    "scannedAt": "2026-11-24T02:44:30.263Z"
+  },
+  {
+   "id": "YQlziLFhVaI",
+   "title": "CODEX MASTERCLASS 3 HOURS: Build & Sell (2026)",
+   "description": "Try Semrush One FREE for 7 days: https://semrush.sjv.io/c/7795992/3367878/13053 On December 23rd, I’m closing applications for my 1:1 mentorship to start & scale your AI agency to $10k/mo. Apply before then to save your spot: https://go.jmsolutionss.digital/9d554ae6 The fastest way to go from beginn",
+   "tags": [
+    "OpenAI Codex",
+    "Codex tutorial",
+    "Codex masterclass",
+    "Codex full course 2026",
+    "Codex for beginners",
+    "AI agents",
+    "AI automation",
+    "AI agency",
+    "how to build AI agents",
+    "Codex skills"
+   ],
+   "publishedAt": "2026-11-25T18:25:59Z",
+   "durationSeconds": 10313,
+   "isShort": false,
+   "viewCount": 791,
+   "likeCount": 23,
+   "url": "https://www.youtube.com/watch?v=YQlziLFhVaI",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "Business & Making Money",
+    "Automation & Workflows"
+   ],
+   "style": "Case study / Build-along",
+   "concepts": [
+    "Agents",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-26T02:44:15.198Z"
   }
  ],
- "lastScanAt": "2026-11-25T02:44:14.021Z",
- "lastPublishedAt": "2026-11-23T17:59:48Z"
+ "lastScanAt": "2026-11-26T02:44:15.198Z",
+ "lastPublishedAt": "2026-11-25T18:25:59Z"
 }
