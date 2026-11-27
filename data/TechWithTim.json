@@ -1037,7 +1037,9 @@
   "ln1KbRyJdt8",
   "zqswGa4erWc",
   "7KfSA7HvavE",
-  "u4Y6qAcl3MU"
+  "u4Y6qAcl3MU",
+  "F8D9P1wO1PY",
+  "A50Q-Yk9wtg"
  ],
  "videos": [
   {
@@ -11937,8 +11939,59 @@
     "Digital Workers"
    ],
    "scannedAt": "2026-11-26T02:44:15.198Z"
+  },
+  {
+   "id": "F8D9P1wO1PY",
+   "title": "Claude + PowerPoint The Missing Piece",
+   "description": "Start a free 14-day trial of Templafy Teams, no credit card required: https://link.omane.media/techwithtim-templafy-november Claude is great at the thinking part of a deck, but every deck it builds comes out different and never quite on brand. In this video I show you how I fixed that with a Templaf",
+   "tags": [
+    "tech with tim",
+    "templafy",
+    "templafy document agents",
+    "claude powerpoint",
+    "claude ai",
+    "claude mcp",
+    "claude connector",
+    "ai powerpoint",
+    "ai presentation maker",
+    "ai slide deck"
+   ],
+   "publishedAt": "2026-11-26T13:00:17Z",
+   "durationSeconds": 957,
+   "isShort": false,
+   "viewCount": 9460,
+   "likeCount": 64,
+   "url": "https://www.youtube.com/watch?v=F8D9P1wO1PY",
+   "topic": "MCP, APIs & Integrations",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Automation"
+   ],
+   "scannedAt": "2026-11-27T02:44:32.297Z"
+  },
+  {
+   "id": "A50Q-Yk9wtg",
+   "title": "Can You Tell Which Is the Clone",
+   "description": "🚀 Join the AI Agent Builders community: https://www.skool.com/ai-agent-builders-pro/about Can you tell a real app from an AI-built clone? On screen are two apps: MongoDB Compass, a real, open-source production application, and a clone I built with AI in 30 minutes for about $13 in credits. Side by ",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-26T11:49:45Z",
+   "durationSeconds": 58,
+   "isShort": true,
+   "viewCount": 2417,
+   "likeCount": 68,
+   "url": "https://www.youtube.com/shorts/A50Q-Yk9wtg",
+   "topic": "AI Coding & App Building",
+   "related": [],
+   "style": "Case study / Build-along",
+   "concepts": [],
+   "scannedAt": "2026-11-27T02:44:32.297Z"
   }
  ],
- "lastScanAt": "2026-11-26T02:44:15.198Z",
- "lastPublishedAt": "2026-11-25T11:45:23Z"
+ "lastScanAt": "2026-11-27T02:44:32.297Z",
+ "lastPublishedAt": "2026-11-26T13:00:17Z"
 }

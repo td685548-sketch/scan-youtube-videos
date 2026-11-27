@@ -616,7 +616,9 @@
   "BilYvj312iU",
   "rjei23NWpRA",
   "wQEWlDkS6yg",
-  "vnDwNGD9fVc"
+  "vnDwNGD9fVc",
+  "1YM_hFRSMu8",
+  "q-JzvfUuOEY"
  ],
  "videos": [
   {
@@ -12183,8 +12185,49 @@
     "Automation"
    ],
    "scannedAt": "2026-11-25T02:44:14.021Z"
+  },
+  {
+   "id": "1YM_hFRSMu8",
+   "title": "What turns an AI agent into an AI employee: memory, tools, context and a schedule",
+   "description": "What turns an AI agent into an AI employee. Same AI underneath, four things added. A raw agent is a brilliant temp on day one. It knows nothing about you, forgets everything and needs you standing over it. 1. Memory, three kinds. Procedural is the playbook of how you do things. Episodic is what alre",
+   "tags": [],
+   "publishedAt": "2026-11-26T19:00:44Z",
+   "durationSeconds": 152,
+   "isShort": true,
+   "viewCount": 25,
+   "likeCount": 0,
+   "url": "https://www.youtube.com/shorts/1YM_hFRSMu8",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "RAG, Memory & Knowledge"
+   ],
+   "style": "Explainer",
+   "concepts": [
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-27T02:44:32.297Z"
+  },
+  {
+   "id": "q-JzvfUuOEY",
+   "title": "Nobody knew how this AI got this answer",
+   "description": "Nobody could explain how this AI got its answer. Not even the people who built it. Ask it: \"The capital of the state containing Dallas is…\" and it says Austin. But Texas is nowhere in the question. So somewhere inside, in a split second, it had to think of a word you never typed. Anthropic's researc",
+   "tags": [],
+   "publishedAt": "2026-11-26T15:00:56Z",
+   "durationSeconds": 180,
+   "isShort": true,
+   "viewCount": 240,
+   "likeCount": 4,
+   "url": "https://www.youtube.com/shorts/q-JzvfUuOEY",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Risks & Safety"
+   ],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-27T02:44:32.297Z"
   }
  ],
- "lastScanAt": "2026-11-26T02:44:15.198Z",
- "lastPublishedAt": "2026-11-25T00:00:46Z"
+ "lastScanAt": "2026-11-27T02:44:32.297Z",
+ "lastPublishedAt": "2026-11-26T19:00:44Z"
 }
