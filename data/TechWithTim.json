@@ -1039,7 +1039,11 @@
   "7KfSA7HvavE",
   "u4Y6qAcl3MU",
   "F8D9P1wO1PY",
-  "A50Q-Yk9wtg"
+  "A50Q-Yk9wtg",
+  "JzjLyr9wb8I",
+  "TldgXOZVKW0",
+  "dZ-Uj4bZBsY",
+  "sHkf7veUb9U"
  ],
  "videos": [
   {
@@ -11990,8 +11994,110 @@
    "style": "Case study / Build-along",
    "concepts": [],
    "scannedAt": "2026-11-27T02:44:32.297Z"
+  },
+  {
+   "id": "JzjLyr9wb8I",
+   "title": "Two Kinds Of People",
+   "description": "🔥 What if you could build your own AI Super Employee? We're exploring how AI agents can work for you in our 2-Day Live Masterclass on December 1–2. 🚀Curious about AI agents? Find out more here: https://dub.sh/tim/masterclass #techwithtim #ai #aiautomation",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-27T23:08:19Z",
+   "durationSeconds": 59,
+   "isShort": true,
+   "viewCount": 705,
+   "likeCount": 26,
+   "url": "https://www.youtube.com/shorts/JzjLyr9wb8I",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Learning AI & Career"
+   ],
+   "style": "General / Commentary",
+   "concepts": [
+    "Agents",
+    "Digital Workers"
+   ],
+   "scannedAt": "2026-11-28T02:44:38.647Z"
+  },
+  {
+   "id": "TldgXOZVKW0",
+   "title": "AI Super Employee",
+   "description": "🔥 Ready to build your own AI Super Employee? Join the 2-Day Live Masterclass on December 1–2 and learn how to put AI agents to work for you! 🚀 Find out more here: https://dub.sh/tim/masterclass #techwithtim #ai #aiautomation",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-27T16:28:40Z",
+   "durationSeconds": 61,
+   "isShort": true,
+   "viewCount": 1877,
+   "likeCount": 75,
+   "url": "https://www.youtube.com/shorts/TldgXOZVKW0",
+   "topic": "AI Agents & Digital Workers",
+   "related": [
+    "Automation & Workflows"
+   ],
+   "style": "General / Commentary",
+   "concepts": [
+    "Agents",
+    "Digital Workers",
+    "Automation"
+   ],
+   "scannedAt": "2026-11-28T02:44:38.647Z"
+  },
+  {
+   "id": "dZ-Uj4bZBsY",
+   "title": "Give Your AI Agent a Brain That Updates Itself",
+   "description": "Build this on Decodo’s free plan: up to 10,000 requests a month, no credit card required: https://decodo.com/deals/free-plan-web-data-api?utm_medium=influencer&utm_source=Tech+With+Tim+&promoter_id=16055585&fpr=tech-with-tim-f47e90 Decodo’s Web Data API gives your agent one API key for four endpoint",
+   "tags": [
+    "tech with tim",
+    "karpathy llm wiki",
+    "llm wiki tutorial",
+    "karpathy llm wiki claude code",
+    "ai agent knowledge base",
+    "self updating knowledge base",
+    "ai agent memory",
+    "ai agent second brain",
+    "obsidian ai agent",
+    "obsidian llm wiki"
+   ],
+   "publishedAt": "2026-11-27T13:00:28Z",
+   "durationSeconds": 1110,
+   "isShort": false,
+   "viewCount": 18367,
+   "likeCount": 232,
+   "url": "https://www.youtube.com/watch?v=dZ-Uj4bZBsY",
+   "topic": "RAG, Memory & Knowledge",
+   "related": [
+    "AI Agents & Digital Workers"
+   ],
+   "style": "Step-by-step tutorial",
+   "concepts": [
+    "Agents"
+   ],
+   "scannedAt": "2026-11-28T02:44:38.647Z"
+  },
+  {
+   "id": "sHkf7veUb9U",
+   "title": "How Reverse Engineer Anything Works",
+   "description": "🚀 Join the AI Agent Builders community: https://www.skool.com/ai-agent-builders-pro/about How does AI reverse-engineer an application? When you install an app, you get the finished product, not the source code. Reverse engineering is the process of working out how it was built, and the classic tool",
+   "tags": [
+    "tech with tim"
+   ],
+   "publishedAt": "2026-11-27T12:00:34Z",
+   "durationSeconds": 63,
+   "isShort": true,
+   "viewCount": 3989,
+   "likeCount": 143,
+   "url": "https://www.youtube.com/shorts/sHkf7veUb9U",
+   "topic": "AI Coding & App Building",
+   "related": [
+    "Learning AI & Career"
+   ],
+   "style": "Explainer",
+   "concepts": [],
+   "scannedAt": "2026-11-28T02:44:38.647Z"
   }
  ],
- "lastScanAt": "2026-11-27T02:44:32.297Z",
- "lastPublishedAt": "2026-11-26T13:00:17Z"
+ "lastScanAt": "2026-11-28T02:44:38.647Z",
+ "lastPublishedAt": "2026-11-27T23:08:19Z"
 }

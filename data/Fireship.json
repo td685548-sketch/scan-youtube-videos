@@ -173,7 +173,8 @@
   "Qxor6jpfSiU",
   "rMaMe32qQkA",
   "jP9yjEDlc4k",
-  "Jatwf_XOncE"
+  "Jatwf_XOncE",
+  "sPGzM3ktJVE"
  ],
  "videos": [
   {
@@ -2458,8 +2459,32 @@
    "style": "News / Breakdown",
    "concepts": [],
    "scannedAt": "2026-11-26T02:44:15.198Z"
+  },
+  {
+   "id": "sPGzM3ktJVE",
+   "title": "The wild world of tech in 2027...",
+   "description": "Get 67% off VPS hosting with Hostinger's Black Friday sale. Use code FIRESHIP for an extra discount - https://hostinger.com/fireship The junior dev job is dead, open source is drowning in slop, and npm install is a gamble. Here are 10 trends every dev needs to watch in 2027 to avoid the permanent un",
+   "tags": [
+    "webdev",
+    "app development",
+    "lesson",
+    "tutorial"
+   ],
+   "publishedAt": "2026-11-27T16:08:25Z",
+   "durationSeconds": 697,
+   "isShort": false,
+   "viewCount": 812350,
+   "likeCount": 15071,
+   "url": "https://www.youtube.com/watch?v=sPGzM3ktJVE",
+   "topic": "AI News & Models",
+   "related": [
+    "AI Coding & App Building"
+   ],
+   "style": "Listicle",
+   "concepts": [],
+   "scannedAt": "2026-11-28T02:44:38.647Z"
   }
  ],
- "lastScanAt": "2026-11-27T02:44:32.297Z",
- "lastPublishedAt": "2026-11-25T17:19:51Z"
+ "lastScanAt": "2026-11-28T02:44:38.647Z",
+ "lastPublishedAt": "2026-11-27T16:08:25Z"
 }
